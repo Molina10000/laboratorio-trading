@@ -1,6 +1,7 @@
 from __future__ import annotations
 
 import json
+import os
 from pathlib import Path
 from typing import Any, Iterable
 
@@ -49,7 +50,7 @@ def bullet_lines(items: Iterable[str], fallback: str) -> str:
     return "\n".join(f"- {value}" for value in values)
 
 
-def build_telegram_message(analysis: dict[str, Any]) -> str:
+def build_alert_message(analysis: dict[str, Any]) -> str:
     motivos = bullet_lines(analysis.get("motivos", []), "Sin motivos registrados.")
     advertencias = bullet_lines(
         analysis.get("advertencias", []),
@@ -57,44 +58,61 @@ def build_telegram_message(analysis: dict[str, Any]) -> str:
     )
     return "\n".join(
         [
-            "🚨 Semaforo operativo detectado",
+            "🚨 Semáforo operativo detectado",
             "",
             f"Activo: {analysis.get('activo', 'N/D')}",
             f"Precio: {analysis.get('precio_texto', analysis.get('precio', 'N/D'))}",
-            f"Semaforo: {analysis.get('semaforo', 'N/D')}",
+            f"Semáforo: {analysis.get('semaforo', 'N/D')}",
             f"Sesgo: {analysis.get('sesgo', 'N/D')}",
             f"Entrada: {analysis.get('entrada', 'N/D')}",
             f"Score: {analysis.get('score', 'N/D')}",
             f"4H: {analysis.get('contexto_4h', 'N/D')}",
             f"1H: {analysis.get('contexto_1h', 'N/D')}",
-            f"Alineacion: {analysis.get('alineacion', 'N/D')}",
+            f"Alineación: {analysis.get('alineacion', 'N/D')}",
             "Motivos:",
             motivos,
             "Advertencias:",
             advertencias,
             "",
-            "Validar manualmente en iFOREX antes de operar. Esta app no ejecuta ordenes reales.",
+            "Validar manualmente en iFOREX antes de operar. Esta app no ejecuta órdenes reales.",
         ]
     )
 
 
-def send_telegram_message(
-    bot_token: str,
-    chat_id: str,
-    text: str,
+def ntfy_server_url() -> str:
+    raw_value = os.environ.get("NTFY_SERVER_URL", "").strip()
+    return raw_value.rstrip("/") if raw_value else "https://ntfy.sh"
+
+
+def send_ntfy(
+    message: str,
+    title: str = "Alerta del laboratorio",
     *,
     timeout: int = 20,
 ) -> None:
-    response = requests.post(
-        f"https://api.telegram.org/bot{bot_token}/sendMessage",
-        json={
-            "chat_id": chat_id,
-            "text": text,
-            "disable_web_page_preview": True,
-        },
-        timeout=timeout,
-    )
-    response.raise_for_status()
+    topic = os.environ.get("NTFY_TOPIC", "").strip()
+    if not topic:
+        raise RuntimeError("Falta la variable de entorno requerida: NTFY_TOPIC")
+
+    server_url = ntfy_server_url()
+    try:
+        response = requests.post(
+            f"{server_url}/{topic}",
+            data=message.encode("utf-8"),
+            headers={
+                "Title": title,
+                "Priority": "high",
+                "Tags": "warning,chart_with_upwards_trend",
+                "Content-Type": "text/plain; charset=utf-8",
+            },
+            timeout=timeout,
+        )
+        response.raise_for_status()
+    except requests.HTTPError as exc:
+        status_code = exc.response.status_code if exc.response is not None else "desconocido"
+        raise RuntimeError(f"ntfy respondió con error HTTP {status_code}") from exc
+    except requests.RequestException as exc:
+        raise RuntimeError("No fue posible enviar la notificación a ntfy") from exc
 
 
 def public_state_for_storage(analysis: dict[str, Any]) -> dict[str, Any]:

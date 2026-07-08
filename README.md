@@ -12,7 +12,7 @@ La app no ejecuta ordenes reales. Todo resultado debe validarse manualmente ante
 - Calcula `EMA 50`, `EMA 200`, `RSI 14` y `ATR 14`.
 - Evalua contexto `4H/1H` y construye un semaforo operativo.
 - Expone la misma logica para la UI y para el watcher automatico.
-- Envia alertas por `Telegram` solo cuando una condicion pasa a operativa.
+- Envia alertas push por `ntfy` solo cuando una condicion pasa a operativa.
 
 ## Arquitectura
 
@@ -40,8 +40,8 @@ laboratorio-trading/
 ## Requisitos
 
 - Python `3.11`
-- Acceso a internet para `yfinance` y Telegram
-- Un bot de Telegram
+- Acceso a internet para `yfinance` y `ntfy`
+- Un topic privado de `ntfy`
 - Un repositorio de GitHub para desplegar y ejecutar el workflow
 
 ## Instalacion local
@@ -60,19 +60,44 @@ streamlit run app.py
 
 La app usa `app.py` como punto de entrada y no depende de rutas absolutas.
 
+## Configurar ntfy en el celular
+
+### Android
+
+1. Instala la app `ntfy` desde Google Play o F-Droid.
+2. Abre la app.
+3. Pulsa la opcion para agregar o suscribirte a un topic.
+4. Escribe un topic largo y dificil de adivinar.
+5. Guarda la suscripcion.
+
+### iPhone
+
+1. Instala la app `ntfy` desde App Store.
+2. Abre la app.
+3. Agrega una nueva suscripcion.
+4. Escribe exactamente el mismo topic largo y secreto.
+5. Guarda la suscripcion.
+
+### Recomendacion de seguridad
+
+- El topic funciona como secreto compartido.
+- No uses nombres cortos como `trading`, `alerts` o `gold`.
+- Usa un topic largo, por ejemplo `lab-trading-a8f3k2x9z7p-alertas`.
+- Si quieres usar tu propio servidor, define `NTFY_SERVER_URL`. Si no, el watcher usa `https://ntfy.sh`.
+
 ## Ejecutar el watcher manualmente
 
 1. Define las variables de entorno:
 
 ```powershell
-$env:TELEGRAM_BOT_TOKEN="tu_token"
-$env:TELEGRAM_CHAT_ID="tu_chat_id"
+$env:NTFY_TOPIC="tu_topic_largo_y_secreto"
+$env:NTFY_SERVER_URL="https://ntfy.sh"
 ```
 
-2. Prueba Telegram sin analizar mercado:
+2. Prueba `ntfy` sin analizar mercado:
 
 ```powershell
-python watcher.py --test-telegram
+python watcher.py --test-ntfy
 ```
 
 3. Ejecuta el watcher completo:
@@ -107,21 +132,6 @@ if estado_anterior["semaforo"] != "OPERATIVO" and estado_actual["semaforo"] == "
 
 No alerta solo por sesgo `COMPRA` o `VENTA`.
 
-## Crear el bot de Telegram
-
-1. Abre Telegram y busca `@BotFather`.
-2. Ejecuta `/newbot`.
-3. Define nombre y username del bot.
-4. Copia el token que entrega BotFather.
-5. Escribe cualquier mensaje a tu bot.
-6. Abre en el navegador:
-
-```text
-https://api.telegram.org/botTU_TOKEN/getUpdates
-```
-
-7. Busca el `chat.id` de tu conversacion y guardalo como `TELEGRAM_CHAT_ID`.
-
 ## GitHub Secrets
 
 En tu repositorio de GitHub ve a:
@@ -130,8 +140,10 @@ En tu repositorio de GitHub ve a:
 
 Crea estos dos secrets:
 
-- `TELEGRAM_BOT_TOKEN`
-- `TELEGRAM_CHAT_ID`
+- `NTFY_TOPIC`
+- `NTFY_SERVER_URL`
+
+Si usas el servidor publico, puedes guardar `NTFY_SERVER_URL` con `https://ntfy.sh`.
 
 ## GitHub Actions
 
@@ -195,20 +207,21 @@ git commit -m "Stop tracking local database"
 1. Instala dependencias.
 2. Ejecuta `streamlit run app.py`.
 3. Verifica que el dashboard cargue y que no abra Streamlit al correr `python watcher.py`.
-4. Define `TELEGRAM_BOT_TOKEN` y `TELEGRAM_CHAT_ID`.
-5. Ejecuta `python watcher.py --test-telegram`.
+4. Define `NTFY_TOPIC` y `NTFY_SERVER_URL`.
+5. Ejecuta `python watcher.py --test-ntfy`.
 6. Ejecuta `python watcher.py`.
 7. Revisa que `last_state.json` se haya actualizado.
-8. Sube el proyecto a GitHub.
-9. Crea los dos `Secrets` en GitHub.
-10. Ejecuta `Market Watcher` manualmente desde `Actions`.
-11. Despliega `app.py` en Streamlit Community Cloud.
+8. Confirma que no se repitan alertas si la senal ya estaba activa.
+9. Sube el proyecto a GitHub.
+10. Crea los `Secrets` en GitHub.
+11. Ejecuta `Market Watcher` manualmente desde `Actions`.
+12. Despliega `app.py` en Streamlit Community Cloud.
 
 ## Seguridad
 
 - No subas `.env`.
-- No pongas tokens en `app.py` ni en `watcher.py`.
-- No imprimas el token completo en logs.
+- No pongas `NTFY_TOPIC` en el codigo.
+- No imprimas el topic completo en logs.
 - `analysis_lab.db` queda ignorado por `.gitignore`.
 
 ## Recordatorio final
