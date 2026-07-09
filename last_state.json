@@ -6,7 +6,6 @@
         "El contexto multi-temporal no autoriza una compra ni una venta en este momento.",
         "No hay patrón confirmado en la última vela analizada.",
         "EMA 50 y EMA 200 están muy juntas y sin dirección clara.",
-        "RSI en zona neutral entre 40 y 60, sin impulso claro.",
         "Sin patrón confirmado, no se habilita una posible operación."
       ],
       "alineacion": "No confirmada",
@@ -18,8 +17,8 @@
         "El sesgo permitido permanece en esperar; no se habilita ninguna entrada.",
         "1H todavia no confirma un patron operativo valido."
       ],
-      "precio": 1.1428571939468384,
-      "precio_texto": "1.14286",
+      "precio": 1.1439030170440674,
+      "precio_texto": "1.14390",
       "score": 45,
       "semaforo": "VIGILAR",
       "sesgo": "ESPERAR",
@@ -31,25 +30,24 @@
     "Oro": {
       "activo": "Oro",
       "advertencias": [
-        "La senal local y el sesgo multi-temporal no coinciden; evitar operar contra el contexto permitido.",
+        "El contexto multi-temporal no autoriza una compra ni una venta en este momento.",
         "No hay patrón confirmado en la última vela analizada.",
-        "RSI en zona neutral entre 40 y 60, sin impulso claro.",
         "Sin patrón confirmado, no se habilita una posible operación."
       ],
-      "alineacion": "Confirmada",
-      "contexto_1h": "BAJISTA",
-      "contexto_4h": "BAJISTA",
+      "alineacion": "No confirmada",
+      "contexto_1h": "MIXTO",
+      "contexto_4h": "MIXTO",
       "entrada": "NO HABILITADA",
       "motivos": [
-        "4H bajista + 1H bajista con tendencia lateral = no hay alineacion completa; esperar confirmacion.",
-        "El sesgo permitido es venta, pero la lectura actual de 1H no coincide con ese sesgo.",
-        "Hasta que la senal de entrada vuelva a alinearse con la multi-temporalidad, la entrada permanece en espera."
+        "4H mixto/lateral + 1H mixto/lateral = no hay alineacion completa; esperar confirmacion.",
+        "El sesgo permitido permanece en esperar; no se habilita ninguna entrada.",
+        "1H todavia no confirma un patron operativo valido."
       ],
-      "precio": 4071.0,
-      "precio_texto": "4071.00",
+      "precio": 4118.60009765625,
+      "precio_texto": "4118.60",
       "score": 45,
       "semaforo": "VIGILAR",
-      "sesgo": "VENTA",
+      "sesgo": "ESPERAR",
       "symbol": "GC=F",
       "temporalidad": "1H",
       "tendencia": "Lateral",
@@ -59,29 +57,27 @@
       "activo": "Petróleo WTI",
       "advertencias": [
         "El contexto multi-temporal no autoriza una compra ni una venta en este momento.",
-        "No hay patrón confirmado en la última vela analizada.",
-        "RSI en zona neutral entre 40 y 60, sin impulso claro.",
-        "Sin patrón confirmado, no se habilita una posible operación."
+        "La lectura 1H aun no esta suficientemente alineada con 4H para habilitar entrada."
       ],
       "alineacion": "No confirmada",
-      "contexto_1h": "ALCISTA",
+      "contexto_1h": "BAJISTA",
       "contexto_4h": "MIXTO",
       "entrada": "NO HABILITADA",
       "motivos": [
-        "4H mixto/lateral + 1H alcista = no hay alineacion completa; esperar confirmacion.",
+        "4H mixto/lateral + 1H bajista con tendencia lateral = no hay alineacion completa; esperar confirmacion.",
         "El sesgo permitido permanece en esperar; no se habilita ninguna entrada.",
-        "1H todavia no confirma un patron operativo valido."
+        "Aunque exista una lectura local en 1H, no es operable mientras la multi-temporalidad siga en esperar."
       ],
-      "precio": 74.30999755859375,
-      "precio_texto": "74.31",
-      "score": 45,
+      "precio": 72.55999755859375,
+      "precio_texto": "72.56",
+      "score": 60,
       "semaforo": "VIGILAR",
       "sesgo": "ESPERAR",
       "symbol": "CL=F",
       "temporalidad": "1H",
-      "tendencia": "Alcista",
+      "tendencia": "Lateral",
       "timestamp": "2026-07-10T00:00:00"
     }
   },
-  "checked_at": "2026-07-09T04:17:34.768437+00:00"
+  "checked_at": "2026-07-09T08:01:46.716038+00:00"
 }
