@@ -5,7 +5,6 @@
       "advertencias": [
         "El contexto multi-temporal no autoriza una compra ni una venta en este momento.",
         "No hay patrón confirmado en la última vela analizada.",
-        "La lectura 1H aun no esta suficientemente alineada con 4H para habilitar entrada.",
         "EMA 50 y EMA 200 están muy juntas y sin dirección clara.",
         "RSI en zona neutral entre 40 y 60, sin impulso claro.",
         "Sin patrón confirmado, no se habilita una posible operación."
@@ -19,8 +18,8 @@
         "El sesgo permitido permanece en esperar; no se habilita ninguna entrada.",
         "1H todavia no confirma un patron operativo valido."
       ],
-      "precio": 1.1431183815002441,
-      "precio_texto": "1.14312",
+      "precio": 1.1435105800628662,
+      "precio_texto": "1.14351",
       "score": 45,
       "semaforo": "VIGILAR",
       "sesgo": "ESPERAR",
@@ -47,8 +46,8 @@
         "El sesgo permitido permanece en esperar; no se habilita ninguna entrada.",
         "1H todavia no confirma un patron operativo valido."
       ],
-      "precio": 4131.39990234375,
-      "precio_texto": "4131.40",
+      "precio": 4132.60009765625,
+      "precio_texto": "4132.60",
       "score": 45,
       "semaforo": "VIGILAR",
       "sesgo": "ESPERAR",
@@ -73,8 +72,8 @@
         "El sesgo permitido permanece en esperar; no se habilita ninguna entrada.",
         "1H todavia no confirma un patron operativo valido."
       ],
-      "precio": 71.87999725341797,
-      "precio_texto": "71.88",
+      "precio": 71.80999755859375,
+      "precio_texto": "71.81",
       "score": 55,
       "semaforo": "VIGILAR",
       "sesgo": "ESPERAR",
@@ -84,5 +83,5 @@
       "timestamp": "2026-07-10T00:00:00"
     }
   },
-  "checked_at": "2026-07-09T20:13:50.219586+00:00"
+  "checked_at": "2026-07-09T21:50:57.799044+00:00"
 }
