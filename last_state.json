@@ -18,15 +18,15 @@
         "El sesgo permitido permanece en esperar; no se habilita ninguna entrada.",
         "1H todavia no confirma un patron operativo valido."
       ],
-      "precio": 1.1435105800628662,
-      "precio_texto": "1.14351",
+      "precio": 1.144819736480713,
+      "precio_texto": "1.14482",
       "score": 45,
       "semaforo": "VIGILAR",
       "sesgo": "ESPERAR",
       "symbol": "EURUSD=X",
       "temporalidad": "1H",
       "tendencia": "Lateral",
-      "timestamp": "2026-07-10T00:00:00"
+      "timestamp": "2026-07-10T04:00:00"
     },
     "Oro": {
       "activo": "Oro",
@@ -46,15 +46,15 @@
         "El sesgo permitido permanece en esperar; no se habilita ninguna entrada.",
         "1H todavia no confirma un patron operativo valido."
       ],
-      "precio": 4133.7001953125,
-      "precio_texto": "4133.70",
+      "precio": 4130.2001953125,
+      "precio_texto": "4130.20",
       "score": 45,
       "semaforo": "VIGILAR",
       "sesgo": "ESPERAR",
       "symbol": "GC=F",
       "temporalidad": "1H",
       "tendencia": "Lateral",
-      "timestamp": "2026-07-10T00:00:00"
+      "timestamp": "2026-07-10T04:00:00"
     },
     "Petróleo WTI": {
       "activo": "Petróleo WTI",
@@ -65,24 +65,24 @@
         "Sin patrón confirmado, no se habilita una posible operación."
       ],
       "alineacion": "No confirmada",
-      "contexto_1h": "MIXTO",
+      "contexto_1h": "ALCISTA",
       "contexto_4h": "MIXTO",
       "entrada": "NO HABILITADA",
       "motivos": [
-        "4H mixto/lateral + 1H mixto/lateral = no hay alineacion completa; esperar confirmacion.",
+        "4H mixto/lateral + 1H alcista = no hay alineacion completa; esperar confirmacion.",
         "El sesgo permitido permanece en esperar; no se habilita ninguna entrada.",
         "1H todavia no confirma un patron operativo valido."
       ],
-      "precio": 71.86000061035156,
-      "precio_texto": "71.86",
+      "precio": 72.5199966430664,
+      "precio_texto": "72.52",
       "score": 40,
       "semaforo": "VIGILAR",
       "sesgo": "ESPERAR",
       "symbol": "CL=F",
       "temporalidad": "1H",
-      "tendencia": "Lateral",
-      "timestamp": "2026-07-10T00:00:00"
+      "tendencia": "Alcista",
+      "timestamp": "2026-07-10T04:00:00"
     }
   },
-  "checked_at": "2026-07-10T00:15:19.075808+00:00"
+  "checked_at": "2026-07-10T04:28:04.304075+00:00"
 }
