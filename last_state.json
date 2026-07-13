@@ -3,23 +3,21 @@
     "EUR/USD": {
       "activo": "EUR/USD",
       "advertencias": [
-        "No hay patrón confirmado en la última vela analizada.",
-        "EMA 50 y EMA 200 están muy juntas y sin dirección clara.",
-        "Sin patrón confirmado, no se habilita una posible operación."
+        "EMA 50 y EMA 200 están muy juntas y sin dirección clara."
       ],
       "alineacion": "Confirmada",
       "contexto_1h": "BAJISTA",
       "contexto_4h": "BAJISTA",
       "entrada": "NO HABILITADA",
       "motivos": [
+        "Patrón confirmado: doble techo.",
         "La tendencia bajista está alineada con el sesgo de venta.",
-        "El precio está por debajo de EMA 50/200 o reaccionando bajo ellas.",
-        "Posible ruptura bajista de rango, pero falta cierre de confirmación.",
-        "Hay tendencia clara, pero todavía no hay patrón confirmado."
+        "Relación riesgo/beneficio estimada aceptable (2.0:1).",
+        "El precio está por debajo de EMA 50/200 o reaccionando bajo ellas."
       ],
-      "precio": 1.1389521360397339,
-      "precio_texto": "1.13895",
-      "score": 45,
+      "precio": 1.1385631561279297,
+      "precio_texto": "1.13856",
+      "score": 55,
       "semaforo": "VIGILAR",
       "sesgo": "VENTA",
       "symbol": "EURUSD=X",
@@ -44,8 +42,8 @@
         "El sesgo permitido es venta, pero la lectura actual de 1H no coincide con ese sesgo.",
         "Hasta que la senal de entrada vuelva a alinearse con la multi-temporalidad, la entrada permanece en espera."
       ],
-      "precio": 3998.10009765625,
-      "precio_texto": "3998.10",
+      "precio": 4004.699951171875,
+      "precio_texto": "4004.70",
       "score": 45,
       "semaforo": "VIGILAR",
       "sesgo": "VENTA",
@@ -71,8 +69,8 @@
         "El sesgo permitido es compra, pero la lectura actual de 1H no coincide con ese sesgo.",
         "Hasta que la senal de entrada vuelva a alinearse con la multi-temporalidad, la entrada permanece en espera."
       ],
-      "precio": 77.80000305175781,
-      "precio_texto": "77.80",
+      "precio": 77.87000274658203,
+      "precio_texto": "77.87",
       "score": 45,
       "semaforo": "VIGILAR",
       "sesgo": "COMPRA",
@@ -82,5 +80,5 @@
       "timestamp": "2026-07-17T00:00:00"
     }
   },
-  "checked_at": "2026-07-13T18:13:26.278699+00:00"
+  "checked_at": "2026-07-13T19:53:34.367395+00:00"
 }
