@@ -3,6 +3,7 @@
     "EUR/USD": {
       "activo": "EUR/USD",
       "advertencias": [
+        "La senal local y el sesgo multi-temporal no coinciden; evitar operar contra el contexto permitido.",
         "No hay patrón confirmado en la última vela analizada.",
         "EMA 50 y EMA 200 están muy juntas y sin dirección clara.",
         "RSI en zona neutral entre 40 y 60, sin impulso claro.",
@@ -13,10 +14,9 @@
       "contexto_4h": "BAJISTA",
       "entrada": "NO HABILITADA",
       "motivos": [
-        "RSI acompaña la idea bajista sin sobreventa extrema.",
-        "El precio está por debajo de EMA 50/200 o reaccionando bajo ellas.",
-        "Posible ruptura bajista de rango, pero falta cierre de confirmación.",
-        "El precio está cerca de EMA 50 o EMA 200 y podría reaccionar."
+        "4H bajista + 1H bajista con tendencia lateral = no hay alineacion completa; esperar confirmacion.",
+        "El sesgo permitido es venta, pero la lectura actual de 1H no coincide con ese sesgo.",
+        "Hasta que la senal de entrada vuelva a alinearse con la multi-temporalidad, la entrada permanece en espera."
       ],
       "precio": 1.1401208639144897,
       "precio_texto": "1.14012",
@@ -45,8 +45,8 @@
         "El sesgo permitido es venta, pero la lectura actual de 1H no coincide con ese sesgo.",
         "Hasta que la senal de entrada vuelva a alinearse con la multi-temporalidad, la entrada permanece en espera."
       ],
-      "precio": 4023.199951171875,
-      "precio_texto": "4023.20",
+      "precio": 4026.300048828125,
+      "precio_texto": "4026.30",
       "score": 45,
       "semaforo": "VIGILAR",
       "sesgo": "VENTA",
@@ -72,8 +72,8 @@
         "El sesgo permitido permanece en esperar; no se habilita ninguna entrada.",
         "1H todavia no confirma un patron operativo valido."
       ],
-      "precio": 80.58999633789062,
-      "precio_texto": "80.59",
+      "precio": 80.86000061035156,
+      "precio_texto": "80.86",
       "score": 45,
       "semaforo": "VIGILAR",
       "sesgo": "ESPERAR",
@@ -83,5 +83,5 @@
       "timestamp": "2026-07-17T00:00:00"
     }
   },
-  "checked_at": "2026-07-14T08:24:40.225346+00:00"
+  "checked_at": "2026-07-14T10:21:11.053537+00:00"
 }
