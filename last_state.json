@@ -18,8 +18,8 @@
         "Posible ruptura bajista de rango, pero falta cierre de confirmación.",
         "El precio está cerca de EMA 50 o EMA 200 y podría reaccionar."
       ],
-      "precio": 1.1394712924957275,
-      "precio_texto": "1.13947",
+      "precio": 1.1401208639144897,
+      "precio_texto": "1.14012",
       "score": 45,
       "semaforo": "VIGILAR",
       "sesgo": "VENTA",
@@ -45,8 +45,8 @@
         "El sesgo permitido es venta, pero la lectura actual de 1H no coincide con ese sesgo.",
         "Hasta que la senal de entrada vuelva a alinearse con la multi-temporalidad, la entrada permanece en espera."
       ],
-      "precio": 4036.699951171875,
-      "precio_texto": "4036.70",
+      "precio": 4023.199951171875,
+      "precio_texto": "4023.20",
       "score": 45,
       "semaforo": "VIGILAR",
       "sesgo": "VENTA",
@@ -72,8 +72,8 @@
         "El sesgo permitido permanece en esperar; no se habilita ninguna entrada.",
         "1H todavia no confirma un patron operativo valido."
       ],
-      "precio": 78.9800033569336,
-      "precio_texto": "78.98",
+      "precio": 80.58999633789062,
+      "precio_texto": "80.59",
       "score": 45,
       "semaforo": "VIGILAR",
       "sesgo": "ESPERAR",
@@ -83,5 +83,5 @@
       "timestamp": "2026-07-17T00:00:00"
     }
   },
-  "checked_at": "2026-07-14T05:59:32.248838+00:00"
+  "checked_at": "2026-07-14T08:24:40.225346+00:00"
 }
