@@ -5,6 +5,7 @@
       "advertencias": [
         "El contexto multi-temporal no autoriza una compra ni una venta en este momento.",
         "No hay patrón confirmado en la última vela analizada.",
+        "La lectura 1H aun no esta suficientemente alineada con 4H para habilitar entrada.",
         "EMA 50 y EMA 200 están muy juntas y sin dirección clara.",
         "RSI en zona neutral entre 40 y 60, sin impulso claro.",
         "Sin patrón confirmado, no se habilita una posible operación."
@@ -18,8 +19,8 @@
         "El sesgo permitido permanece en esperar; no se habilita ninguna entrada.",
         "1H todavia no confirma un patron operativo valido."
       ],
-      "precio": 1.1436413526535034,
-      "precio_texto": "1.14364",
+      "precio": 1.1437721252441406,
+      "precio_texto": "1.14377",
       "score": 45,
       "semaforo": "VIGILAR",
       "sesgo": "ESPERAR",
@@ -45,8 +46,8 @@
         "El sesgo permitido permanece en esperar; no se habilita ninguna entrada.",
         "1H todavia no confirma un patron operativo valido."
       ],
-      "precio": 4064.800048828125,
-      "precio_texto": "4064.80",
+      "precio": 4055.300048828125,
+      "precio_texto": "4055.30",
       "score": 45,
       "semaforo": "VIGILAR",
       "sesgo": "ESPERAR",
@@ -58,30 +59,27 @@
     "Petróleo WTI": {
       "activo": "Petróleo WTI",
       "advertencias": [
-        "El contexto multi-temporal no autoriza una compra ni una venta en este momento.",
-        "No hay patrón confirmado en la última vela analizada.",
-        "RSI en zona neutral entre 40 y 60, sin impulso claro.",
-        "Sin patrón confirmado, no se habilita una posible operación."
+        "El contexto multi-temporal no autoriza una compra ni una venta en este momento."
       ],
       "alineacion": "No confirmada",
-      "contexto_1h": "ALCISTA",
+      "contexto_1h": "BAJISTA",
       "contexto_4h": "MIXTO",
       "entrada": "NO HABILITADA",
       "motivos": [
-        "4H mixto/lateral + 1H alcista = no hay alineacion completa; esperar confirmacion.",
+        "4H mixto/lateral + 1H bajista con tendencia lateral = no hay alineacion completa; esperar confirmacion.",
         "El sesgo permitido permanece en esperar; no se habilita ninguna entrada.",
-        "1H todavia no confirma un patron operativo valido."
+        "Aunque exista una lectura local en 1H, no es operable mientras la multi-temporalidad siga en esperar."
       ],
-      "precio": 80.12000274658203,
-      "precio_texto": "80.12",
-      "score": 45,
+      "precio": 78.37999725341797,
+      "precio_texto": "78.38",
+      "score": 69,
       "semaforo": "VIGILAR",
       "sesgo": "ESPERAR",
       "symbol": "CL=F",
       "temporalidad": "1H",
-      "tendencia": "Alcista",
+      "tendencia": "Lateral",
       "timestamp": "2026-07-17T00:00:00"
     }
   },
-  "checked_at": "2026-07-15T14:04:33.997865+00:00"
+  "checked_at": "2026-07-15T15:43:48.435237+00:00"
 }
