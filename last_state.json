@@ -18,22 +18,22 @@
         "El sesgo permitido permanece en esperar; no se habilita ninguna entrada.",
         "1H todavia no confirma un patron operativo valido."
       ],
-      "precio": 1.1449507474899292,
-      "precio_texto": "1.14495",
+      "precio": 1.144819736480713,
+      "precio_texto": "1.14482",
       "score": 45,
       "semaforo": "VIGILAR",
       "sesgo": "ESPERAR",
       "symbol": "EURUSD=X",
       "temporalidad": "1H",
       "tendencia": "Lateral",
-      "timestamp": "2026-07-17T00:00:00"
+      "timestamp": "2026-07-17T01:00:00"
     },
     "Oro": {
       "activo": "Oro",
       "advertencias": [
         "La senal local y el sesgo multi-temporal no coinciden; evitar operar contra el contexto permitido.",
         "No hay patrón confirmado en la última vela analizada.",
-        "La tendencia actual va en contra del sesgo operativo.",
+        "RSI en zona neutral entre 40 y 60, sin impulso claro.",
         "Sin patrón confirmado, no se habilita una posible operación."
       ],
       "alineacion": "Confirmada",
@@ -45,15 +45,15 @@
         "El sesgo permitido es venta, pero la lectura actual de 1H no coincide con ese sesgo.",
         "Hasta que la senal de entrada vuelva a alinearse con la multi-temporalidad, la entrada permanece en espera."
       ],
-      "precio": 3980.0,
-      "precio_texto": "3980.00",
+      "precio": 3994.60009765625,
+      "precio_texto": "3994.60",
       "score": 45,
       "semaforo": "VIGILAR",
       "sesgo": "VENTA",
       "symbol": "GC=F",
       "temporalidad": "1H",
       "tendencia": "Bajista",
-      "timestamp": "2026-07-17T00:00:00"
+      "timestamp": "2026-07-17T01:00:00"
     },
     "Petróleo WTI": {
       "activo": "Petróleo WTI",
@@ -72,16 +72,16 @@
         "El sesgo permitido permanece en esperar; no se habilita ninguna entrada.",
         "1H todavia no confirma un patron operativo valido."
       ],
-      "precio": 79.0199966430664,
-      "precio_texto": "79.02",
+      "precio": 79.08999633789062,
+      "precio_texto": "79.09",
       "score": 45,
       "semaforo": "VIGILAR",
       "sesgo": "ESPERAR",
       "symbol": "CL=F",
       "temporalidad": "1H",
       "tendencia": "Lateral",
-      "timestamp": "2026-07-17T00:00:00"
+      "timestamp": "2026-07-17T01:00:00"
     }
   },
-  "checked_at": "2026-07-16T23:42:57.999726+00:00"
+  "checked_at": "2026-07-17T01:15:54.424338+00:00"
 }
