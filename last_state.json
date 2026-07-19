@@ -31,29 +31,29 @@
     "Oro": {
       "activo": "Oro",
       "advertencias": [
-        "El contexto multi-temporal no autoriza una compra ni una venta en este momento.",
+        "La senal local y el sesgo multi-temporal no coinciden; evitar operar contra el contexto permitido.",
         "No hay patrón confirmado en la última vela analizada.",
         "RSI en zona neutral entre 40 y 60, sin impulso claro.",
         "Sin patrón confirmado, no se habilita una posible operación."
       ],
-      "alineacion": "No confirmada",
-      "contexto_1h": "MIXTO",
+      "alineacion": "Confirmada",
+      "contexto_1h": "BAJISTA",
       "contexto_4h": "BAJISTA",
       "entrada": "NO HABILITADA",
       "motivos": [
-        "4H bajista + 1H mixto/lateral = no hay alineacion completa; esperar confirmacion.",
-        "El sesgo permitido permanece en esperar; no se habilita ninguna entrada.",
-        "1H todavia no confirma un patron operativo valido."
+        "4H bajista + 1H bajista = alineacion confirmada.",
+        "El sesgo permitido es venta, pero la lectura actual de 1H no coincide con ese sesgo.",
+        "Hasta que la senal de entrada vuelva a alinearse con la multi-temporalidad, la entrada permanece en espera."
       ],
-      "precio": 4018.800048828125,
-      "precio_texto": "4018.80",
+      "precio": 4002.800048828125,
+      "precio_texto": "4002.80",
       "score": 45,
       "semaforo": "VIGILAR",
-      "sesgo": "ESPERAR",
+      "sesgo": "VENTA",
       "symbol": "GC=F",
       "temporalidad": "1H",
-      "tendencia": "Lateral",
-      "timestamp": "2026-07-17T20:00:00"
+      "tendencia": "Bajista",
+      "timestamp": "2026-07-24T00:00:00"
     },
     "Petróleo WTI": {
       "activo": "Petróleo WTI",
@@ -72,16 +72,16 @@
         "El sesgo permitido es compra, pero la lectura actual de 1H no coincide con ese sesgo.",
         "Hasta que la senal de entrada vuelva a alinearse con la multi-temporalidad, la entrada permanece en espera."
       ],
-      "precio": 81.77999877929688,
-      "precio_texto": "81.78",
+      "precio": 84.12999725341797,
+      "precio_texto": "84.13",
       "score": 45,
       "semaforo": "VIGILAR",
       "sesgo": "COMPRA",
       "symbol": "CL=F",
       "temporalidad": "1H",
       "tendencia": "Alcista",
-      "timestamp": "2026-07-17T20:00:00"
+      "timestamp": "2026-07-24T00:00:00"
     }
   },
-  "checked_at": "2026-07-19T21:29:13.079202+00:00"
+  "checked_at": "2026-07-19T22:29:50.357560+00:00"
 }
