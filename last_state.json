@@ -3,10 +3,8 @@
     "EUR/USD": {
       "activo": "EUR/USD",
       "advertencias": [
-        "La senal local y el sesgo multi-temporal no coinciden; evitar operar contra el contexto permitido.",
         "No hay patrón confirmado en la última vela analizada.",
         "EMA 50 y EMA 200 están muy juntas y sin dirección clara.",
-        "RSI en zona neutral entre 40 y 60, sin impulso claro.",
         "Sin patrón confirmado, no se habilita una posible operación."
       ],
       "alineacion": "Confirmada",
@@ -14,12 +12,11 @@
       "contexto_4h": "BAJISTA",
       "entrada": "NO HABILITADA",
       "motivos": [
-        "4H bajista + 1H bajista con tendencia lateral = no hay alineacion completa; esperar confirmacion.",
-        "El sesgo permitido es venta, pero la lectura actual de 1H no coincide con ese sesgo.",
-        "Hasta que la senal de entrada vuelva a alinearse con la multi-temporalidad, la entrada permanece en espera."
+        "El precio está por debajo de EMA 50/200 o reaccionando bajo ellas.",
+        "Posible ruptura bajista de rango, pero falta cierre de confirmación."
       ],
-      "precio": 1.1420739889144897,
-      "precio_texto": "1.14207",
+      "precio": 1.1409013271331787,
+      "precio_texto": "1.14090",
       "score": 45,
       "semaforo": "VIGILAR",
       "sesgo": "VENTA",
@@ -44,8 +41,8 @@
         "El sesgo permitido permanece en esperar; no se habilita ninguna entrada.",
         "1H todavia no confirma un patron operativo valido."
       ],
-      "precio": 4066.10009765625,
-      "precio_texto": "4066.10",
+      "precio": 4073.699951171875,
+      "precio_texto": "4073.70",
       "score": 45,
       "semaforo": "VIGILAR",
       "sesgo": "ESPERAR",
@@ -59,6 +56,7 @@
       "advertencias": [
         "El contexto multi-temporal no autoriza una compra ni una venta en este momento.",
         "No hay patrón confirmado en la última vela analizada.",
+        "La lectura 1H aun no esta suficientemente alineada con 4H para habilitar entrada.",
         "Sin patrón confirmado, no se habilita una posible operación."
       ],
       "alineacion": "No confirmada",
@@ -70,8 +68,8 @@
         "El sesgo permitido permanece en esperar; no se habilita ninguna entrada.",
         "1H todavia no confirma un patron operativo valido."
       ],
-      "precio": 83.97000122070312,
-      "precio_texto": "83.97",
+      "precio": 84.7300033569336,
+      "precio_texto": "84.73",
       "score": 45,
       "semaforo": "VIGILAR",
       "sesgo": "ESPERAR",
@@ -81,5 +79,5 @@
       "timestamp": "2026-07-24T00:00:00"
     }
   },
-  "checked_at": "2026-07-21T12:59:34.202401+00:00"
+  "checked_at": "2026-07-21T15:12:56.879650+00:00"
 }
