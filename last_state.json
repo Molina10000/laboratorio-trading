@@ -18,8 +18,8 @@
         "El sesgo permitido es venta, pero la lectura actual de 1H no coincide con ese sesgo.",
         "Hasta que la senal de entrada vuelva a alinearse con la multi-temporalidad, la entrada permanece en espera."
       ],
-      "precio": 1.1427265405654907,
-      "precio_texto": "1.14273",
+      "precio": 1.1424654722213745,
+      "precio_texto": "1.14247",
       "score": 45,
       "semaforo": "VIGILAR",
       "sesgo": "VENTA",
@@ -44,8 +44,8 @@
         "El sesgo permitido permanece en esperar; no se habilita ninguna entrada.",
         "1H todavia no confirma un patron operativo valido."
       ],
-      "precio": 4069.0,
-      "precio_texto": "4069.00",
+      "precio": 4061.0,
+      "precio_texto": "4061.00",
       "score": 45,
       "semaforo": "VIGILAR",
       "sesgo": "ESPERAR",
@@ -57,10 +57,7 @@
     "Petróleo WTI": {
       "activo": "Petróleo WTI",
       "advertencias": [
-        "El contexto multi-temporal no autoriza una compra ni una venta en este momento.",
-        "No hay patrón confirmado en la última vela analizada.",
-        "RSI en zona neutral entre 40 y 60, sin impulso claro.",
-        "Sin patrón confirmado, no se habilita una posible operación."
+        "El contexto multi-temporal no autoriza una compra ni una venta en este momento."
       ],
       "alineacion": "No confirmada",
       "contexto_1h": "ALCISTA",
@@ -69,11 +66,11 @@
       "motivos": [
         "4H mixto/lateral + 1H alcista = no hay alineacion completa; esperar confirmacion.",
         "El sesgo permitido permanece en esperar; no se habilita ninguna entrada.",
-        "1H todavia no confirma un patron operativo valido."
+        "Aunque exista una lectura local en 1H, no es operable mientras la multi-temporalidad siga en esperar."
       ],
-      "precio": 82.69999694824219,
-      "precio_texto": "82.70",
-      "score": 40,
+      "precio": 83.66000366210938,
+      "precio_texto": "83.66",
+      "score": 69,
       "semaforo": "VIGILAR",
       "sesgo": "ESPERAR",
       "symbol": "CL=F",
@@ -82,5 +79,5 @@
       "timestamp": "2026-07-24T00:00:00"
     }
   },
-  "checked_at": "2026-07-21T09:44:09.222949+00:00"
+  "checked_at": "2026-07-21T11:31:49.320238+00:00"
 }
