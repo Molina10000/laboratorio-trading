@@ -3,6 +3,7 @@
     "EUR/USD": {
       "activo": "EUR/USD",
       "advertencias": [
+        "La senal local y el sesgo multi-temporal no coinciden; evitar operar contra el contexto permitido.",
         "No hay patrón confirmado en la última vela analizada.",
         "EMA 50 y EMA 200 están muy juntas y sin dirección clara.",
         "Sin patrón confirmado, no se habilita una posible operación."
@@ -12,11 +13,12 @@
       "contexto_4h": "BAJISTA",
       "entrada": "NO HABILITADA",
       "motivos": [
-        "El precio está por debajo de EMA 50/200 o reaccionando bajo ellas.",
-        "Posible ruptura bajista de rango, pero falta cierre de confirmación."
+        "4H bajista + 1H bajista con tendencia lateral = no hay alineacion completa; esperar confirmacion.",
+        "El sesgo permitido es venta, pero la lectura actual de 1H no coincide con ese sesgo.",
+        "Hasta que la senal de entrada vuelva a alinearse con la multi-temporalidad, la entrada permanece en espera."
       ],
-      "precio": 1.1409013271331787,
-      "precio_texto": "1.14090",
+      "precio": 1.141291856765747,
+      "precio_texto": "1.14129",
       "score": 45,
       "semaforo": "VIGILAR",
       "sesgo": "VENTA",
@@ -41,8 +43,8 @@
         "El sesgo permitido permanece en esperar; no se habilita ninguna entrada.",
         "1H todavia no confirma un patron operativo valido."
       ],
-      "precio": 4073.699951171875,
-      "precio_texto": "4073.70",
+      "precio": 4077.699951171875,
+      "precio_texto": "4077.70",
       "score": 45,
       "semaforo": "VIGILAR",
       "sesgo": "ESPERAR",
@@ -68,8 +70,8 @@
         "El sesgo permitido permanece en esperar; no se habilita ninguna entrada.",
         "1H todavia no confirma un patron operativo valido."
       ],
-      "precio": 84.7300033569336,
-      "precio_texto": "84.73",
+      "precio": 84.3499984741211,
+      "precio_texto": "84.35",
       "score": 45,
       "semaforo": "VIGILAR",
       "sesgo": "ESPERAR",
@@ -79,5 +81,5 @@
       "timestamp": "2026-07-24T00:00:00"
     }
   },
-  "checked_at": "2026-07-21T15:12:56.879650+00:00"
+  "checked_at": "2026-07-21T16:48:55.972414+00:00"
 }
