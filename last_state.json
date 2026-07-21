@@ -13,11 +13,10 @@
       "entrada": "NO HABILITADA",
       "motivos": [
         "El precio está por debajo de EMA 50/200 o reaccionando bajo ellas.",
-        "Posible ruptura bajista de rango, pero falta cierre de confirmación.",
-        "El precio está cerca de EMA 50 o EMA 200 y podría reaccionar."
+        "Posible ruptura bajista de rango, pero falta cierre de confirmación."
       ],
-      "precio": 1.1409013271331787,
-      "precio_texto": "1.14090",
+      "precio": 1.1405109167099,
+      "precio_texto": "1.14051",
       "score": 45,
       "semaforo": "VIGILAR",
       "sesgo": "VENTA",
@@ -31,6 +30,7 @@
       "advertencias": [
         "El contexto multi-temporal no autoriza una compra ni una venta en este momento.",
         "No hay patrón confirmado en la última vela analizada.",
+        "La lectura 1H aun no esta suficientemente alineada con 4H para habilitar entrada.",
         "Sin patrón confirmado, no se habilita una posible operación."
       ],
       "alineacion": "No confirmada",
@@ -42,8 +42,8 @@
         "El sesgo permitido permanece en esperar; no se habilita ninguna entrada.",
         "1H todavia no confirma un patron operativo valido."
       ],
-      "precio": 4072.0,
-      "precio_texto": "4072.00",
+      "precio": 4086.800048828125,
+      "precio_texto": "4086.80",
       "score": 45,
       "semaforo": "VIGILAR",
       "sesgo": "ESPERAR",
@@ -69,8 +69,8 @@
         "El sesgo permitido permanece en esperar; no se habilita ninguna entrada.",
         "1H todavia no confirma un patron operativo valido."
       ],
-      "precio": 84.33000183105469,
-      "precio_texto": "84.33",
+      "precio": 84.58999633789062,
+      "precio_texto": "84.59",
       "score": 45,
       "semaforo": "VIGILAR",
       "sesgo": "ESPERAR",
@@ -80,5 +80,5 @@
       "timestamp": "2026-07-24T00:00:00"
     }
   },
-  "checked_at": "2026-07-21T18:03:14.368495+00:00"
+  "checked_at": "2026-07-21T19:45:59.794390+00:00"
 }
