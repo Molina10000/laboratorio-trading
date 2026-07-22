@@ -18,8 +18,8 @@
         "El sesgo permitido es venta, pero la lectura actual de 1H no coincide con ese sesgo.",
         "Hasta que la senal de entrada vuelva a alinearse con la multi-temporalidad, la entrada permanece en espera."
       ],
-      "precio": 1.1411616802215576,
-      "precio_texto": "1.14116",
+      "precio": 1.141422152519226,
+      "precio_texto": "1.14142",
       "score": 45,
       "semaforo": "VIGILAR",
       "sesgo": "VENTA",
@@ -45,8 +45,8 @@
         "El sesgo permitido permanece en esperar; no se habilita ninguna entrada.",
         "1H todavia no confirma un patron operativo valido."
       ],
-      "precio": 4132.39990234375,
-      "precio_texto": "4132.40",
+      "precio": 4156.10009765625,
+      "precio_texto": "4156.10",
       "score": 45,
       "semaforo": "VIGILAR",
       "sesgo": "ESPERAR",
@@ -72,8 +72,8 @@
         "El sesgo permitido es compra, pero la lectura actual de 1H no coincide con ese sesgo.",
         "Hasta que la senal de entrada vuelva a alinearse con la multi-temporalidad, la entrada permanece en espera."
       ],
-      "precio": 86.5999984741211,
-      "precio_texto": "86.60",
+      "precio": 86.70999908447266,
+      "precio_texto": "86.71",
       "score": 45,
       "semaforo": "VIGILAR",
       "sesgo": "COMPRA",
@@ -83,5 +83,5 @@
       "timestamp": "2026-07-24T00:00:00"
     }
   },
-  "checked_at": "2026-07-22T12:49:31.878647+00:00"
+  "checked_at": "2026-07-22T14:49:32.590679+00:00"
 }
