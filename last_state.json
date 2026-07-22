@@ -18,8 +18,8 @@
         "El sesgo permitido es venta, pero la lectura actual de 1H no coincide con ese sesgo.",
         "Hasta que la senal de entrada vuelva a alinearse con la multi-temporalidad, la entrada permanece en espera."
       ],
-      "precio": 1.1411616802215576,
-      "precio_texto": "1.14116",
+      "precio": 1.141422152519226,
+      "precio_texto": "1.14142",
       "score": 45,
       "semaforo": "VIGILAR",
       "sesgo": "VENTA",
@@ -33,7 +33,6 @@
       "advertencias": [
         "El contexto multi-temporal no autoriza una compra ni una venta en este momento.",
         "No hay patrón confirmado en la última vela analizada.",
-        "La lectura 1H aun no esta suficientemente alineada con 4H para habilitar entrada.",
         "RSI en zona neutral entre 40 y 60, sin impulso claro.",
         "Sin patrón confirmado, no se habilita una posible operación."
       ],
@@ -46,8 +45,8 @@
         "El sesgo permitido permanece en esperar; no se habilita ninguna entrada.",
         "1H todavia no confirma un patron operativo valido."
       ],
-      "precio": 4124.7001953125,
-      "precio_texto": "4124.70",
+      "precio": 4123.2001953125,
+      "precio_texto": "4123.20",
       "score": 45,
       "semaforo": "VIGILAR",
       "sesgo": "ESPERAR",
@@ -61,7 +60,6 @@
       "advertencias": [
         "La senal local y el sesgo multi-temporal no coinciden; evitar operar contra el contexto permitido.",
         "No hay patrón confirmado en la última vela analizada.",
-        "La tendencia actual va en contra del sesgo operativo.",
         "Sin patrón confirmado, no se habilita una posible operación."
       ],
       "alineacion": "Confirmada",
@@ -73,8 +71,8 @@
         "El sesgo permitido es compra, pero la lectura actual de 1H no coincide con ese sesgo.",
         "Hasta que la senal de entrada vuelva a alinearse con la multi-temporalidad, la entrada permanece en espera."
       ],
-      "precio": 88.19999694824219,
-      "precio_texto": "88.20",
+      "precio": 87.91000366210938,
+      "precio_texto": "87.91",
       "score": 45,
       "semaforo": "VIGILAR",
       "sesgo": "COMPRA",
@@ -84,5 +82,5 @@
       "timestamp": "2026-07-24T00:00:00"
     }
   },
-  "checked_at": "2026-07-22T22:28:36.076191+00:00"
+  "checked_at": "2026-07-22T23:34:07.297450+00:00"
 }
