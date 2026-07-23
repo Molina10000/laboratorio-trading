@@ -6,6 +6,7 @@
         "El contexto multi-temporal no autoriza una compra ni una venta en este momento.",
         "No hay patrón confirmado en la última vela analizada.",
         "EMA 50 y EMA 200 están muy juntas y sin dirección clara.",
+        "RSI en zona neutral entre 40 y 60, sin impulso claro.",
         "Sin patrón confirmado, no se habilita una posible operación."
       ],
       "alineacion": "No confirmada",
@@ -17,8 +18,8 @@
         "El sesgo permitido permanece en esperar; no se habilita ninguna entrada.",
         "1H todavia no confirma un patron operativo valido."
       ],
-      "precio": 1.1437721252441406,
-      "precio_texto": "1.14377",
+      "precio": 1.1427265405654907,
+      "precio_texto": "1.14273",
       "score": 45,
       "semaforo": "VIGILAR",
       "sesgo": "ESPERAR",
@@ -44,8 +45,8 @@
         "El sesgo permitido permanece en esperar; no se habilita ninguna entrada.",
         "1H todavia no confirma un patron operativo valido."
       ],
-      "precio": 4128.2998046875,
-      "precio_texto": "4128.30",
+      "precio": 4117.7001953125,
+      "precio_texto": "4117.70",
       "score": 45,
       "semaforo": "VIGILAR",
       "sesgo": "ESPERAR",
@@ -56,25 +57,22 @@
     },
     "Petróleo WTI": {
       "activo": "Petróleo WTI",
-      "advertencias": [
-        "La senal local y el sesgo multi-temporal no coinciden; evitar operar contra el contexto permitido.",
-        "No hay patrón confirmado en la última vela analizada.",
-        "La tendencia actual va en contra del sesgo operativo.",
-        "Sin patrón confirmado, no se habilita una posible operación."
-      ],
+      "advertencias": [],
       "alineacion": "Confirmada",
       "contexto_1h": "ALCISTA",
       "contexto_4h": "ALCISTA",
-      "entrada": "NO HABILITADA",
+      "entrada": "HABILITADA",
       "motivos": [
-        "4H alcista + 1H alcista = alineacion confirmada.",
-        "El sesgo permitido es compra, pero la lectura actual de 1H no coincide con ese sesgo.",
-        "Hasta que la senal de entrada vuelva a alinearse con la multi-temporalidad, la entrada permanece en espera."
+        "Patrón confirmado: ruptura de rango alcista.",
+        "La tendencia alcista está alineada con el sesgo de compra.",
+        "El precio está rompiendo una resistencia con confirmación.",
+        "Relación riesgo/beneficio estimada aceptable (2.0:1).",
+        "El precio está por encima de EMA 50/200 o reaccionando sobre ellas."
       ],
-      "precio": 88.36000061035156,
-      "precio_texto": "88.36",
-      "score": 45,
-      "semaforo": "VIGILAR",
+      "precio": 89.01000213623047,
+      "precio_texto": "89.01",
+      "score": 90,
+      "semaforo": "OPERATIVO",
       "sesgo": "COMPRA",
       "symbol": "CL=F",
       "temporalidad": "1H",
@@ -82,5 +80,5 @@
       "timestamp": "2026-07-24T00:00:00"
     }
   },
-  "checked_at": "2026-07-23T04:29:07.073889+00:00"
+  "checked_at": "2026-07-23T07:11:58.648033+00:00"
 }
