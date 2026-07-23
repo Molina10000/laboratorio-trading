@@ -3,21 +3,23 @@
     "EUR/USD": {
       "activo": "EUR/USD",
       "advertencias": [
-        "EMA 50 y EMA 200 están muy juntas y sin dirección clara."
+        "La senal local y el sesgo multi-temporal no coinciden; evitar operar contra el contexto permitido.",
+        "No hay patrón confirmado en la última vela analizada.",
+        "EMA 50 y EMA 200 están muy juntas y sin dirección clara.",
+        "Sin patrón confirmado, no se habilita una posible operación."
       ],
       "alineacion": "Confirmada",
       "contexto_1h": "BAJISTA",
       "contexto_4h": "BAJISTA",
       "entrada": "NO HABILITADA",
       "motivos": [
-        "Patrón confirmado: ruptura de rango bajista.",
-        "El precio está rompiendo un soporte con confirmación.",
-        "Relación riesgo/beneficio estimada aceptable (2.0:1).",
-        "El precio está por debajo de EMA 50/200 o reaccionando bajo ellas."
+        "4H bajista + 1H bajista con tendencia lateral = no hay alineacion completa; esperar confirmacion.",
+        "El sesgo permitido es venta, pero la lectura actual de 1H no coincide con ese sesgo.",
+        "Hasta que la senal de entrada vuelva a alinearse con la multi-temporalidad, la entrada permanece en espera."
       ],
-      "precio": 1.1388224363327026,
-      "precio_texto": "1.13882",
-      "score": 50,
+      "precio": 1.137268304824829,
+      "precio_texto": "1.13727",
+      "score": 45,
       "semaforo": "VIGILAR",
       "sesgo": "VENTA",
       "symbol": "EURUSD=X",
@@ -34,15 +36,15 @@
       ],
       "alineacion": "No confirmada",
       "contexto_1h": "MIXTO",
-      "contexto_4h": "MIXTO",
+      "contexto_4h": "BAJISTA",
       "entrada": "NO HABILITADA",
       "motivos": [
-        "4H mixto/lateral + 1H mixto/lateral = no hay alineacion completa; esperar confirmacion.",
+        "4H bajista + 1H mixto/lateral = no hay alineacion completa; esperar confirmacion.",
         "El sesgo permitido permanece en esperar; no se habilita ninguna entrada.",
         "1H todavia no confirma un patron operativo valido."
       ],
-      "precio": 4082.89990234375,
-      "precio_texto": "4082.90",
+      "precio": 4057.60009765625,
+      "precio_texto": "4057.60",
       "score": 45,
       "semaforo": "VIGILAR",
       "sesgo": "ESPERAR",
@@ -68,8 +70,8 @@
         "El sesgo permitido es compra, pero la lectura actual de 1H no coincide con ese sesgo.",
         "Hasta que la senal de entrada vuelva a alinearse con la multi-temporalidad, la entrada permanece en espera."
       ],
-      "precio": 90.73999786376953,
-      "precio_texto": "90.74",
+      "precio": 91.25,
+      "precio_texto": "91.25",
       "score": 45,
       "semaforo": "VIGILAR",
       "sesgo": "COMPRA",
@@ -79,5 +81,5 @@
       "timestamp": "2026-07-24T00:00:00"
     }
   },
-  "checked_at": "2026-07-23T11:42:54.744020+00:00"
+  "checked_at": "2026-07-23T13:14:39.010419+00:00"
 }
