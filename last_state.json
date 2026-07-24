@@ -4,6 +4,7 @@
       "activo": "EUR/USD",
       "advertencias": [
         "No hay patrón confirmado en la última vela analizada.",
+        "RSI en zona neutral entre 40 y 60, sin impulso claro.",
         "Sin patrón confirmado, no se habilita una posible operación."
       ],
       "alineacion": "Confirmada",
@@ -11,18 +12,20 @@
       "contexto_4h": "BAJISTA",
       "entrada": "NO HABILITADA",
       "motivos": [
+        "RSI acompaña la idea bajista sin sobreventa extrema.",
         "El precio está por debajo de EMA 50/200 o reaccionando bajo ellas.",
-        "Posible ruptura bajista de rango, pero falta cierre de confirmación."
+        "Posible ruptura bajista de rango, pero falta cierre de confirmación.",
+        "El precio está cerca de EMA 50 o EMA 200 y podría reaccionar."
       ],
-      "precio": 1.137268304824829,
-      "precio_texto": "1.13727",
+      "precio": 1.1373976469039917,
+      "precio_texto": "1.13740",
       "score": 45,
       "semaforo": "VIGILAR",
       "sesgo": "VENTA",
       "symbol": "EURUSD=X",
       "temporalidad": "1H",
       "tendencia": "Lateral",
-      "timestamp": "2026-07-24T18:00:00"
+      "timestamp": "2026-07-24T20:00:00"
     },
     "Oro": {
       "activo": "Oro",
@@ -42,15 +45,15 @@
         "El sesgo permitido permanece en esperar; no se habilita ninguna entrada.",
         "1H todavia no confirma un patron operativo valido."
       ],
-      "precio": 4058.0,
-      "precio_texto": "4058.00",
+      "precio": 4055.800048828125,
+      "precio_texto": "4055.80",
       "score": 45,
       "semaforo": "VIGILAR",
       "sesgo": "ESPERAR",
       "symbol": "GC=F",
       "temporalidad": "1H",
       "tendencia": "Lateral",
-      "timestamp": "2026-07-24T18:00:00"
+      "timestamp": "2026-07-24T19:00:00"
     },
     "Petróleo WTI": {
       "activo": "Petróleo WTI",
@@ -78,8 +81,8 @@
       "symbol": "CL=F",
       "temporalidad": "1H",
       "tendencia": "Alcista",
-      "timestamp": "2026-07-24T18:00:00"
+      "timestamp": "2026-07-24T19:00:00"
     }
   },
-  "checked_at": "2026-07-24T18:39:53.217262+00:00"
+  "checked_at": "2026-07-24T20:05:32.971588+00:00"
 }
