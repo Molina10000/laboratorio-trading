@@ -4,6 +4,7 @@
       "activo": "EUR/USD",
       "advertencias": [
         "No hay patrón confirmado en la última vela analizada.",
+        "RSI en zona neutral entre 40 y 60, sin impulso claro.",
         "Sin patrón confirmado, no se habilita una posible operación."
       ],
       "alineacion": "Confirmada",
@@ -11,18 +12,20 @@
       "contexto_4h": "BAJISTA",
       "entrada": "NO HABILITADA",
       "motivos": [
+        "RSI acompaña la idea bajista sin sobreventa extrema.",
         "El precio está por debajo de EMA 50/200 o reaccionando bajo ellas.",
-        "Posible ruptura bajista de rango, pero falta cierre de confirmación."
+        "Posible ruptura bajista de rango, pero falta cierre de confirmación.",
+        "El precio está cerca de EMA 50 o EMA 200 y podría reaccionar."
       ],
-      "precio": 1.137268304824829,
-      "precio_texto": "1.13727",
+      "precio": 1.1381744146347046,
+      "precio_texto": "1.13817",
       "score": 45,
       "semaforo": "VIGILAR",
       "sesgo": "VENTA",
       "symbol": "EURUSD=X",
       "temporalidad": "1H",
       "tendencia": "Lateral",
-      "timestamp": "2026-07-24T13:00:00"
+      "timestamp": "2026-07-24T15:00:00"
     },
     "Oro": {
       "activo": "Oro",
@@ -43,15 +46,15 @@
         "El sesgo permitido permanece en esperar; no se habilita ninguna entrada.",
         "1H todavia no confirma un patron operativo valido."
       ],
-      "precio": 4057.60009765625,
-      "precio_texto": "4057.60",
+      "precio": 4064.699951171875,
+      "precio_texto": "4064.70",
       "score": 45,
       "semaforo": "VIGILAR",
       "sesgo": "ESPERAR",
       "symbol": "GC=F",
       "temporalidad": "1H",
       "tendencia": "Lateral",
-      "timestamp": "2026-07-24T12:00:00"
+      "timestamp": "2026-07-24T14:00:00"
     },
     "Petróleo WTI": {
       "activo": "Petróleo WTI",
@@ -71,16 +74,16 @@
         "Hay tendencia clara, pero todavía no hay patrón confirmado.",
         "El precio está cerca de EMA 50 o EMA 200 y podría reaccionar."
       ],
-      "precio": 89.44000244140625,
-      "precio_texto": "89.44",
+      "precio": 89.61000061035156,
+      "precio_texto": "89.61",
       "score": 40,
       "semaforo": "VIGILAR",
       "sesgo": "COMPRA",
       "symbol": "CL=F",
       "temporalidad": "1H",
       "tendencia": "Alcista",
-      "timestamp": "2026-07-24T12:00:00"
+      "timestamp": "2026-07-24T14:00:00"
     }
   },
-  "checked_at": "2026-07-24T13:04:54.766000+00:00"
+  "checked_at": "2026-07-24T15:04:18.286252+00:00"
 }
