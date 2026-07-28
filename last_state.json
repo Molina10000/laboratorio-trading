@@ -17,8 +17,8 @@
         "Posible ruptura bajista de rango, pero falta cierre de confirmación.",
         "El precio está cerca de EMA 50 o EMA 200 y podría reaccionar."
       ],
-      "precio": 1.138044834136963,
-      "precio_texto": "1.13804",
+      "precio": 1.1376564502716064,
+      "precio_texto": "1.13766",
       "score": 45,
       "semaforo": "VIGILAR",
       "sesgo": "VENTA",
@@ -29,23 +29,27 @@
     },
     "Oro": {
       "activo": "Oro",
-      "advertencias": [],
-      "alineacion": "Confirmada",
-      "contexto_1h": "BAJISTA",
-      "contexto_4h": "BAJISTA",
-      "entrada": "HABILITADA",
-      "motivos": [
-        "Patrón confirmado: ruptura de rango bajista.",
-        "La tendencia bajista está alineada con el sesgo de venta.",
-        "El precio está rompiendo un soporte con confirmación.",
-        "Relación riesgo/beneficio estimada aceptable (2.0:1).",
-        "El precio está por debajo de EMA 50/200 o reaccionando bajo ellas."
+      "advertencias": [
+        "El contexto multi-temporal no autoriza una compra ni una venta en este momento.",
+        "No hay patrón confirmado en la última vela analizada.",
+        "La lectura 1H aun no esta suficientemente alineada con 4H para habilitar entrada.",
+        "EMA 50 y EMA 200 están muy juntas y sin dirección clara.",
+        "Sin patrón confirmado, no se habilita una posible operación."
       ],
-      "precio": 4060.300048828125,
-      "precio_texto": "4060.30",
-      "score": 90,
-      "semaforo": "OPERATIVO",
-      "sesgo": "VENTA",
+      "alineacion": "No confirmada",
+      "contexto_1h": "MIXTO",
+      "contexto_4h": "BAJISTA",
+      "entrada": "NO HABILITADA",
+      "motivos": [
+        "4H bajista + 1H mixto/lateral = no hay alineacion completa; esperar confirmacion.",
+        "El sesgo permitido permanece en esperar; no se habilita ninguna entrada.",
+        "1H todavia no confirma un patron operativo valido."
+      ],
+      "precio": 4047.10009765625,
+      "precio_texto": "4047.10",
+      "score": 45,
+      "semaforo": "VIGILAR",
+      "sesgo": "ESPERAR",
       "symbol": "GC=F",
       "temporalidad": "1H",
       "tendencia": "Lateral",
@@ -68,8 +72,8 @@
         "El sesgo permitido permanece en esperar; no se habilita ninguna entrada.",
         "1H todavia no confirma un patron operativo valido."
       ],
-      "precio": 82.02999877929688,
-      "precio_texto": "82.03",
+      "precio": 81.5999984741211,
+      "precio_texto": "81.60",
       "score": 45,
       "semaforo": "VIGILAR",
       "sesgo": "ESPERAR",
@@ -79,5 +83,5 @@
       "timestamp": "2026-07-31T00:00:00"
     }
   },
-  "checked_at": "2026-07-28T01:08:54.020195+00:00"
+  "checked_at": "2026-07-28T04:31:17.883071+00:00"
 }
