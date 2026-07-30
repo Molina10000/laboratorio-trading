@@ -17,8 +17,8 @@
         "El sesgo permitido permanece en esperar; no se habilita ninguna entrada.",
         "1H todavia no confirma un patron operativo valido."
       ],
-      "precio": 1.1454753875732422,
-      "precio_texto": "1.14548",
+      "precio": 1.145081877708435,
+      "precio_texto": "1.14508",
       "score": 45,
       "semaforo": "VIGILAR",
       "sesgo": "ESPERAR",
@@ -44,9 +44,9 @@
         "El sesgo permitido permanece en esperar; no se habilita ninguna entrada.",
         "1H todavia no confirma un patron operativo valido."
       ],
-      "precio": 4113.39990234375,
-      "precio_texto": "4113.40",
-      "score": 45,
+      "precio": 4092.39990234375,
+      "precio_texto": "4092.40",
+      "score": 40,
       "semaforo": "VIGILAR",
       "sesgo": "ESPERAR",
       "symbol": "GC=F",
@@ -57,31 +57,28 @@
     "Petróleo WTI": {
       "activo": "Petróleo WTI",
       "advertencias": [
-        "El contexto multi-temporal no autoriza una compra ni una venta en este momento.",
         "No hay patrón confirmado en la última vela analizada.",
         "EMA 50 y EMA 200 están muy juntas y sin dirección clara.",
-        "RSI en zona neutral entre 40 y 60, sin impulso claro.",
         "Sin patrón confirmado, no se habilita una posible operación."
       ],
-      "alineacion": "No confirmada",
-      "contexto_1h": "MIXTO",
+      "alineacion": "Confirmada",
+      "contexto_1h": "ALCISTA",
       "contexto_4h": "ALCISTA",
       "entrada": "NO HABILITADA",
       "motivos": [
-        "4H alcista + 1H mixto/lateral = no hay alineacion completa; esperar confirmacion.",
-        "El sesgo permitido permanece en esperar; no se habilita ninguna entrada.",
-        "1H todavia no confirma un patron operativo valido."
+        "El precio está cerca de un soporte relevante.",
+        "El precio está por encima de EMA 50/200 o reaccionando sobre ellas."
       ],
-      "precio": 83.52999877929688,
-      "precio_texto": "83.53",
+      "precio": 85.19999694824219,
+      "precio_texto": "85.20",
       "score": 45,
       "semaforo": "VIGILAR",
-      "sesgo": "ESPERAR",
+      "sesgo": "COMPRA",
       "symbol": "CL=F",
       "temporalidad": "1H",
       "tendencia": "Lateral",
       "timestamp": "2026-07-31T00:00:00"
     }
   },
-  "checked_at": "2026-07-30T03:36:13.040565+00:00"
+  "checked_at": "2026-07-30T06:11:05.463159+00:00"
 }
