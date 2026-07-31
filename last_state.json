@@ -5,6 +5,7 @@
       "advertencias": [
         "El contexto multi-temporal no autoriza una compra ni una venta en este momento.",
         "No hay patrón confirmado en la última vela analizada.",
+        "La lectura 1H aun no esta suficientemente alineada con 4H para habilitar entrada.",
         "RSI en zona neutral entre 40 y 60, sin impulso claro.",
         "Sin patrón confirmado, no se habilita una posible operación."
       ],
@@ -17,15 +18,15 @@
         "El sesgo permitido permanece en esperar; no se habilita ninguna entrada.",
         "1H todavia no confirma un patron operativo valido."
       ],
-      "precio": 1.1518083810806274,
-      "precio_texto": "1.15181",
+      "precio": 1.1506155729293823,
+      "precio_texto": "1.15062",
       "score": 45,
       "semaforo": "VIGILAR",
       "sesgo": "ESPERAR",
       "symbol": "EURUSD=X",
       "temporalidad": "1H",
       "tendencia": "Alcista",
-      "timestamp": "2026-07-31T07:00:00"
+      "timestamp": "2026-07-31T10:00:00"
     },
     "Oro": {
       "activo": "Oro",
@@ -36,23 +37,23 @@
         "Sin patrón confirmado, no se habilita una posible operación."
       ],
       "alineacion": "No confirmada",
-      "contexto_1h": "ALCISTA",
+      "contexto_1h": "MIXTO",
       "contexto_4h": "MIXTO",
       "entrada": "NO HABILITADA",
       "motivos": [
-        "4H mixto/lateral + 1H alcista = no hay alineacion completa; esperar confirmacion.",
+        "4H mixto/lateral + 1H mixto/lateral = no hay alineacion completa; esperar confirmacion.",
         "El sesgo permitido permanece en esperar; no se habilita ninguna entrada.",
         "1H todavia no confirma un patron operativo valido."
       ],
-      "precio": 4132.10009765625,
-      "precio_texto": "4132.10",
+      "precio": 4113.2998046875,
+      "precio_texto": "4113.30",
       "score": 55,
       "semaforo": "VIGILAR",
       "sesgo": "ESPERAR",
       "symbol": "GC=F",
       "temporalidad": "1H",
-      "tendencia": "Alcista",
-      "timestamp": "2026-07-31T07:00:00"
+      "tendencia": "Lateral",
+      "timestamp": "2026-07-31T10:00:00"
     },
     "Petróleo WTI": {
       "activo": "Petróleo WTI",
@@ -64,24 +65,24 @@
         "Sin patrón confirmado, no se habilita una posible operación."
       ],
       "alineacion": "No confirmada",
-      "contexto_1h": "BAJISTA",
-      "contexto_4h": "MIXTO",
+      "contexto_1h": "MIXTO",
+      "contexto_4h": "ALCISTA",
       "entrada": "NO HABILITADA",
       "motivos": [
-        "4H mixto/lateral + 1H bajista con tendencia lateral = no hay alineacion completa; esperar confirmacion.",
+        "4H alcista + 1H mixto/lateral = no hay alineacion completa; esperar confirmacion.",
         "El sesgo permitido permanece en esperar; no se habilita ninguna entrada.",
         "1H todavia no confirma un patron operativo valido."
       ],
-      "precio": 82.52999877929688,
-      "precio_texto": "82.53",
+      "precio": 83.97000122070312,
+      "precio_texto": "83.97",
       "score": 45,
       "semaforo": "VIGILAR",
       "sesgo": "ESPERAR",
       "symbol": "CL=F",
       "temporalidad": "1H",
       "tendencia": "Lateral",
-      "timestamp": "2026-07-31T07:00:00"
+      "timestamp": "2026-07-31T10:00:00"
     }
   },
-  "checked_at": "2026-07-31T07:39:23.064134+00:00"
+  "checked_at": "2026-07-31T10:21:19.108565+00:00"
 }
