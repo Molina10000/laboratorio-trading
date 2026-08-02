@@ -25,7 +25,7 @@
       "symbol": "EURUSD=X",
       "temporalidad": "1H",
       "tendencia": "Alcista",
-      "timestamp": "2026-07-31T21:00:00"
+      "timestamp": "2026-08-07T00:00:00"
     },
     "Oro": {
       "activo": "Oro",
@@ -82,5 +82,5 @@
       "timestamp": "2026-07-31T20:00:00"
     }
   },
-  "checked_at": "2026-08-02T18:34:44.036165+00:00"
+  "checked_at": "2026-08-02T19:47:56.915295+00:00"
 }
