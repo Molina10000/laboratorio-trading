@@ -17,8 +17,8 @@
         "El sesgo permitido permanece en esperar; no se habilita ninguna entrada.",
         "1H todavia no confirma un patron operativo valido."
       ],
-      "precio": 1.151145339012146,
-      "precio_texto": "1.15115",
+      "precio": 1.151012897491455,
+      "precio_texto": "1.15101",
       "score": 45,
       "semaforo": "VIGILAR",
       "sesgo": "ESPERAR",
@@ -44,8 +44,8 @@
         "El sesgo permitido permanece en esperar; no se habilita ninguna entrada.",
         "1H todavia no confirma un patron operativo valido."
       ],
-      "precio": 4106.60009765625,
-      "precio_texto": "4106.60",
+      "precio": 4106.89990234375,
+      "precio_texto": "4106.90",
       "score": 40,
       "semaforo": "VIGILAR",
       "sesgo": "ESPERAR",
@@ -71,8 +71,8 @@
         "El sesgo permitido permanece en esperar; no se habilita ninguna entrada.",
         "1H todavia no confirma un patron operativo valido."
       ],
-      "precio": 79.98999786376953,
-      "precio_texto": "79.99",
+      "precio": 79.9000015258789,
+      "precio_texto": "79.90",
       "score": 45,
       "semaforo": "VIGILAR",
       "sesgo": "ESPERAR",
@@ -82,5 +82,5 @@
       "timestamp": "2026-08-07T00:00:00"
     }
   },
-  "checked_at": "2026-08-03T22:36:20.956045+00:00"
+  "checked_at": "2026-08-03T23:43:41.351063+00:00"
 }
