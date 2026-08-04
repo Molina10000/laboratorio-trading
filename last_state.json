@@ -4,7 +4,6 @@
       "activo": "EUR/USD",
       "advertencias": [
         "No hay patrón confirmado en la última vela analizada.",
-        "RSI en zona neutral entre 40 y 60, sin impulso claro.",
         "Sin patrón confirmado, no se habilita una posible operación."
       ],
       "alineacion": "Confirmada",
@@ -14,15 +13,14 @@
       "motivos": [
         "La tendencia alcista está alineada con el sesgo de compra.",
         "El precio está cerca de un soporte relevante.",
-        "RSI acompaña la idea alcista sin sobrecompra extrema.",
         "El precio está por encima de EMA 50/200 o reaccionando sobre ellas.",
         "Posible ruptura alcista de rango, pero falta cierre de confirmación.",
         "Hay tendencia clara, pero todavía no hay patrón confirmado.",
         "El precio está cerca de EMA 50 o EMA 200 y podría reaccionar."
       ],
-      "precio": 1.1518083810806274,
-      "precio_texto": "1.15181",
-      "score": 55,
+      "precio": 1.1527377367019653,
+      "precio_texto": "1.15274",
+      "score": 45,
       "semaforo": "VIGILAR",
       "sesgo": "COMPRA",
       "symbol": "EURUSD=X",
@@ -35,7 +33,6 @@
       "advertencias": [
         "El contexto multi-temporal no autoriza una compra ni una venta en este momento.",
         "No hay patrón confirmado en la última vela analizada.",
-        "RSI en zona neutral entre 40 y 60, sin impulso claro.",
         "Sin patrón confirmado, no se habilita una posible operación."
       ],
       "alineacion": "No confirmada",
@@ -47,8 +44,8 @@
         "El sesgo permitido permanece en esperar; no se habilita ninguna entrada.",
         "1H todavia no confirma un patron operativo valido."
       ],
-      "precio": 4129.7998046875,
-      "precio_texto": "4129.80",
+      "precio": 4140.7998046875,
+      "precio_texto": "4140.80",
       "score": 45,
       "semaforo": "VIGILAR",
       "sesgo": "ESPERAR",
@@ -74,8 +71,8 @@
         "El sesgo permitido permanece en esperar; no se habilita ninguna entrada.",
         "1H todavia no confirma un patron operativo valido."
       ],
-      "precio": 76.94000244140625,
-      "precio_texto": "76.94",
+      "precio": 76.6500015258789,
+      "precio_texto": "76.65",
       "score": 45,
       "semaforo": "VIGILAR",
       "sesgo": "ESPERAR",
@@ -85,5 +82,5 @@
       "timestamp": "2026-08-07T00:00:00"
     }
   },
-  "checked_at": "2026-08-04T12:10:16.779110+00:00"
+  "checked_at": "2026-08-04T14:44:06.394647+00:00"
 }
