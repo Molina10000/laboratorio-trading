@@ -12,14 +12,13 @@
       "entrada": "NO HABILITADA",
       "motivos": [
         "La tendencia alcista está alineada con el sesgo de compra.",
-        "El precio está cerca de un soporte relevante.",
         "El precio está por encima de EMA 50/200 o reaccionando sobre ellas.",
         "Posible ruptura alcista de rango, pero falta cierre de confirmación.",
         "Hay tendencia clara, pero todavía no hay patrón confirmado.",
         "El precio está cerca de EMA 50 o EMA 200 y podría reaccionar."
       ],
-      "precio": 1.1532695293426514,
-      "precio_texto": "1.15327",
+      "precio": 1.1535356044769287,
+      "precio_texto": "1.15354",
       "score": 45,
       "semaforo": "VIGILAR",
       "sesgo": "COMPRA",
@@ -45,8 +44,8 @@
         "El sesgo permitido permanece en esperar; no se habilita ninguna entrada.",
         "1H todavia no confirma un patron operativo valido."
       ],
-      "precio": 4134.2001953125,
-      "precio_texto": "4134.20",
+      "precio": 4133.2998046875,
+      "precio_texto": "4133.30",
       "score": 45,
       "semaforo": "VIGILAR",
       "sesgo": "ESPERAR",
@@ -72,8 +71,8 @@
         "El sesgo permitido permanece en esperar; no se habilita ninguna entrada.",
         "1H todavia no confirma un patron operativo valido."
       ],
-      "precio": 75.13999938964844,
-      "precio_texto": "75.14",
+      "precio": 75.33000183105469,
+      "precio_texto": "75.33",
       "score": 45,
       "semaforo": "VIGILAR",
       "sesgo": "ESPERAR",
@@ -83,5 +82,5 @@
       "timestamp": "2026-08-07T00:00:00"
     }
   },
-  "checked_at": "2026-08-04T21:22:33.405996+00:00"
+  "checked_at": "2026-08-04T22:33:15.359686+00:00"
 }
