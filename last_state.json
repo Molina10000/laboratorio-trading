@@ -25,7 +25,7 @@
       "symbol": "EURUSD=X",
       "temporalidad": "1H",
       "tendencia": "Lateral",
-      "timestamp": "2026-08-07T09:00:00"
+      "timestamp": "2026-08-07T10:00:00"
     },
     "Oro": {
       "activo": "Oro",
@@ -44,15 +44,15 @@
         "El sesgo permitido es compra, pero la lectura actual de 1H no coincide con ese sesgo.",
         "Hasta que la senal de entrada vuelva a alinearse con la multi-temporalidad, la entrada permanece en espera."
       ],
-      "precio": 4365.2998046875,
-      "precio_texto": "4365.30",
+      "precio": 4377.2001953125,
+      "precio_texto": "4377.20",
       "score": 45,
       "semaforo": "VIGILAR",
       "sesgo": "COMPRA",
       "symbol": "GC=F",
       "temporalidad": "1H",
       "tendencia": "Alcista",
-      "timestamp": "2026-08-07T09:00:00"
+      "timestamp": "2026-08-07T10:00:00"
     },
     "Petróleo WTI": {
       "activo": "Petróleo WTI",
@@ -71,16 +71,16 @@
         "El sesgo permitido permanece en esperar; no se habilita ninguna entrada.",
         "1H todavia no confirma un patron operativo valido."
       ],
-      "precio": 77.5999984741211,
-      "precio_texto": "77.60",
+      "precio": 77.12000274658203,
+      "precio_texto": "77.12",
       "score": 45,
       "semaforo": "VIGILAR",
       "sesgo": "ESPERAR",
       "symbol": "CL=F",
       "temporalidad": "1H",
       "tendencia": "Lateral",
-      "timestamp": "2026-08-07T09:00:00"
+      "timestamp": "2026-08-07T10:00:00"
     }
   },
-  "checked_at": "2026-08-07T09:12:48.021248+00:00"
+  "checked_at": "2026-08-07T10:14:51.760861+00:00"
 }
