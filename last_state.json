@@ -2,30 +2,28 @@
   "assets": {
     "EUR/USD": {
       "activo": "EUR/USD",
-      "advertencias": [
-        "El contexto multi-temporal no autoriza una compra ni una venta en este momento.",
-        "No hay patrón confirmado en la última vela analizada.",
-        "RSI en zona neutral entre 40 y 60, sin impulso claro.",
-        "Sin patrón confirmado, no se habilita una posible operación."
-      ],
-      "alineacion": "No confirmada",
-      "contexto_1h": "MIXTO",
+      "advertencias": [],
+      "alineacion": "Confirmada",
+      "contexto_1h": "ALCISTA",
       "contexto_4h": "ALCISTA",
-      "entrada": "NO HABILITADA",
+      "entrada": "HABILITADA",
       "motivos": [
-        "4H alcista + 1H mixto/lateral = no hay alineacion completa; esperar confirmacion.",
-        "El sesgo permitido permanece en esperar; no se habilita ninguna entrada.",
-        "1H todavia no confirma un patron operativo valido."
+        "Patrón confirmado: ruptura de rango alcista.",
+        "La tendencia alcista está alineada con el sesgo de compra.",
+        "El precio está cerca de un soporte relevante.",
+        "RSI acompaña la idea alcista sin sobrecompra extrema.",
+        "Relación riesgo/beneficio estimada aceptable (2.0:1).",
+        "El precio está por encima de EMA 50/200 o reaccionando sobre ellas."
       ],
-      "precio": 1.1532695293426514,
-      "precio_texto": "1.15327",
-      "score": 45,
-      "semaforo": "VIGILAR",
-      "sesgo": "ESPERAR",
+      "precio": 1.1538017988204956,
+      "precio_texto": "1.15380",
+      "score": 100,
+      "semaforo": "OPERATIVO",
+      "sesgo": "COMPRA",
       "symbol": "EURUSD=X",
       "temporalidad": "1H",
-      "tendencia": "Lateral",
-      "timestamp": "2026-08-07T11:00:00"
+      "tendencia": "Alcista",
+      "timestamp": "2026-08-07T12:00:00"
     },
     "Oro": {
       "activo": "Oro",
@@ -44,8 +42,8 @@
         "El sesgo permitido es compra, pero la lectura actual de 1H no coincide con ese sesgo.",
         "Hasta que la senal de entrada vuelva a alinearse con la multi-temporalidad, la entrada permanece en espera."
       ],
-      "precio": 4379.2001953125,
-      "precio_texto": "4379.20",
+      "precio": 4385.60009765625,
+      "precio_texto": "4385.60",
       "score": 45,
       "semaforo": "VIGILAR",
       "sesgo": "COMPRA",
@@ -72,10 +70,10 @@
         "El sesgo permitido es venta, pero la lectura actual de 1H no coincide con ese sesgo.",
         "Hasta que la senal de entrada vuelva a alinearse con la multi-temporalidad, la entrada permanece en espera."
       ],
-      "precio": 76.87000274658203,
-      "precio_texto": "76.87",
-      "score": 45,
-      "semaforo": "VIGILAR",
+      "precio": 76.62000274658203,
+      "precio_texto": "76.62",
+      "score": 0,
+      "semaforo": "ESPERAR",
       "sesgo": "VENTA",
       "symbol": "CL=F",
       "temporalidad": "1H",
@@ -83,5 +81,5 @@
       "timestamp": "2026-08-07T11:00:00"
     }
   },
-  "checked_at": "2026-08-07T11:11:36.947986+00:00"
+  "checked_at": "2026-08-07T12:01:09.574744+00:00"
 }
