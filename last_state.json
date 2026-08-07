@@ -16,15 +16,15 @@
         "Posible ruptura alcista de rango, pero falta cierre de confirmación.",
         "Hay tendencia clara, pero todavía no hay patrón confirmado."
       ],
-      "precio": 1.1566041707992554,
-      "precio_texto": "1.15660",
+      "precio": 1.1564704179763794,
+      "precio_texto": "1.15647",
       "score": 45,
       "semaforo": "VIGILAR",
       "sesgo": "COMPRA",
       "symbol": "EURUSD=X",
       "temporalidad": "1H",
       "tendencia": "Alcista",
-      "timestamp": "2026-08-07T17:00:00"
+      "timestamp": "2026-08-07T18:00:00"
     },
     "Oro": {
       "activo": "Oro",
@@ -42,15 +42,15 @@
         "El sesgo permitido es compra, pero la lectura actual de 1H no coincide con ese sesgo.",
         "Hasta que la senal de entrada vuelva a alinearse con la multi-temporalidad, la entrada permanece en espera."
       ],
-      "precio": 4394.5,
-      "precio_texto": "4394.50",
+      "precio": 4397.7001953125,
+      "precio_texto": "4397.70",
       "score": 45,
       "semaforo": "VIGILAR",
       "sesgo": "COMPRA",
       "symbol": "GC=F",
       "temporalidad": "1H",
       "tendencia": "Alcista",
-      "timestamp": "2026-08-07T17:00:00"
+      "timestamp": "2026-08-07T18:00:00"
     },
     "Petróleo WTI": {
       "activo": "Petróleo WTI",
@@ -69,16 +69,16 @@
         "El sesgo permitido permanece en esperar; no se habilita ninguna entrada.",
         "1H todavia no confirma un patron operativo valido."
       ],
-      "precio": 77.94999694824219,
-      "precio_texto": "77.95",
-      "score": 0,
-      "semaforo": "ESPERAR",
+      "precio": 78.02999877929688,
+      "precio_texto": "78.03",
+      "score": 45,
+      "semaforo": "VIGILAR",
       "sesgo": "ESPERAR",
       "symbol": "CL=F",
       "temporalidad": "1H",
       "tendencia": "Lateral",
-      "timestamp": "2026-08-07T17:00:00"
+      "timestamp": "2026-08-07T18:00:00"
     }
   },
-  "checked_at": "2026-08-07T17:28:13.199213+00:00"
+  "checked_at": "2026-08-07T18:26:38.514474+00:00"
 }
