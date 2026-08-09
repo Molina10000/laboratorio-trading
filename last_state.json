@@ -50,7 +50,7 @@
       "symbol": "GC=F",
       "temporalidad": "1H",
       "tendencia": "Alcista",
-      "timestamp": "2026-08-07T20:00:00"
+      "timestamp": "2026-08-14T00:00:00"
     },
     "Petróleo WTI": {
       "activo": "Petróleo WTI",
@@ -77,8 +77,8 @@
       "symbol": "CL=F",
       "temporalidad": "1H",
       "tendencia": "Lateral",
-      "timestamp": "2026-08-07T20:00:00"
+      "timestamp": "2026-08-14T00:00:00"
     }
   },
-  "checked_at": "2026-08-09T21:41:50.502311+00:00"
+  "checked_at": "2026-08-09T22:13:47.298017+00:00"
 }
