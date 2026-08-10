@@ -20,8 +20,8 @@
         "Hay tendencia clara, pero todavía no hay patrón confirmado.",
         "El precio está cerca de EMA 50 o EMA 200 y podría reaccionar."
       ],
-      "precio": 1.1555349826812744,
-      "precio_texto": "1.15553",
+      "precio": 1.1551345586776733,
+      "precio_texto": "1.15513",
       "score": 55,
       "semaforo": "VIGILAR",
       "sesgo": "COMPRA",
@@ -47,8 +47,8 @@
         "El sesgo permitido es compra, pero la lectura actual de 1H no coincide con ese sesgo.",
         "Hasta que la senal de entrada vuelva a alinearse con la multi-temporalidad, la entrada permanece en espera."
       ],
-      "precio": 4393.5,
-      "precio_texto": "4393.50",
+      "precio": 4387.60009765625,
+      "precio_texto": "4387.60",
       "score": 45,
       "semaforo": "VIGILAR",
       "sesgo": "COMPRA",
@@ -62,7 +62,6 @@
       "advertencias": [
         "El contexto multi-temporal no autoriza una compra ni una venta en este momento.",
         "No hay patrón confirmado en la última vela analizada.",
-        "RSI en zona neutral entre 40 y 60, sin impulso claro.",
         "Sin patrón confirmado, no se habilita una posible operación."
       ],
       "alineacion": "No confirmada",
@@ -74,9 +73,9 @@
         "El sesgo permitido permanece en esperar; no se habilita ninguna entrada.",
         "1H todavia no confirma un patron operativo valido."
       ],
-      "precio": 79.06999969482422,
-      "precio_texto": "79.07",
-      "score": 40,
+      "precio": 79.45999908447266,
+      "precio_texto": "79.46",
+      "score": 45,
       "semaforo": "VIGILAR",
       "sesgo": "ESPERAR",
       "symbol": "CL=F",
@@ -85,5 +84,5 @@
       "timestamp": "2026-08-14T00:00:00"
     }
   },
-  "checked_at": "2026-08-10T11:37:36.980382+00:00"
+  "checked_at": "2026-08-10T12:29:15.139114+00:00"
 }
