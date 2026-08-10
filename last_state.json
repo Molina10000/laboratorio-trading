@@ -17,8 +17,8 @@
         "El sesgo permitido permanece en esperar; no se habilita ninguna entrada.",
         "1H todavia no confirma un patron operativo valido."
       ],
-      "precio": 1.1544678211212158,
-      "precio_texto": "1.15447",
+      "precio": 1.1546010971069336,
+      "precio_texto": "1.15460",
       "score": 45,
       "semaforo": "VIGILAR",
       "sesgo": "ESPERAR",
@@ -29,25 +29,22 @@
     },
     "Oro": {
       "activo": "Oro",
-      "advertencias": [
-        "La senal local y el sesgo multi-temporal no coinciden; evitar operar contra el contexto permitido.",
-        "No hay patrón confirmado en la última vela analizada.",
-        "La tendencia actual va en contra del sesgo operativo.",
-        "Sin patrón confirmado, no se habilita una posible operación."
-      ],
+      "advertencias": [],
       "alineacion": "Confirmada",
       "contexto_1h": "ALCISTA",
       "contexto_4h": "ALCISTA",
-      "entrada": "NO HABILITADA",
+      "entrada": "HABILITADA",
       "motivos": [
-        "4H alcista + 1H alcista = alineacion confirmada.",
-        "El sesgo permitido es compra, pero la lectura actual de 1H no coincide con ese sesgo.",
-        "Hasta que la senal de entrada vuelva a alinearse con la multi-temporalidad, la entrada permanece en espera."
+        "Patrón confirmado: ruptura de rango alcista.",
+        "La tendencia alcista está alineada con el sesgo de compra.",
+        "El precio está rompiendo una resistencia con confirmación.",
+        "Relación riesgo/beneficio estimada aceptable (2.0:1).",
+        "El precio está por encima de EMA 50/200 o reaccionando sobre ellas."
       ],
-      "precio": 4438.5,
-      "precio_texto": "4438.50",
-      "score": 45,
-      "semaforo": "VIGILAR",
+      "precio": 4450.89990234375,
+      "precio_texto": "4450.90",
+      "score": 90,
+      "semaforo": "OPERATIVO",
       "sesgo": "COMPRA",
       "symbol": "GC=F",
       "temporalidad": "1H",
@@ -71,8 +68,8 @@
         "El sesgo permitido permanece en esperar; no se habilita ninguna entrada.",
         "1H todavia no confirma un patron operativo valido."
       ],
-      "precio": 81.83000183105469,
-      "precio_texto": "81.83",
+      "precio": 82.12000274658203,
+      "precio_texto": "82.12",
       "score": 45,
       "semaforo": "VIGILAR",
       "sesgo": "ESPERAR",
@@ -82,5 +79,5 @@
       "timestamp": "2026-08-14T00:00:00"
     }
   },
-  "checked_at": "2026-08-10T19:12:18.786649+00:00"
+  "checked_at": "2026-08-10T20:04:53.789061+00:00"
 }
