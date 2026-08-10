@@ -29,22 +29,25 @@
     },
     "Oro": {
       "activo": "Oro",
-      "advertencias": [],
+      "advertencias": [
+        "La senal local y el sesgo multi-temporal no coinciden; evitar operar contra el contexto permitido.",
+        "No hay patrón confirmado en la última vela analizada.",
+        "La tendencia actual va en contra del sesgo operativo.",
+        "Sin patrón confirmado, no se habilita una posible operación."
+      ],
       "alineacion": "Confirmada",
       "contexto_1h": "ALCISTA",
       "contexto_4h": "ALCISTA",
-      "entrada": "HABILITADA",
+      "entrada": "NO HABILITADA",
       "motivos": [
-        "Patrón confirmado: ruptura de rango alcista.",
-        "La tendencia alcista está alineada con el sesgo de compra.",
-        "El precio está rompiendo una resistencia con confirmación.",
-        "Relación riesgo/beneficio estimada aceptable (2.0:1).",
-        "El precio está por encima de EMA 50/200 o reaccionando sobre ellas."
+        "4H alcista + 1H alcista = alineacion confirmada.",
+        "El sesgo permitido es compra, pero la lectura actual de 1H no coincide con ese sesgo.",
+        "Hasta que la senal de entrada vuelva a alinearse con la multi-temporalidad, la entrada permanece en espera."
       ],
-      "precio": 4450.89990234375,
-      "precio_texto": "4450.90",
-      "score": 90,
-      "semaforo": "OPERATIVO",
+      "precio": 4449.2001953125,
+      "precio_texto": "4449.20",
+      "score": 45,
+      "semaforo": "VIGILAR",
       "sesgo": "COMPRA",
       "symbol": "GC=F",
       "temporalidad": "1H",
@@ -68,8 +71,8 @@
         "El sesgo permitido permanece en esperar; no se habilita ninguna entrada.",
         "1H todavia no confirma un patron operativo valido."
       ],
-      "precio": 82.12000274658203,
-      "precio_texto": "82.12",
+      "precio": 82.3499984741211,
+      "precio_texto": "82.35",
       "score": 45,
       "semaforo": "VIGILAR",
       "sesgo": "ESPERAR",
@@ -79,5 +82,5 @@
       "timestamp": "2026-08-14T00:00:00"
     }
   },
-  "checked_at": "2026-08-10T20:04:53.789061+00:00"
+  "checked_at": "2026-08-10T20:57:07.142845+00:00"
 }
