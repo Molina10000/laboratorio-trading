@@ -30,6 +30,7 @@
     "Oro": {
       "activo": "Oro",
       "advertencias": [
+        "La senal local y el sesgo multi-temporal no coinciden; evitar operar contra el contexto permitido.",
         "No hay patrón confirmado en la última vela analizada.",
         "RSI en zona neutral entre 40 y 60, sin impulso claro.",
         "Sin patrón confirmado, no se habilita una posible operación."
@@ -39,16 +40,13 @@
       "contexto_4h": "ALCISTA",
       "entrada": "NO HABILITADA",
       "motivos": [
-        "La tendencia alcista está alineada con el sesgo de compra.",
-        "El precio está cerca de un soporte relevante.",
-        "RSI acompaña la idea alcista sin sobrecompra extrema.",
-        "El precio está por encima de EMA 50/200 o reaccionando sobre ellas.",
-        "Hay tendencia clara, pero todavía no hay patrón confirmado.",
-        "El precio está cerca de EMA 50 o EMA 200 y podría reaccionar."
+        "4H alcista + 1H alcista = alineacion confirmada.",
+        "El sesgo permitido es compra, pero la lectura actual de 1H no coincide con ese sesgo.",
+        "Hasta que la senal de entrada vuelva a alinearse con la multi-temporalidad, la entrada permanece en espera."
       ],
-      "precio": 4420.2998046875,
-      "precio_texto": "4420.30",
-      "score": 55,
+      "precio": 4429.39990234375,
+      "precio_texto": "4429.40",
+      "score": 45,
       "semaforo": "VIGILAR",
       "sesgo": "COMPRA",
       "symbol": "GC=F",
@@ -61,7 +59,6 @@
       "advertencias": [
         "El contexto multi-temporal no autoriza una compra ni una venta en este momento.",
         "No hay patrón confirmado en la última vela analizada.",
-        "RSI en zona neutral entre 40 y 60, sin impulso claro.",
         "Sin patrón confirmado, no se habilita una posible operación."
       ],
       "alineacion": "No confirmada",
@@ -73,9 +70,9 @@
         "El sesgo permitido permanece en esperar; no se habilita ninguna entrada.",
         "1H todavia no confirma un patron operativo valido."
       ],
-      "precio": 83.4000015258789,
-      "precio_texto": "83.40",
-      "score": 55,
+      "precio": 83.48999786376953,
+      "precio_texto": "83.49",
+      "score": 45,
       "semaforo": "VIGILAR",
       "sesgo": "ESPERAR",
       "symbol": "CL=F",
@@ -84,5 +81,5 @@
       "timestamp": "2026-08-14T00:00:00"
     }
   },
-  "checked_at": "2026-08-11T19:29:42.648602+00:00"
+  "checked_at": "2026-08-11T20:19:22.970646+00:00"
 }
