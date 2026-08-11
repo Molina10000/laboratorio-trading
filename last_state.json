@@ -32,7 +32,7 @@
       "advertencias": [
         "La senal local y el sesgo multi-temporal no coinciden; evitar operar contra el contexto permitido.",
         "No hay patrón confirmado en la última vela analizada.",
-        "La tendencia actual va en contra del sesgo operativo.",
+        "RSI en zona neutral entre 40 y 60, sin impulso claro.",
         "Sin patrón confirmado, no se habilita una posible operación."
       ],
       "alineacion": "Confirmada",
@@ -44,8 +44,8 @@
         "El sesgo permitido es compra, pero la lectura actual de 1H no coincide con ese sesgo.",
         "Hasta que la senal de entrada vuelva a alinearse con la multi-temporalidad, la entrada permanece en espera."
       ],
-      "precio": 4463.60009765625,
-      "precio_texto": "4463.60",
+      "precio": 4432.10009765625,
+      "precio_texto": "4432.10",
       "score": 45,
       "semaforo": "VIGILAR",
       "sesgo": "COMPRA",
@@ -67,20 +67,20 @@
       "contexto_4h": "MIXTO",
       "entrada": "NO HABILITADA",
       "motivos": [
-        "4H mixto/lateral + 1H alcista con tendencia lateral = no hay alineacion completa; esperar confirmacion.",
+        "4H mixto/lateral + 1H alcista = no hay alineacion completa; esperar confirmacion.",
         "El sesgo permitido permanece en esperar; no se habilita ninguna entrada.",
         "1H todavia no confirma un patron operativo valido."
       ],
-      "precio": 82.29000091552734,
-      "precio_texto": "82.29",
+      "precio": 82.45999908447266,
+      "precio_texto": "82.46",
       "score": 45,
       "semaforo": "VIGILAR",
       "sesgo": "ESPERAR",
       "symbol": "CL=F",
       "temporalidad": "1H",
-      "tendencia": "Lateral",
+      "tendencia": "Alcista",
       "timestamp": "2026-08-14T00:00:00"
     }
   },
-  "checked_at": "2026-08-11T05:17:31.219040+00:00"
+  "checked_at": "2026-08-11T06:08:02.649717+00:00"
 }
