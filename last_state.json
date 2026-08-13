@@ -4,28 +4,25 @@
       "activo": "EUR/USD",
       "advertencias": [
         "El contexto multi-temporal no autoriza una compra ni una venta en este momento.",
-        "No hay patrón confirmado en la última vela analizada.",
-        "EMA 50 y EMA 200 están muy juntas y sin dirección clara.",
-        "RSI en zona neutral entre 40 y 60, sin impulso claro.",
-        "Sin patrón confirmado, no se habilita una posible operación."
+        "Actualizar datos antes de analizar esta temporalidad."
       ],
       "alineacion": "No confirmada",
       "contexto_1h": "MIXTO",
-      "contexto_4h": "ALCISTA",
+      "contexto_4h": "MIXTO",
       "entrada": "NO HABILITADA",
       "motivos": [
-        "4H alcista + 1H mixto/lateral = no hay alineacion completa; esperar confirmacion.",
+        "4H mixto + 1H mixto = no hay alineacion completa; esperar confirmacion.",
         "El sesgo permitido permanece en esperar; no se habilita ninguna entrada.",
         "1H todavia no confirma un patron operativo valido."
       ],
-      "precio": 1.1531364917755127,
-      "precio_texto": "1.15314",
-      "score": 45,
-      "semaforo": "VIGILAR",
+      "precio": 1.1530035734176636,
+      "precio_texto": "1.15300",
+      "score": 0,
+      "semaforo": "ESPERAR",
       "sesgo": "ESPERAR",
       "symbol": "EURUSD=X",
       "temporalidad": "1H",
-      "tendencia": "Lateral",
+      "tendencia": "Sin datos",
       "timestamp": "2026-08-14T00:00:00"
     },
     "Oro": {
@@ -44,8 +41,8 @@
         "El sesgo permitido permanece en esperar; no se habilita ninguna entrada.",
         "1H todavia no confirma un patron operativo valido."
       ],
-      "precio": 4405.89990234375,
-      "precio_texto": "4405.90",
+      "precio": 4407.10009765625,
+      "precio_texto": "4407.10",
       "score": 45,
       "semaforo": "VIGILAR",
       "sesgo": "ESPERAR",
@@ -71,8 +68,8 @@
         "El sesgo permitido permanece en esperar; no se habilita ninguna entrada.",
         "1H todavia no confirma un patron operativo valido."
       ],
-      "precio": 81.19000244140625,
-      "precio_texto": "81.19",
+      "precio": 81.20999908447266,
+      "precio_texto": "81.21",
       "score": 40,
       "semaforo": "VIGILAR",
       "sesgo": "ESPERAR",
@@ -82,5 +79,5 @@
       "timestamp": "2026-08-14T00:00:00"
     }
   },
-  "checked_at": "2026-08-13T20:24:05.390539+00:00"
+  "checked_at": "2026-08-13T21:25:56.914960+00:00"
 }
