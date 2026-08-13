@@ -6,19 +6,20 @@
         "El contexto multi-temporal no autoriza una compra ni una venta en este momento.",
         "No hay patrón confirmado en la última vela analizada.",
         "EMA 50 y EMA 200 están muy juntas y sin dirección clara.",
+        "RSI en zona neutral entre 40 y 60, sin impulso claro.",
         "Sin patrón confirmado, no se habilita una posible operación."
       ],
       "alineacion": "No confirmada",
       "contexto_1h": "MIXTO",
-      "contexto_4h": "MIXTO",
+      "contexto_4h": "ALCISTA",
       "entrada": "NO HABILITADA",
       "motivos": [
-        "4H mixto/lateral + 1H mixto/lateral = no hay alineacion completa; esperar confirmacion.",
+        "4H alcista + 1H mixto/lateral = no hay alineacion completa; esperar confirmacion.",
         "El sesgo permitido permanece en esperar; no se habilita ninguna entrada.",
         "1H todavia no confirma un patron operativo valido."
       ],
-      "precio": 1.1524720191955566,
-      "precio_texto": "1.15247",
+      "precio": 1.1527377367019653,
+      "precio_texto": "1.15274",
       "score": 45,
       "semaforo": "VIGILAR",
       "sesgo": "ESPERAR",
@@ -30,26 +31,29 @@
     "Oro": {
       "activo": "Oro",
       "advertencias": [
-        "La senal local y el sesgo multi-temporal no coinciden; evitar operar contra el contexto permitido.",
-        "La tendencia actual va en contra del sesgo operativo."
+        "El contexto multi-temporal no autoriza una compra ni una venta en este momento.",
+        "No hay patrón confirmado en la última vela analizada.",
+        "La lectura 1H aun no esta suficientemente alineada con 4H para habilitar entrada.",
+        "RSI en zona neutral entre 40 y 60, sin impulso claro.",
+        "Sin patrón confirmado, no se habilita una posible operación."
       ],
-      "alineacion": "Confirmada",
-      "contexto_1h": "ALCISTA",
+      "alineacion": "No confirmada",
+      "contexto_1h": "MIXTO",
       "contexto_4h": "ALCISTA",
       "entrada": "NO HABILITADA",
       "motivos": [
-        "4H alcista + 1H alcista = alineacion confirmada.",
-        "El sesgo permitido es compra, pero la lectura actual de 1H no coincide con ese sesgo.",
-        "Hasta que la senal de entrada vuelva a alinearse con la multi-temporalidad, la entrada permanece en espera."
+        "4H alcista + 1H mixto/lateral = no hay alineacion completa; esperar confirmacion.",
+        "El sesgo permitido permanece en esperar; no se habilita ninguna entrada.",
+        "1H todavia no confirma un patron operativo valido."
       ],
-      "precio": 4452.39990234375,
-      "precio_texto": "4452.40",
-      "score": 35,
-      "semaforo": "ESPERAR",
-      "sesgo": "COMPRA",
+      "precio": 4446.39990234375,
+      "precio_texto": "4446.40",
+      "score": 45,
+      "semaforo": "VIGILAR",
+      "sesgo": "ESPERAR",
       "symbol": "GC=F",
       "temporalidad": "1H",
-      "tendencia": "Alcista",
+      "tendencia": "Lateral",
       "timestamp": "2026-08-14T00:00:00"
     },
     "Petróleo WTI": {
@@ -57,6 +61,7 @@
       "advertencias": [
         "La senal local y el sesgo multi-temporal no coinciden; evitar operar contra el contexto permitido.",
         "No hay patrón confirmado en la última vela analizada.",
+        "La tendencia por medias y la estructura de mercado no coinciden.",
         "RSI en zona neutral entre 40 y 60, sin impulso claro.",
         "Sin patrón confirmado, no se habilita una posible operación."
       ],
@@ -69,8 +74,8 @@
         "El sesgo permitido es compra, pero la lectura actual de 1H no coincide con ese sesgo.",
         "Hasta que la senal de entrada vuelva a alinearse con la multi-temporalidad, la entrada permanece en espera."
       ],
-      "precio": 82.93000030517578,
-      "precio_texto": "82.93",
+      "precio": 83.08000183105469,
+      "precio_texto": "83.08",
       "score": 45,
       "semaforo": "VIGILAR",
       "sesgo": "COMPRA",
@@ -80,5 +85,5 @@
       "timestamp": "2026-08-14T00:00:00"
     }
   },
-  "checked_at": "2026-08-13T04:32:56.117234+00:00"
+  "checked_at": "2026-08-13T06:03:13.292347+00:00"
 }
