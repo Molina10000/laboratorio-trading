@@ -3,7 +3,9 @@
     "EUR/USD": {
       "activo": "EUR/USD",
       "advertencias": [
+        "La senal local y el sesgo multi-temporal no coinciden; evitar operar contra el contexto permitido.",
         "No hay patrón confirmado en la última vela analizada.",
+        "La tendencia actual va en contra del sesgo operativo.",
         "EMA 50 y EMA 200 están muy juntas y sin dirección clara.",
         "Sin patrón confirmado, no se habilita una posible operación."
       ],
@@ -12,20 +14,19 @@
       "contexto_4h": "ALCISTA",
       "entrada": "NO HABILITADA",
       "motivos": [
-        "El precio está cerca de un soporte relevante.",
-        "El precio está por encima de EMA 50/200 o reaccionando sobre ellas.",
-        "Posible ruptura alcista de rango, pero falta cierre de confirmación.",
-        "El precio está cerca de EMA 50 o EMA 200 y podría reaccionar."
+        "4H alcista + 1H alcista con tendencia lateral = no hay alineacion completa; esperar confirmacion.",
+        "El sesgo permitido es compra, pero la lectura actual de 1H no coincide con ese sesgo.",
+        "Hasta que la senal de entrada vuelva a alinearse con la multi-temporalidad, la entrada permanece en espera."
       ],
-      "precio": 1.1556684970855713,
-      "precio_texto": "1.15567",
+      "precio": 1.1566041707992554,
+      "precio_texto": "1.15660",
       "score": 45,
       "semaforo": "VIGILAR",
       "sesgo": "COMPRA",
       "symbol": "EURUSD=X",
       "temporalidad": "1H",
       "tendencia": "Lateral",
-      "timestamp": "2026-08-14T10:00:00"
+      "timestamp": "2026-08-14T11:00:00"
     },
     "Oro": {
       "activo": "Oro",
@@ -44,15 +45,15 @@
         "El sesgo permitido permanece en esperar; no se habilita ninguna entrada.",
         "1H todavia no confirma un patron operativo valido."
       ],
-      "precio": 4404.7001953125,
-      "precio_texto": "4404.70",
+      "precio": 4411.7001953125,
+      "precio_texto": "4411.70",
       "score": 45,
       "semaforo": "VIGILAR",
       "sesgo": "ESPERAR",
       "symbol": "GC=F",
       "temporalidad": "1H",
       "tendencia": "Lateral",
-      "timestamp": "2026-08-14T10:00:00"
+      "timestamp": "2026-08-14T11:00:00"
     },
     "Petróleo WTI": {
       "activo": "Petróleo WTI",
@@ -71,16 +72,16 @@
         "El sesgo permitido permanece en esperar; no se habilita ninguna entrada.",
         "1H todavia no confirma un patron operativo valido."
       ],
-      "precio": 81.81999969482422,
-      "precio_texto": "81.82",
+      "precio": 81.62999725341797,
+      "precio_texto": "81.63",
       "score": 45,
       "semaforo": "VIGILAR",
       "sesgo": "ESPERAR",
       "symbol": "CL=F",
       "temporalidad": "1H",
       "tendencia": "Lateral",
-      "timestamp": "2026-08-14T10:00:00"
+      "timestamp": "2026-08-14T11:00:00"
     }
   },
-  "checked_at": "2026-08-14T10:43:33.431134+00:00"
+  "checked_at": "2026-08-14T11:32:39.667262+00:00"
 }
