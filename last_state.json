@@ -3,27 +3,26 @@
     "EUR/USD": {
       "activo": "EUR/USD",
       "advertencias": [
-        "El contexto multi-temporal no autoriza una compra ni una venta en este momento.",
-        "Actualizar datos antes de analizar esta temporalidad."
+        "No hay patrón confirmado en la última vela analizada.",
+        "Sin patrón confirmado, no se habilita una posible operación."
       ],
-      "alineacion": "No confirmada",
-      "contexto_1h": "MIXTO",
-      "contexto_4h": "MIXTO",
+      "alineacion": "Confirmada",
+      "contexto_1h": "ALCISTA",
+      "contexto_4h": "ALCISTA",
       "entrada": "NO HABILITADA",
       "motivos": [
-        "4H mixto + 1H mixto = no hay alineacion completa; esperar confirmacion.",
-        "El sesgo permitido permanece en esperar; no se habilita ninguna entrada.",
-        "1H todavia no confirma un patron operativo valido."
+        "El precio está por encima de EMA 50/200 o reaccionando sobre ellas.",
+        "Posible ruptura alcista de rango, pero falta cierre de confirmación."
       ],
       "precio": 1.157273530960083,
       "precio_texto": "1.15727",
-      "score": 0,
-      "semaforo": "ESPERAR",
-      "sesgo": "ESPERAR",
+      "score": 45,
+      "semaforo": "VIGILAR",
+      "sesgo": "COMPRA",
       "symbol": "EURUSD=X",
       "temporalidad": "1H",
-      "tendencia": "Sin datos",
-      "timestamp": "2026-08-14T00:00:00"
+      "tendencia": "Lateral",
+      "timestamp": "2026-08-14T21:00:00"
     },
     "Oro": {
       "activo": "Oro",
@@ -82,5 +81,5 @@
       "timestamp": "2026-08-14T20:00:00"
     }
   },
-  "checked_at": "2026-08-16T07:03:47.010900+00:00"
+  "checked_at": "2026-08-16T07:39:20.392762+00:00"
 }
