@@ -3,7 +3,9 @@
     "EUR/USD": {
       "activo": "EUR/USD",
       "advertencias": [
+        "La senal local y el sesgo multi-temporal no coinciden; evitar operar contra el contexto permitido.",
         "No hay patrón confirmado en la última vela analizada.",
+        "La tendencia actual va en contra del sesgo operativo.",
         "RSI en zona neutral entre 40 y 60, sin impulso claro.",
         "Sin patrón confirmado, no se habilita una posible operación."
       ],
@@ -12,16 +14,13 @@
       "contexto_4h": "ALCISTA",
       "entrada": "NO HABILITADA",
       "motivos": [
-        "La tendencia alcista está alineada con el sesgo de compra.",
-        "El precio está cerca de un soporte relevante.",
-        "RSI acompaña la idea alcista sin sobrecompra extrema.",
-        "El precio está por encima de EMA 50/200 o reaccionando sobre ellas.",
-        "Hay tendencia clara, pero todavía no hay patrón confirmado.",
-        "El precio está cerca de EMA 50 o EMA 200 y podría reaccionar."
+        "4H alcista + 1H alcista = alineacion confirmada.",
+        "El sesgo permitido es compra, pero la lectura actual de 1H no coincide con ese sesgo.",
+        "Hasta que la senal de entrada vuelva a alinearse con la multi-temporalidad, la entrada permanece en espera."
       ],
-      "precio": 1.1590172052383423,
-      "precio_texto": "1.15902",
-      "score": 55,
+      "precio": 1.1582117080688477,
+      "precio_texto": "1.15821",
+      "score": 45,
       "semaforo": "VIGILAR",
       "sesgo": "COMPRA",
       "symbol": "EURUSD=X",
@@ -34,32 +33,6 @@
       "advertencias": [
         "La senal local y el sesgo multi-temporal no coinciden; evitar operar contra el contexto permitido.",
         "No hay patrón confirmado en la última vela analizada.",
-        "Sin patrón confirmado, no se habilita una posible operación."
-      ],
-      "alineacion": "Confirmada",
-      "contexto_1h": "ALCISTA",
-      "contexto_4h": "ALCISTA",
-      "entrada": "NO HABILITADA",
-      "motivos": [
-        "4H alcista + 1H alcista = alineacion confirmada.",
-        "El sesgo permitido es compra, pero la lectura actual de 1H no coincide con ese sesgo.",
-        "Hasta que la senal de entrada vuelva a alinearse con la multi-temporalidad, la entrada permanece en espera."
-      ],
-      "precio": 4482.60009765625,
-      "precio_texto": "4482.60",
-      "score": 45,
-      "semaforo": "VIGILAR",
-      "sesgo": "COMPRA",
-      "symbol": "GC=F",
-      "temporalidad": "1H",
-      "tendencia": "Alcista",
-      "timestamp": "2026-08-21T00:00:00"
-    },
-    "Petróleo WTI": {
-      "activo": "Petróleo WTI",
-      "advertencias": [
-        "La senal local y el sesgo multi-temporal no coinciden; evitar operar contra el contexto permitido.",
-        "No hay patrón confirmado en la última vela analizada.",
         "RSI en zona neutral entre 40 y 60, sin impulso claro.",
         "Sin patrón confirmado, no se habilita una posible operación."
       ],
@@ -72,10 +45,34 @@
         "El sesgo permitido es compra, pero la lectura actual de 1H no coincide con ese sesgo.",
         "Hasta que la senal de entrada vuelva a alinearse con la multi-temporalidad, la entrada permanece en espera."
       ],
-      "precio": 82.83999633789062,
-      "precio_texto": "82.84",
+      "precio": 4472.0,
+      "precio_texto": "4472.00",
       "score": 45,
       "semaforo": "VIGILAR",
+      "sesgo": "COMPRA",
+      "symbol": "GC=F",
+      "temporalidad": "1H",
+      "tendencia": "Alcista",
+      "timestamp": "2026-08-21T00:00:00"
+    },
+    "Petróleo WTI": {
+      "activo": "Petróleo WTI",
+      "advertencias": [],
+      "alineacion": "Confirmada",
+      "contexto_1h": "ALCISTA",
+      "contexto_4h": "ALCISTA",
+      "entrada": "HABILITADA",
+      "motivos": [
+        "Patrón confirmado: ruptura de rango alcista.",
+        "La tendencia alcista está alineada con el sesgo de compra.",
+        "El precio está rompiendo una resistencia con confirmación.",
+        "Relación riesgo/beneficio estimada aceptable (2.0:1).",
+        "El precio está por encima de EMA 50/200 o reaccionando sobre ellas."
+      ],
+      "precio": 84.31999969482422,
+      "precio_texto": "84.32",
+      "score": 90,
+      "semaforo": "OPERATIVO",
       "sesgo": "COMPRA",
       "symbol": "CL=F",
       "temporalidad": "1H",
@@ -83,5 +80,5 @@
       "timestamp": "2026-08-21T00:00:00"
     }
   },
-  "checked_at": "2026-08-17T17:12:24.049963+00:00"
+  "checked_at": "2026-08-17T17:49:06.121999+00:00"
 }
