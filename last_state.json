@@ -16,8 +16,8 @@
         "Posible ruptura alcista de rango, pero falta cierre de confirmación.",
         "Hay tendencia clara, pero todavía no hay patrón confirmado."
       ],
-      "precio": 1.1599582433700562,
-      "precio_texto": "1.15996",
+      "precio": 1.1602274179458618,
+      "precio_texto": "1.16023",
       "score": 45,
       "semaforo": "VIGILAR",
       "sesgo": "COMPRA",
@@ -43,8 +43,8 @@
         "El sesgo permitido es compra, pero la lectura actual de 1H no coincide con ese sesgo.",
         "Hasta que la senal de entrada vuelva a alinearse con la multi-temporalidad, la entrada permanece en espera."
       ],
-      "precio": 4451.89990234375,
-      "precio_texto": "4451.90",
+      "precio": 4452.7998046875,
+      "precio_texto": "4452.80",
       "score": 45,
       "semaforo": "VIGILAR",
       "sesgo": "COMPRA",
@@ -56,8 +56,8 @@
     "Petróleo WTI": {
       "activo": "Petróleo WTI",
       "advertencias": [
+        "La senal local y el sesgo multi-temporal no coinciden; evitar operar contra el contexto permitido.",
         "No hay patrón confirmado en la última vela analizada.",
-        "RSI en zona neutral entre 40 y 60, sin impulso claro.",
         "Sin patrón confirmado, no se habilita una posible operación."
       ],
       "alineacion": "Confirmada",
@@ -65,16 +65,13 @@
       "contexto_4h": "ALCISTA",
       "entrada": "NO HABILITADA",
       "motivos": [
-        "La tendencia alcista está alineada con el sesgo de compra.",
-        "El precio está cerca de un soporte relevante.",
-        "RSI acompaña la idea alcista sin sobrecompra extrema.",
-        "El precio está por encima de EMA 50/200 o reaccionando sobre ellas.",
-        "Hay tendencia clara, pero todavía no hay patrón confirmado.",
-        "El precio está cerca de EMA 50 o EMA 200 y podría reaccionar."
+        "4H alcista + 1H alcista = alineacion confirmada.",
+        "El sesgo permitido es compra, pero la lectura actual de 1H no coincide con ese sesgo.",
+        "Hasta que la senal de entrada vuelva a alinearse con la multi-temporalidad, la entrada permanece en espera."
       ],
-      "precio": 82.2300033569336,
-      "precio_texto": "82.23",
-      "score": 55,
+      "precio": 82.83999633789062,
+      "precio_texto": "82.84",
+      "score": 45,
       "semaforo": "VIGILAR",
       "sesgo": "COMPRA",
       "symbol": "CL=F",
@@ -83,5 +80,5 @@
       "timestamp": "2026-08-21T00:00:00"
     }
   },
-  "checked_at": "2026-08-17T08:55:43.722929+00:00"
+  "checked_at": "2026-08-17T09:52:47.945605+00:00"
 }
