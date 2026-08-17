@@ -41,8 +41,8 @@
         "El sesgo permitido permanece en esperar; no se habilita ninguna entrada.",
         "1H todavia no confirma un patron operativo valido."
       ],
-      "precio": 4425.7998046875,
-      "precio_texto": "4425.80",
+      "precio": 4426.10009765625,
+      "precio_texto": "4426.10",
       "score": 45,
       "semaforo": "VIGILAR",
       "sesgo": "ESPERAR",
@@ -69,8 +69,8 @@
         "El precio está por encima de EMA 50/200 o reaccionando sobre ellas.",
         "Hay tendencia clara, pero todavía no hay patrón confirmado."
       ],
-      "precio": 82.43000030517578,
-      "precio_texto": "82.43",
+      "precio": 82.31999969482422,
+      "precio_texto": "82.32",
       "score": 55,
       "semaforo": "VIGILAR",
       "sesgo": "COMPRA",
@@ -80,5 +80,5 @@
       "timestamp": "2026-08-21T00:00:00"
     }
   },
-  "checked_at": "2026-08-16T23:50:27.348992+00:00"
+  "checked_at": "2026-08-17T00:01:20.407711+00:00"
 }
