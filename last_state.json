@@ -3,32 +3,6 @@
     "EUR/USD": {
       "activo": "EUR/USD",
       "advertencias": [
-        "La senal local y el sesgo multi-temporal no coinciden; evitar operar contra el contexto permitido.",
-        "No hay patrón confirmado en la última vela analizada.",
-        "Sin patrón confirmado, no se habilita una posible operación."
-      ],
-      "alineacion": "Confirmada",
-      "contexto_1h": "ALCISTA",
-      "contexto_4h": "ALCISTA",
-      "entrada": "NO HABILITADA",
-      "motivos": [
-        "4H alcista + 1H alcista = alineacion confirmada.",
-        "El sesgo permitido es compra, pero la lectura actual de 1H no coincide con ese sesgo.",
-        "Hasta que la senal de entrada vuelva a alinearse con la multi-temporalidad, la entrada permanece en espera."
-      ],
-      "precio": 1.1599582433700562,
-      "precio_texto": "1.15996",
-      "score": 45,
-      "semaforo": "VIGILAR",
-      "sesgo": "COMPRA",
-      "symbol": "EURUSD=X",
-      "temporalidad": "1H",
-      "tendencia": "Alcista",
-      "timestamp": "2026-08-21T00:00:00"
-    },
-    "Oro": {
-      "activo": "Oro",
-      "advertencias": [
         "No hay patrón confirmado en la última vela analizada.",
         "RSI en zona neutral entre 40 y 60, sin impulso claro.",
         "Sin patrón confirmado, no se habilita una posible operación."
@@ -44,10 +18,33 @@
         "Posible ruptura alcista de rango, pero falta cierre de confirmación.",
         "Hay tendencia clara, pero todavía no hay patrón confirmado."
       ],
-      "precio": 4463.39990234375,
-      "precio_texto": "4463.40",
+      "precio": 1.1590172052383423,
+      "precio_texto": "1.15902",
       "score": 40,
       "semaforo": "VIGILAR",
+      "sesgo": "COMPRA",
+      "symbol": "EURUSD=X",
+      "temporalidad": "1H",
+      "tendencia": "Alcista",
+      "timestamp": "2026-08-21T00:00:00"
+    },
+    "Oro": {
+      "activo": "Oro",
+      "advertencias": [],
+      "alineacion": "Confirmada",
+      "contexto_1h": "ALCISTA",
+      "contexto_4h": "ALCISTA",
+      "entrada": "HABILITADA",
+      "motivos": [
+        "Patrón confirmado: ruptura de rango alcista.",
+        "La tendencia alcista está alineada con el sesgo de compra.",
+        "Relación riesgo/beneficio estimada aceptable (2.0:1).",
+        "El precio está por encima de EMA 50/200 o reaccionando sobre ellas."
+      ],
+      "precio": 4474.60009765625,
+      "precio_texto": "4474.60",
+      "score": 75,
+      "semaforo": "OPERATIVO",
       "sesgo": "COMPRA",
       "symbol": "GC=F",
       "temporalidad": "1H",
@@ -70,11 +67,10 @@
         "El precio está cerca de un soporte relevante.",
         "RSI acompaña la idea alcista sin sobrecompra extrema.",
         "El precio está por encima de EMA 50/200 o reaccionando sobre ellas.",
-        "Hay tendencia clara, pero todavía no hay patrón confirmado.",
-        "El precio está cerca de EMA 50 o EMA 200 y podría reaccionar."
+        "Hay tendencia clara, pero todavía no hay patrón confirmado."
       ],
-      "precio": 82.45999908447266,
-      "precio_texto": "82.46",
+      "precio": 82.54000091552734,
+      "precio_texto": "82.54",
       "score": 55,
       "semaforo": "VIGILAR",
       "sesgo": "COMPRA",
@@ -84,5 +80,5 @@
       "timestamp": "2026-08-21T00:00:00"
     }
   },
-  "checked_at": "2026-08-17T14:12:45.958195+00:00"
+  "checked_at": "2026-08-17T14:48:34.912530+00:00"
 }
