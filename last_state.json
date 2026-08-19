@@ -57,22 +57,21 @@
     "Petróleo WTI": {
       "activo": "Petróleo WTI",
       "advertencias": [
-        "No hay patrón confirmado en la última vela analizada.",
-        "La tendencia por medias y la estructura de mercado no coinciden.",
-        "Sin patrón confirmado, no se habilita una posible operación."
+        "La tendencia por medias y la estructura de mercado no coinciden."
       ],
       "alineacion": "Confirmada",
       "contexto_1h": "ALCISTA",
       "contexto_4h": "ALCISTA",
       "entrada": "NO HABILITADA",
       "motivos": [
-        "El precio está por encima de EMA 50/200 o reaccionando sobre ellas.",
-        "Posible ruptura alcista de rango, pero falta cierre de confirmación."
+        "Patrón confirmado: doble suelo.",
+        "Relación riesgo/beneficio estimada aceptable (2.0:1).",
+        "El precio está por encima de EMA 50/200 o reaccionando sobre ellas."
       ],
-      "precio": 85.4000015258789,
-      "precio_texto": "85.40",
-      "score": 45,
-      "semaforo": "VIGILAR",
+      "precio": 85.4800033569336,
+      "precio_texto": "85.48",
+      "score": 35,
+      "semaforo": "ESPERAR",
       "sesgo": "COMPRA",
       "symbol": "CL=F",
       "temporalidad": "1H",
@@ -80,5 +79,5 @@
       "timestamp": "2026-08-21T00:00:00"
     }
   },
-  "checked_at": "2026-08-19T16:14:43.916834+00:00"
+  "checked_at": "2026-08-19T16:51:15.253827+00:00"
 }
