@@ -17,8 +17,8 @@
         "El sesgo permitido es compra, pero la lectura actual de 1H no coincide con ese sesgo.",
         "Hasta que la senal de entrada vuelva a alinearse con la multi-temporalidad, la entrada permanece en espera."
       ],
-      "precio": 1.1684973239898682,
-      "precio_texto": "1.16850",
+      "precio": 1.1695905923843384,
+      "precio_texto": "1.16959",
       "score": 45,
       "semaforo": "VIGILAR",
       "sesgo": "COMPRA",
@@ -43,8 +43,8 @@
         "El precio está por encima de EMA 50/200 o reaccionando sobre ellas.",
         "Hay tendencia clara, pero todavía no hay patrón confirmado."
       ],
-      "precio": 4546.7998046875,
-      "precio_texto": "4546.80",
+      "precio": 4546.2998046875,
+      "precio_texto": "4546.30",
       "score": 45,
       "semaforo": "VIGILAR",
       "sesgo": "COMPRA",
@@ -55,26 +55,21 @@
     },
     "Petróleo WTI": {
       "activo": "Petróleo WTI",
-      "advertencias": [
-        "La senal local y el sesgo multi-temporal no coinciden; evitar operar contra el contexto permitido.",
-        "No hay patrón confirmado en la última vela analizada.",
-        "La tendencia por medias y la estructura de mercado no coinciden.",
-        "RSI en zona neutral entre 40 y 60, sin impulso claro.",
-        "Sin patrón confirmado, no se habilita una posible operación."
-      ],
+      "advertencias": [],
       "alineacion": "Confirmada",
       "contexto_1h": "ALCISTA",
       "contexto_4h": "ALCISTA",
-      "entrada": "NO HABILITADA",
+      "entrada": "HABILITADA",
       "motivos": [
-        "4H alcista + 1H alcista = alineacion confirmada.",
-        "El sesgo permitido es compra, pero la lectura actual de 1H no coincide con ese sesgo.",
-        "Hasta que la senal de entrada vuelva a alinearse con la multi-temporalidad, la entrada permanece en espera."
+        "Patrón confirmado: doble suelo.",
+        "La tendencia alcista está alineada con el sesgo de compra.",
+        "Relación riesgo/beneficio estimada aceptable (2.0:1).",
+        "El precio está por encima de EMA 50/200 o reaccionando sobre ellas."
       ],
-      "precio": 85.11000061035156,
-      "precio_texto": "85.11",
-      "score": 45,
-      "semaforo": "VIGILAR",
+      "precio": 85.6500015258789,
+      "precio_texto": "85.65",
+      "score": 75,
+      "semaforo": "OPERATIVO",
       "sesgo": "COMPRA",
       "symbol": "CL=F",
       "temporalidad": "1H",
@@ -82,5 +77,5 @@
       "timestamp": "2026-08-21T00:00:00"
     }
   },
-  "checked_at": "2026-08-20T07:12:30.460720+00:00"
+  "checked_at": "2026-08-20T08:00:16.861131+00:00"
 }
