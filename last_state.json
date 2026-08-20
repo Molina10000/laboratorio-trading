@@ -17,8 +17,8 @@
         "Posible ruptura alcista de rango, pero falta cierre de confirmación.",
         "Hay tendencia clara, pero todavía no hay patrón confirmado."
       ],
-      "precio": 1.1695905923843384,
-      "precio_texto": "1.16959",
+      "precio": 1.1689070463180542,
+      "precio_texto": "1.16891",
       "score": 45,
       "semaforo": "VIGILAR",
       "sesgo": "COMPRA",
@@ -30,8 +30,8 @@
     "Oro": {
       "activo": "Oro",
       "advertencias": [
-        "La senal local y el sesgo multi-temporal no coinciden; evitar operar contra el contexto permitido.",
         "No hay patrón confirmado en la última vela analizada.",
+        "RSI en zona neutral entre 40 y 60, sin impulso claro.",
         "Sin patrón confirmado, no se habilita una posible operación."
       ],
       "alineacion": "Confirmada",
@@ -39,13 +39,15 @@
       "contexto_4h": "ALCISTA",
       "entrada": "NO HABILITADA",
       "motivos": [
-        "4H alcista + 1H alcista = alineacion confirmada.",
-        "El sesgo permitido es compra, pero la lectura actual de 1H no coincide con ese sesgo.",
-        "Hasta que la senal de entrada vuelva a alinearse con la multi-temporalidad, la entrada permanece en espera."
+        "La tendencia alcista está alineada con el sesgo de compra.",
+        "El precio está cerca de un soporte relevante.",
+        "RSI acompaña la idea alcista sin sobrecompra extrema.",
+        "El precio está por encima de EMA 50/200 o reaccionando sobre ellas.",
+        "Hay tendencia clara, pero todavía no hay patrón confirmado."
       ],
-      "precio": 4547.0,
-      "precio_texto": "4547.00",
-      "score": 45,
+      "precio": 4539.0,
+      "precio_texto": "4539.00",
+      "score": 55,
       "semaforo": "VIGILAR",
       "sesgo": "COMPRA",
       "symbol": "GC=F",
@@ -70,8 +72,8 @@
         "El sesgo permitido es compra, pero la lectura actual de 1H no coincide con ese sesgo.",
         "Hasta que la senal de entrada vuelva a alinearse con la multi-temporalidad, la entrada permanece en espera."
       ],
-      "precio": 86.75,
-      "precio_texto": "86.75",
+      "precio": 87.20999908447266,
+      "precio_texto": "87.21",
       "score": 45,
       "semaforo": "VIGILAR",
       "sesgo": "COMPRA",
@@ -81,5 +83,5 @@
       "timestamp": "2026-08-21T00:00:00"
     }
   },
-  "checked_at": "2026-08-20T11:11:54.914244+00:00"
+  "checked_at": "2026-08-20T11:47:09.325567+00:00"
 }
