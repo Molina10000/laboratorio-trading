@@ -18,22 +18,21 @@
         "El sesgo permitido es compra, pero la lectura actual de 1H no coincide con ese sesgo.",
         "Hasta que la senal de entrada vuelva a alinearse con la multi-temporalidad, la entrada permanece en espera."
       ],
-      "precio": 1.1679514646530151,
-      "precio_texto": "1.16795",
+      "precio": 1.1678149700164795,
+      "precio_texto": "1.16781",
       "score": 45,
       "semaforo": "VIGILAR",
       "sesgo": "COMPRA",
       "symbol": "EURUSD=X",
       "temporalidad": "1H",
       "tendencia": "Alcista",
-      "timestamp": "2026-08-21T20:00:00"
+      "timestamp": "2026-08-21T21:00:00"
     },
     "Oro": {
       "activo": "Oro",
       "advertencias": [
         "La senal local y el sesgo multi-temporal no coinciden; evitar operar contra el contexto permitido.",
         "No hay patrón confirmado en la última vela analizada.",
-        "La tendencia actual va en contra del sesgo operativo.",
         "Sin patrón confirmado, no se habilita una posible operación."
       ],
       "alineacion": "Confirmada",
@@ -45,8 +44,8 @@
         "El sesgo permitido es compra, pero la lectura actual de 1H no coincide con ese sesgo.",
         "Hasta que la senal de entrada vuelva a alinearse con la multi-temporalidad, la entrada permanece en espera."
       ],
-      "precio": 4668.60009765625,
-      "precio_texto": "4668.60",
+      "precio": 4662.2998046875,
+      "precio_texto": "4662.30",
       "score": 45,
       "semaforo": "VIGILAR",
       "sesgo": "COMPRA",
@@ -72,8 +71,8 @@
         "El sesgo permitido es compra, pero la lectura actual de 1H no coincide con ese sesgo.",
         "Hasta que la senal de entrada vuelva a alinearse con la multi-temporalidad, la entrada permanece en espera."
       ],
-      "precio": 86.7699966430664,
-      "precio_texto": "86.77",
+      "precio": 86.66000366210938,
+      "precio_texto": "86.66",
       "score": 45,
       "semaforo": "VIGILAR",
       "sesgo": "COMPRA",
@@ -83,5 +82,5 @@
       "timestamp": "2026-08-21T20:00:00"
     }
   },
-  "checked_at": "2026-08-21T20:44:15.543349+00:00"
+  "checked_at": "2026-08-21T21:08:08.541012+00:00"
 }
