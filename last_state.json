@@ -12,18 +12,19 @@
       "contexto_4h": "ALCISTA",
       "entrada": "NO HABILITADA",
       "motivos": [
+        "El precio está cerca de un soporte relevante.",
         "El precio está por encima de EMA 50/200 o reaccionando sobre ellas.",
         "Posible ruptura alcista de rango, pero falta cierre de confirmación."
       ],
-      "precio": 1.1704120635986328,
-      "precio_texto": "1.17041",
+      "precio": 1.1695905923843384,
+      "precio_texto": "1.16959",
       "score": 45,
       "semaforo": "VIGILAR",
       "sesgo": "COMPRA",
       "symbol": "EURUSD=X",
       "temporalidad": "1H",
       "tendencia": "Alcista",
-      "timestamp": "2026-08-21T02:00:00"
+      "timestamp": "2026-08-21T03:00:00"
     },
     "Oro": {
       "activo": "Oro",
@@ -41,15 +42,15 @@
         "El sesgo permitido es compra, pero la lectura actual de 1H no coincide con ese sesgo.",
         "Hasta que la senal de entrada vuelva a alinearse con la multi-temporalidad, la entrada permanece en espera."
       ],
-      "precio": 4589.2998046875,
-      "precio_texto": "4589.30",
+      "precio": 4586.2998046875,
+      "precio_texto": "4586.30",
       "score": 45,
       "semaforo": "VIGILAR",
       "sesgo": "COMPRA",
       "symbol": "GC=F",
       "temporalidad": "1H",
       "tendencia": "Alcista",
-      "timestamp": "2026-08-21T02:00:00"
+      "timestamp": "2026-08-21T03:00:00"
     },
     "Petróleo WTI": {
       "activo": "Petróleo WTI",
@@ -68,16 +69,16 @@
         "El sesgo permitido es compra, pero la lectura actual de 1H no coincide con ese sesgo.",
         "Hasta que la senal de entrada vuelva a alinearse con la multi-temporalidad, la entrada permanece en espera."
       ],
-      "precio": 86.69999694824219,
-      "precio_texto": "86.70",
+      "precio": 86.37999725341797,
+      "precio_texto": "86.38",
       "score": 45,
       "semaforo": "VIGILAR",
       "sesgo": "COMPRA",
       "symbol": "CL=F",
       "temporalidad": "1H",
       "tendencia": "Alcista",
-      "timestamp": "2026-08-21T02:00:00"
+      "timestamp": "2026-08-21T03:00:00"
     }
   },
-  "checked_at": "2026-08-21T02:52:30.851662+00:00"
+  "checked_at": "2026-08-21T03:39:50.074783+00:00"
 }
