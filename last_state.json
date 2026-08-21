@@ -18,15 +18,15 @@
         "El sesgo permitido es compra, pero la lectura actual de 1H no coincide con ese sesgo.",
         "Hasta que la senal de entrada vuelva a alinearse con la multi-temporalidad, la entrada permanece en espera."
       ],
-      "precio": 1.1683608293533325,
-      "precio_texto": "1.16836",
+      "precio": 1.1682243347167969,
+      "precio_texto": "1.16822",
       "score": 45,
       "semaforo": "VIGILAR",
       "sesgo": "COMPRA",
       "symbol": "EURUSD=X",
       "temporalidad": "1H",
       "tendencia": "Alcista",
-      "timestamp": "2026-08-21T19:00:00"
+      "timestamp": "2026-08-21T20:00:00"
     },
     "Oro": {
       "activo": "Oro",
@@ -45,15 +45,15 @@
         "El sesgo permitido es compra, pero la lectura actual de 1H no coincide con ese sesgo.",
         "Hasta que la senal de entrada vuelva a alinearse con la multi-temporalidad, la entrada permanece en espera."
       ],
-      "precio": 4676.0,
-      "precio_texto": "4676.00",
+      "precio": 4674.39990234375,
+      "precio_texto": "4674.40",
       "score": 45,
       "semaforo": "VIGILAR",
       "sesgo": "COMPRA",
       "symbol": "GC=F",
       "temporalidad": "1H",
       "tendencia": "Alcista",
-      "timestamp": "2026-08-21T19:00:00"
+      "timestamp": "2026-08-21T20:00:00"
     },
     "Petróleo WTI": {
       "activo": "Petróleo WTI",
@@ -72,16 +72,16 @@
         "El sesgo permitido es compra, pero la lectura actual de 1H no coincide con ese sesgo.",
         "Hasta que la senal de entrada vuelva a alinearse con la multi-temporalidad, la entrada permanece en espera."
       ],
-      "precio": 86.76000213623047,
-      "precio_texto": "86.76",
+      "precio": 86.63999938964844,
+      "precio_texto": "86.64",
       "score": 45,
       "semaforo": "VIGILAR",
       "sesgo": "COMPRA",
       "symbol": "CL=F",
       "temporalidad": "1H",
       "tendencia": "Alcista",
-      "timestamp": "2026-08-21T19:00:00"
+      "timestamp": "2026-08-21T20:00:00"
     }
   },
-  "checked_at": "2026-08-21T19:51:29.677442+00:00"
+  "checked_at": "2026-08-21T20:10:06.014440+00:00"
 }
