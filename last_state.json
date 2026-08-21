@@ -18,15 +18,15 @@
         "El sesgo permitido es compra, pero la lectura actual de 1H no coincide con ese sesgo.",
         "Hasta que la senal de entrada vuelva a alinearse con la multi-temporalidad, la entrada permanece en espera."
       ],
-      "precio": 1.1690436601638794,
-      "precio_texto": "1.16904",
+      "precio": 1.1683608293533325,
+      "precio_texto": "1.16836",
       "score": 45,
       "semaforo": "VIGILAR",
       "sesgo": "COMPRA",
       "symbol": "EURUSD=X",
       "temporalidad": "1H",
       "tendencia": "Alcista",
-      "timestamp": "2026-08-21T13:00:00"
+      "timestamp": "2026-08-21T14:00:00"
     },
     "Oro": {
       "activo": "Oro",
@@ -45,8 +45,8 @@
         "El sesgo permitido es compra, pero la lectura actual de 1H no coincide con ese sesgo.",
         "Hasta que la senal de entrada vuelva a alinearse con la multi-temporalidad, la entrada permanece en espera."
       ],
-      "precio": 4637.39990234375,
-      "precio_texto": "4637.40",
+      "precio": 4641.7998046875,
+      "precio_texto": "4641.80",
       "score": 45,
       "semaforo": "VIGILAR",
       "sesgo": "COMPRA",
@@ -72,8 +72,8 @@
         "El sesgo permitido es compra, pero la lectura actual de 1H no coincide con ese sesgo.",
         "Hasta que la senal de entrada vuelva a alinearse con la multi-temporalidad, la entrada permanece en espera."
       ],
-      "precio": 86.62000274658203,
-      "precio_texto": "86.62",
+      "precio": 86.55999755859375,
+      "precio_texto": "86.56",
       "score": 45,
       "semaforo": "VIGILAR",
       "sesgo": "COMPRA",
@@ -83,5 +83,5 @@
       "timestamp": "2026-08-21T13:00:00"
     }
   },
-  "checked_at": "2026-08-21T13:15:16.978652+00:00"
+  "checked_at": "2026-08-21T14:01:50.102910+00:00"
 }
