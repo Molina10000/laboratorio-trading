@@ -26,7 +26,7 @@
       "symbol": "EURUSD=X",
       "temporalidad": "1H",
       "tendencia": "Alcista",
-      "timestamp": "2026-08-21T16:00:00"
+      "timestamp": "2026-08-21T17:00:00"
     },
     "Oro": {
       "activo": "Oro",
@@ -45,22 +45,21 @@
         "El sesgo permitido es compra, pero la lectura actual de 1H no coincide con ese sesgo.",
         "Hasta que la senal de entrada vuelva a alinearse con la multi-temporalidad, la entrada permanece en espera."
       ],
-      "precio": 4679.2998046875,
-      "precio_texto": "4679.30",
+      "precio": 4677.2998046875,
+      "precio_texto": "4677.30",
       "score": 45,
       "semaforo": "VIGILAR",
       "sesgo": "COMPRA",
       "symbol": "GC=F",
       "temporalidad": "1H",
       "tendencia": "Alcista",
-      "timestamp": "2026-08-21T16:00:00"
+      "timestamp": "2026-08-21T17:00:00"
     },
     "Petróleo WTI": {
       "activo": "Petróleo WTI",
       "advertencias": [
         "La senal local y el sesgo multi-temporal no coinciden; evitar operar contra el contexto permitido.",
         "No hay patrón confirmado en la última vela analizada.",
-        "RSI en zona neutral entre 40 y 60, sin impulso claro.",
         "Sin patrón confirmado, no se habilita una posible operación."
       ],
       "alineacion": "Confirmada",
@@ -72,16 +71,16 @@
         "El sesgo permitido es compra, pero la lectura actual de 1H no coincide con ese sesgo.",
         "Hasta que la senal de entrada vuelva a alinearse con la multi-temporalidad, la entrada permanece en espera."
       ],
-      "precio": 86.9000015258789,
-      "precio_texto": "86.90",
+      "precio": 87.1500015258789,
+      "precio_texto": "87.15",
       "score": 45,
       "semaforo": "VIGILAR",
       "sesgo": "COMPRA",
       "symbol": "CL=F",
       "temporalidad": "1H",
       "tendencia": "Alcista",
-      "timestamp": "2026-08-21T16:00:00"
+      "timestamp": "2026-08-21T17:00:00"
     }
   },
-  "checked_at": "2026-08-21T16:56:10.151764+00:00"
+  "checked_at": "2026-08-21T17:37:59.434436+00:00"
 }
