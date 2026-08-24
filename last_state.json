@@ -18,8 +18,8 @@
         "El sesgo permitido es compra, pero la lectura actual de 1H no coincide con ese sesgo.",
         "Hasta que la senal de entrada vuelva a alinearse con la multi-temporalidad, la entrada permanece en espera."
       ],
-      "precio": 1.1680878400802612,
-      "precio_texto": "1.16809",
+      "precio": 1.1690436601638794,
+      "precio_texto": "1.16904",
       "score": 45,
       "semaforo": "VIGILAR",
       "sesgo": "COMPRA",
@@ -33,6 +33,7 @@
       "advertencias": [
         "La senal local y el sesgo multi-temporal no coinciden; evitar operar contra el contexto permitido.",
         "No hay patrón confirmado en la última vela analizada.",
+        "La tendencia actual va en contra del sesgo operativo.",
         "Sin patrón confirmado, no se habilita una posible operación."
       ],
       "alineacion": "Confirmada",
@@ -44,8 +45,8 @@
         "El sesgo permitido es compra, pero la lectura actual de 1H no coincide con ese sesgo.",
         "Hasta que la senal de entrada vuelva a alinearse con la multi-temporalidad, la entrada permanece en espera."
       ],
-      "precio": 4669.7001953125,
-      "precio_texto": "4669.70",
+      "precio": 4694.2998046875,
+      "precio_texto": "4694.30",
       "score": 45,
       "semaforo": "VIGILAR",
       "sesgo": "COMPRA",
@@ -57,32 +58,30 @@
     "Petróleo WTI": {
       "activo": "Petróleo WTI",
       "advertencias": [
+        "El contexto multi-temporal no autoriza una compra ni una venta en este momento.",
         "No hay patrón confirmado en la última vela analizada.",
         "RSI en zona neutral entre 40 y 60, sin impulso claro.",
         "Sin patrón confirmado, no se habilita una posible operación."
       ],
-      "alineacion": "Confirmada",
-      "contexto_1h": "ALCISTA",
+      "alineacion": "No confirmada",
+      "contexto_1h": "MIXTO",
       "contexto_4h": "ALCISTA",
       "entrada": "NO HABILITADA",
       "motivos": [
-        "La tendencia alcista está alineada con el sesgo de compra.",
-        "El precio está cerca de un soporte relevante.",
-        "RSI acompaña la idea alcista sin sobrecompra extrema.",
-        "El precio está por encima de EMA 50/200 o reaccionando sobre ellas.",
-        "Hay tendencia clara, pero todavía no hay patrón confirmado.",
-        "El precio está cerca de EMA 50 o EMA 200 y podría reaccionar."
+        "4H alcista + 1H mixto/lateral = no hay alineacion completa; esperar confirmacion.",
+        "El sesgo permitido permanece en esperar; no se habilita ninguna entrada.",
+        "1H todavia no confirma un patron operativo valido."
       ],
-      "precio": 86.20999908447266,
-      "precio_texto": "86.21",
-      "score": 55,
+      "precio": 86.06999969482422,
+      "precio_texto": "86.07",
+      "score": 45,
       "semaforo": "VIGILAR",
-      "sesgo": "COMPRA",
+      "sesgo": "ESPERAR",
       "symbol": "CL=F",
       "temporalidad": "1H",
-      "tendencia": "Alcista",
+      "tendencia": "Lateral",
       "timestamp": "2026-08-28T00:00:00"
     }
   },
-  "checked_at": "2026-08-23T23:51:06.826069+00:00"
+  "checked_at": "2026-08-24T00:25:33.837947+00:00"
 }
