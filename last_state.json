@@ -20,8 +20,8 @@
         "Hay tendencia clara, pero todavía no hay patrón confirmado.",
         "El precio está cerca de EMA 50 o EMA 200 y podría reaccionar."
       ],
-      "precio": 1.1676785945892334,
-      "precio_texto": "1.16768",
+      "precio": 1.1679514646530151,
+      "precio_texto": "1.16795",
       "score": 55,
       "semaforo": "VIGILAR",
       "sesgo": "COMPRA",
@@ -87,5 +87,5 @@
       "timestamp": "2026-08-28T00:00:00"
     }
   },
-  "checked_at": "2026-08-25T21:47:41.891865+00:00"
+  "checked_at": "2026-08-25T22:04:05.833520+00:00"
 }
