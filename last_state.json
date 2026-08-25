@@ -33,20 +33,20 @@
     "Oro": {
       "activo": "Oro",
       "advertencias": [
-        "La tendencia por medias y la estructura de mercado no coinciden."
+        "No hay patrón confirmado en la última vela analizada.",
+        "La tendencia por medias y la estructura de mercado no coinciden.",
+        "Sin patrón confirmado, no se habilita una posible operación."
       ],
       "alineacion": "Confirmada",
       "contexto_1h": "ALCISTA",
       "contexto_4h": "ALCISTA",
       "entrada": "NO HABILITADA",
       "motivos": [
-        "Patrón confirmado: doble suelo.",
-        "RSI acompaña la idea alcista sin sobrecompra extrema.",
-        "Relación riesgo/beneficio estimada aceptable (2.0:1).",
-        "El precio está por encima de EMA 50/200 o reaccionando sobre ellas."
+        "El precio está por encima de EMA 50/200 o reaccionando sobre ellas.",
+        "Posible ruptura alcista de rango, pero falta cierre de confirmación."
       ],
-      "precio": 4723.39990234375,
-      "precio_texto": "4723.40",
+      "precio": 4728.2998046875,
+      "precio_texto": "4728.30",
       "score": 45,
       "semaforo": "VIGILAR",
       "sesgo": "COMPRA",
@@ -61,7 +61,6 @@
         "El contexto multi-temporal no autoriza una compra ni una venta en este momento.",
         "No hay patrón confirmado en la última vela analizada.",
         "La lectura 1H aun no esta suficientemente alineada con 4H para habilitar entrada.",
-        "EMA 50 y EMA 200 están muy juntas y sin dirección clara.",
         "Sin patrón confirmado, no se habilita una posible operación."
       ],
       "alineacion": "No confirmada",
@@ -69,20 +68,20 @@
       "contexto_4h": "MIXTO",
       "entrada": "NO HABILITADA",
       "motivos": [
-        "4H mixto/lateral + 1H bajista con tendencia lateral = no hay alineacion completa; esperar confirmacion.",
+        "4H mixto/lateral + 1H bajista = no hay alineacion completa; esperar confirmacion.",
         "El sesgo permitido permanece en esperar; no se habilita ninguna entrada.",
         "1H todavia no confirma un patron operativo valido."
       ],
-      "precio": 81.04000091552734,
-      "precio_texto": "81.04",
+      "precio": 80.98999786376953,
+      "precio_texto": "80.99",
       "score": 45,
       "semaforo": "VIGILAR",
       "sesgo": "ESPERAR",
       "symbol": "CL=F",
       "temporalidad": "1H",
-      "tendencia": "Lateral",
+      "tendencia": "Bajista",
       "timestamp": "2026-08-28T00:00:00"
     }
   },
-  "checked_at": "2026-08-25T22:38:49.607726+00:00"
+  "checked_at": "2026-08-25T23:11:48.124500+00:00"
 }
