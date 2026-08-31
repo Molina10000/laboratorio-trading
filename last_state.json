@@ -17,8 +17,8 @@
         "El sesgo permitido permanece en esperar; no se habilita ninguna entrada.",
         "1H todavia no confirma un patron operativo valido."
       ],
-      "precio": 1.1587486267089844,
-      "precio_texto": "1.15875",
+      "precio": 1.1595547199249268,
+      "precio_texto": "1.15955",
       "score": 45,
       "semaforo": "VIGILAR",
       "sesgo": "ESPERAR",
@@ -43,8 +43,8 @@
         "El sesgo permitido permanece en esperar; no se habilita ninguna entrada.",
         "1H todavia no confirma un patron operativo valido."
       ],
-      "precio": 4508.60009765625,
-      "precio_texto": "4508.60",
+      "precio": 4513.89990234375,
+      "precio_texto": "4513.90",
       "score": 45,
       "semaforo": "VIGILAR",
       "sesgo": "ESPERAR",
@@ -55,28 +55,30 @@
     },
     "Petróleo WTI": {
       "activo": "Petróleo WTI",
-      "advertencias": [],
-      "alineacion": "Confirmada",
-      "contexto_1h": "ALCISTA",
-      "contexto_4h": "ALCISTA",
-      "entrada": "HABILITADA",
-      "motivos": [
-        "Patrón confirmado: ruptura de rango alcista.",
-        "La tendencia alcista está alineada con el sesgo de compra.",
-        "El precio está cerca de un soporte relevante.",
-        "Relación riesgo/beneficio estimada aceptable (2.0:1).",
-        "El precio está por encima de EMA 50/200 o reaccionando sobre ellas."
+      "advertencias": [
+        "El contexto multi-temporal no autoriza una compra ni una venta en este momento.",
+        "No hay patrón confirmado en la última vela analizada.",
+        "Sin patrón confirmado, no se habilita una posible operación."
       ],
-      "precio": 84.79000091552734,
-      "precio_texto": "84.79",
-      "score": 90,
-      "semaforo": "OPERATIVO",
-      "sesgo": "COMPRA",
+      "alineacion": "No confirmada",
+      "contexto_1h": "MIXTO",
+      "contexto_4h": "ALCISTA",
+      "entrada": "NO HABILITADA",
+      "motivos": [
+        "4H alcista + 1H mixto/lateral = no hay alineacion completa; esperar confirmacion.",
+        "El sesgo permitido permanece en esperar; no se habilita ninguna entrada.",
+        "1H todavia no confirma un patron operativo valido."
+      ],
+      "precio": 84.33000183105469,
+      "precio_texto": "84.33",
+      "score": 45,
+      "semaforo": "VIGILAR",
+      "sesgo": "ESPERAR",
       "symbol": "CL=F",
       "temporalidad": "1H",
       "tendencia": "Lateral",
       "timestamp": "2026-09-04T00:00:00"
     }
   },
-  "checked_at": "2026-08-30T22:40:37.912783+00:00"
+  "checked_at": "2026-08-31T00:55:22.472505+00:00"
 }
