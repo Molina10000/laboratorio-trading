@@ -13,18 +13,18 @@
       "contexto_4h": "MIXTO",
       "entrada": "NO HABILITADA",
       "motivos": [
-        "4H mixto/lateral + 1H bajista = no hay alineacion completa; esperar confirmacion.",
+        "4H mixto/lateral + 1H bajista con tendencia lateral = no hay alineacion completa; esperar confirmacion.",
         "El sesgo permitido permanece en esperar; no se habilita ninguna entrada.",
         "1H todavia no confirma un patron operativo valido."
       ],
-      "precio": 1.1588828563690186,
-      "precio_texto": "1.15888",
-      "score": 40,
+      "precio": 1.1592857837677002,
+      "precio_texto": "1.15929",
+      "score": 45,
       "semaforo": "VIGILAR",
       "sesgo": "ESPERAR",
       "symbol": "EURUSD=X",
       "temporalidad": "1H",
-      "tendencia": "Bajista",
+      "tendencia": "Lateral",
       "timestamp": "2026-09-04T00:00:00"
     },
     "Oro": {
@@ -44,9 +44,9 @@
         "El sesgo permitido permanece en esperar; no se habilita ninguna entrada.",
         "1H todavia no confirma un patron operativo valido."
       ],
-      "precio": 4431.2001953125,
-      "precio_texto": "4431.20",
-      "score": 40,
+      "precio": 4434.7001953125,
+      "precio_texto": "4434.70",
+      "score": 45,
       "semaforo": "VIGILAR",
       "sesgo": "ESPERAR",
       "symbol": "GC=F",
@@ -71,8 +71,8 @@
         "El sesgo permitido es compra, pero la lectura actual de 1H no coincide con ese sesgo.",
         "Hasta que la senal de entrada vuelva a alinearse con la multi-temporalidad, la entrada permanece en espera."
       ],
-      "precio": 90.69999694824219,
-      "precio_texto": "90.70",
+      "precio": 90.66000366210938,
+      "precio_texto": "90.66",
       "score": 45,
       "semaforo": "VIGILAR",
       "sesgo": "COMPRA",
@@ -82,5 +82,5 @@
       "timestamp": "2026-09-04T00:00:00"
     }
   },
-  "checked_at": "2026-09-02T23:15:49.729525+00:00"
+  "checked_at": "2026-09-03T01:10:59.593705+00:00"
 }
