@@ -11,22 +11,22 @@
       ],
       "alineacion": "No confirmada",
       "contexto_1h": "MIXTO",
-      "contexto_4h": "MIXTO",
+      "contexto_4h": "ALCISTA",
       "entrada": "NO HABILITADA",
       "motivos": [
-        "4H mixto/lateral + 1H mixto/lateral = no hay alineacion completa; esperar confirmacion.",
+        "4H alcista + 1H mixto/lateral = no hay alineacion completa; esperar confirmacion.",
         "El sesgo permitido permanece en esperar; no se habilita ninguna entrada.",
         "1H todavia no confirma un patron operativo valido."
       ],
-      "precio": 1.1618449687957764,
-      "precio_texto": "1.16184",
+      "precio": 1.1621150970458984,
+      "precio_texto": "1.16212",
       "score": 45,
       "semaforo": "VIGILAR",
       "sesgo": "ESPERAR",
       "symbol": "EURUSD=X",
       "temporalidad": "1H",
       "tendencia": "Lateral",
-      "timestamp": "2026-09-04T19:00:00"
+      "timestamp": "2026-09-04T21:00:00"
     },
     "Oro": {
       "activo": "Oro",
@@ -45,15 +45,15 @@
         "El sesgo permitido permanece en esperar; no se habilita ninguna entrada.",
         "1H todavia no confirma un patron operativo valido."
       ],
-      "precio": 4483.7998046875,
-      "precio_texto": "4483.80",
+      "precio": 4477.2001953125,
+      "precio_texto": "4477.20",
       "score": 40,
       "semaforo": "VIGILAR",
       "sesgo": "ESPERAR",
       "symbol": "GC=F",
       "temporalidad": "1H",
       "tendencia": "Bajista",
-      "timestamp": "2026-09-04T19:00:00"
+      "timestamp": "2026-09-04T20:00:00"
     },
     "Petróleo WTI": {
       "activo": "Petróleo WTI",
@@ -72,16 +72,16 @@
         "RSI acompaña la idea alcista sin sobrecompra extrema.",
         "El precio está por encima de EMA 50/200 o reaccionando sobre ellas."
       ],
-      "precio": 91.33999633789062,
-      "precio_texto": "91.34",
+      "precio": 91.22000122070312,
+      "precio_texto": "91.22",
       "score": 45,
       "semaforo": "VIGILAR",
       "sesgo": "COMPRA",
       "symbol": "CL=F",
       "temporalidad": "1H",
       "tendencia": "Alcista",
-      "timestamp": "2026-09-04T19:00:00"
+      "timestamp": "2026-09-04T20:00:00"
     }
   },
-  "checked_at": "2026-09-04T19:54:56.055135+00:00"
+  "checked_at": "2026-09-04T22:19:06.446876+00:00"
 }
