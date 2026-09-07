@@ -10,16 +10,16 @@
         "Sin patrón confirmado, no se habilita una posible operación."
       ],
       "alineacion": "No confirmada",
-      "contexto_1h": "MIXTO",
-      "contexto_4h": "ALCISTA",
+      "contexto_1h": "BAJISTA",
+      "contexto_4h": "MIXTO",
       "entrada": "NO HABILITADA",
       "motivos": [
-        "4H alcista + 1H mixto/lateral = no hay alineacion completa; esperar confirmacion.",
+        "4H mixto/lateral + 1H bajista con tendencia lateral = no hay alineacion completa; esperar confirmacion.",
         "El sesgo permitido permanece en esperar; no se habilita ninguna entrada.",
         "1H todavia no confirma un patron operativo valido."
       ],
-      "precio": 1.1619800329208374,
-      "precio_texto": "1.16198",
+      "precio": 1.161440134048462,
+      "precio_texto": "1.16144",
       "score": 45,
       "semaforo": "VIGILAR",
       "sesgo": "ESPERAR",
@@ -84,5 +84,5 @@
       "timestamp": "2026-09-11T00:00:00"
     }
   },
-  "checked_at": "2026-09-07T00:18:03.690227+00:00"
+  "checked_at": "2026-09-07T04:53:57.687627+00:00"
 }
