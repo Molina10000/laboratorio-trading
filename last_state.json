@@ -19,8 +19,8 @@
         "Posible ruptura alcista de rango, pero falta cierre de confirmación.",
         "El precio está cerca de EMA 50 o EMA 200 y podría reaccionar."
       ],
-      "precio": 1.1629259586334229,
-      "precio_texto": "1.16293",
+      "precio": 1.163061261177063,
+      "precio_texto": "1.16306",
       "score": 45,
       "semaforo": "VIGILAR",
       "sesgo": "COMPRA",
@@ -85,5 +85,5 @@
       "timestamp": "2026-09-11T00:00:00"
     }
   },
-  "checked_at": "2026-09-07T22:18:57.795957+00:00"
+  "checked_at": "2026-09-08T00:30:20.440981+00:00"
 }
