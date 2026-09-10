@@ -11,15 +11,15 @@
       ],
       "alineacion": "No confirmada",
       "contexto_1h": "MIXTO",
-      "contexto_4h": "ALCISTA",
+      "contexto_4h": "MIXTO",
       "entrada": "NO HABILITADA",
       "motivos": [
-        "4H alcista + 1H mixto/lateral = no hay alineacion completa; esperar confirmacion.",
+        "4H mixto/lateral + 1H mixto/lateral = no hay alineacion completa; esperar confirmacion.",
         "El sesgo permitido permanece en esperar; no se habilita ninguna entrada.",
         "1H todavia no confirma un patron operativo valido."
       ],
-      "precio": 1.163061261177063,
-      "precio_texto": "1.16306",
+      "precio": 1.1618449687957764,
+      "precio_texto": "1.16184",
       "score": 45,
       "semaforo": "VIGILAR",
       "sesgo": "ESPERAR",
@@ -44,8 +44,8 @@
         "El sesgo permitido permanece en esperar; no se habilita ninguna entrada.",
         "1H todavia no confirma un patron operativo valido."
       ],
-      "precio": 4402.2001953125,
-      "precio_texto": "4402.20",
+      "precio": 4384.7998046875,
+      "precio_texto": "4384.80",
       "score": 45,
       "semaforo": "VIGILAR",
       "sesgo": "ESPERAR",
@@ -71,8 +71,8 @@
         "El sesgo permitido es compra, pero la lectura actual de 1H no coincide con ese sesgo.",
         "Hasta que la senal de entrada vuelva a alinearse con la multi-temporalidad, la entrada permanece en espera."
       ],
-      "precio": 99.87000274658203,
-      "precio_texto": "99.87",
+      "precio": 102.62000274658203,
+      "precio_texto": "102.62",
       "score": 45,
       "semaforo": "VIGILAR",
       "sesgo": "COMPRA",
@@ -82,5 +82,5 @@
       "timestamp": "2026-09-11T00:00:00"
     }
   },
-  "checked_at": "2026-09-10T15:02:20.885730+00:00"
+  "checked_at": "2026-09-10T18:19:57.582464+00:00"
 }
