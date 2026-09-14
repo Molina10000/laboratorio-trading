@@ -17,8 +17,8 @@
         "El sesgo permitido permanece en esperar; no se habilita ninguna entrada.",
         "1H todavia no confirma un patron operativo valido."
       ],
-      "precio": 1.1555349826812744,
-      "precio_texto": "1.15553",
+      "precio": 1.155001163482666,
+      "precio_texto": "1.15500",
       "score": 45,
       "semaforo": "VIGILAR",
       "sesgo": "ESPERAR",
@@ -44,8 +44,8 @@
         "El sesgo permitido permanece en esperar; no se habilita ninguna entrada.",
         "1H todavia no confirma un patron operativo valido."
       ],
-      "precio": 4339.5,
-      "precio_texto": "4339.50",
+      "precio": 4331.5,
+      "precio_texto": "4331.50",
       "score": 45,
       "semaforo": "VIGILAR",
       "sesgo": "ESPERAR",
@@ -70,10 +70,11 @@
         "El precio está cerca de un soporte relevante.",
         "RSI acompaña la idea alcista sin sobrecompra extrema.",
         "El precio está por encima de EMA 50/200 o reaccionando sobre ellas.",
-        "Hay tendencia clara, pero todavía no hay patrón confirmado."
+        "Hay tendencia clara, pero todavía no hay patrón confirmado.",
+        "El precio está cerca de EMA 50 o EMA 200 y podría reaccionar."
       ],
-      "precio": 102.66999816894531,
-      "precio_texto": "102.67",
+      "precio": 101.83999633789062,
+      "precio_texto": "101.84",
       "score": 55,
       "semaforo": "VIGILAR",
       "sesgo": "COMPRA",
@@ -83,5 +84,5 @@
       "timestamp": "2026-09-18T00:00:00"
     }
   },
-  "checked_at": "2026-09-14T16:30:29.104209+00:00"
+  "checked_at": "2026-09-14T20:28:18.107010+00:00"
 }
