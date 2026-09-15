@@ -5,6 +5,7 @@
       "advertencias": [
         "El contexto multi-temporal no autoriza una compra ni una venta en este momento.",
         "No hay patrón confirmado en la última vela analizada.",
+        "RSI en zona neutral entre 40 y 60, sin impulso claro.",
         "Sin patrón confirmado, no se habilita una posible operación."
       ],
       "alineacion": "No confirmada",
@@ -16,9 +17,9 @@
         "El sesgo permitido permanece en esperar; no se habilita ninguna entrada.",
         "1H todavia no confirma un patron operativo valido."
       ],
-      "precio": 1.1531364917755127,
-      "precio_texto": "1.15314",
-      "score": 45,
+      "precio": 1.1544678211212158,
+      "precio_texto": "1.15447",
+      "score": 40,
       "semaforo": "VIGILAR",
       "sesgo": "ESPERAR",
       "symbol": "EURUSD=X",
@@ -28,26 +29,23 @@
     },
     "Oro": {
       "activo": "Oro",
-      "advertencias": [
-        "El contexto multi-temporal no autoriza una compra ni una venta en este momento.",
-        "No hay patrón confirmado en la última vela analizada.",
-        "RSI en zona neutral entre 40 y 60, sin impulso claro.",
-        "Sin patrón confirmado, no se habilita una posible operación."
-      ],
-      "alineacion": "No confirmada",
+      "advertencias": [],
+      "alineacion": "Confirmada",
       "contexto_1h": "BAJISTA",
-      "contexto_4h": "MIXTO",
-      "entrada": "NO HABILITADA",
+      "contexto_4h": "BAJISTA",
+      "entrada": "HABILITADA",
       "motivos": [
-        "4H mixto/lateral + 1H bajista = no hay alineacion completa; esperar confirmacion.",
-        "El sesgo permitido permanece en esperar; no se habilita ninguna entrada.",
-        "1H todavia no confirma un patron operativo valido."
+        "Patrón confirmado: doble techo.",
+        "La tendencia bajista está alineada con el sesgo de venta.",
+        "RSI acompaña la idea bajista sin sobreventa extrema.",
+        "Relación riesgo/beneficio estimada aceptable (2.0:1).",
+        "El precio está por debajo de EMA 50/200 o reaccionando bajo ellas."
       ],
-      "precio": 4328.2998046875,
-      "precio_texto": "4328.30",
-      "score": 45,
-      "semaforo": "VIGILAR",
-      "sesgo": "ESPERAR",
+      "precio": 4321.89990234375,
+      "precio_texto": "4321.90",
+      "score": 85,
+      "semaforo": "OPERATIVO",
+      "sesgo": "VENTA",
       "symbol": "GC=F",
       "temporalidad": "1H",
       "tendencia": "Bajista",
@@ -56,9 +54,7 @@
     "Petróleo WTI": {
       "activo": "Petróleo WTI",
       "advertencias": [
-        "La senal local y el sesgo multi-temporal no coinciden; evitar operar contra el contexto permitido.",
         "No hay patrón confirmado en la última vela analizada.",
-        "La tendencia por medias y la estructura de mercado no coinciden.",
         "RSI en zona neutral entre 40 y 60, sin impulso claro.",
         "Sin patrón confirmado, no se habilita una posible operación."
       ],
@@ -67,13 +63,16 @@
       "contexto_4h": "ALCISTA",
       "entrada": "NO HABILITADA",
       "motivos": [
-        "4H alcista + 1H alcista = alineacion confirmada.",
-        "El sesgo permitido es compra, pero la lectura actual de 1H no coincide con ese sesgo.",
-        "Hasta que la senal de entrada vuelva a alinearse con la multi-temporalidad, la entrada permanece en espera."
+        "La tendencia alcista está alineada con el sesgo de compra.",
+        "El precio está cerca de un soporte relevante.",
+        "RSI acompaña la idea alcista sin sobrecompra extrema.",
+        "El precio está por encima de EMA 50/200 o reaccionando sobre ellas.",
+        "Hay tendencia clara, pero todavía no hay patrón confirmado.",
+        "El precio está cerca de EMA 50 o EMA 200 y podría reaccionar."
       ],
-      "precio": 103.19999694824219,
-      "precio_texto": "103.20",
-      "score": 45,
+      "precio": 102.4000015258789,
+      "precio_texto": "102.40",
+      "score": 55,
       "semaforo": "VIGILAR",
       "sesgo": "COMPRA",
       "symbol": "CL=F",
@@ -82,5 +81,5 @@
       "timestamp": "2026-09-18T00:00:00"
     }
   },
-  "checked_at": "2026-09-15T06:48:23.677087+00:00"
+  "checked_at": "2026-09-15T12:14:13.803044+00:00"
 }
