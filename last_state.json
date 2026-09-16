@@ -18,8 +18,8 @@
         "El sesgo permitido permanece en esperar; no se habilita ninguna entrada.",
         "1H todavia no confirma un patron operativo valido."
       ],
-      "precio": 1.1542012691497803,
-      "precio_texto": "1.15420",
+      "precio": 1.1539349555969238,
+      "precio_texto": "1.15393",
       "score": 45,
       "semaforo": "VIGILAR",
       "sesgo": "ESPERAR",
@@ -33,7 +33,6 @@
       "advertencias": [
         "El contexto multi-temporal no autoriza una compra ni una venta en este momento.",
         "No hay patrón confirmado en la última vela analizada.",
-        "La lectura 1H aun no esta suficientemente alineada con 4H para habilitar entrada.",
         "Sin patrón confirmado, no se habilita una posible operación."
       ],
       "alineacion": "No confirmada",
@@ -45,8 +44,8 @@
         "El sesgo permitido permanece en esperar; no se habilita ninguna entrada.",
         "1H todavia no confirma un patron operativo valido."
       ],
-      "precio": 4393.5,
-      "precio_texto": "4393.50",
+      "precio": 4391.7998046875,
+      "precio_texto": "4391.80",
       "score": 45,
       "semaforo": "VIGILAR",
       "sesgo": "ESPERAR",
@@ -71,8 +70,8 @@
         "El sesgo permitido permanece en esperar; no se habilita ninguna entrada.",
         "1H todavia no confirma un patron operativo valido."
       ],
-      "precio": 103.0199966430664,
-      "precio_texto": "103.02",
+      "precio": 101.66999816894531,
+      "precio_texto": "101.67",
       "score": 45,
       "semaforo": "VIGILAR",
       "sesgo": "ESPERAR",
@@ -82,5 +81,5 @@
       "timestamp": "2026-09-18T00:00:00"
     }
   },
-  "checked_at": "2026-09-16T11:47:21.932256+00:00"
+  "checked_at": "2026-09-16T15:35:05.697020+00:00"
 }
