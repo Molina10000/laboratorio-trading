@@ -17,8 +17,8 @@
         "El sesgo permitido es venta, pero la lectura actual de 1H no coincide con ese sesgo.",
         "Hasta que la senal de entrada vuelva a alinearse con la multi-temporalidad, la entrada permanece en espera."
       ],
-      "precio": 1.1479737758636475,
-      "precio_texto": "1.14797",
+      "precio": 1.1465259790420532,
+      "precio_texto": "1.14653",
       "score": 45,
       "semaforo": "VIGILAR",
       "sesgo": "VENTA",
@@ -29,22 +29,24 @@
     },
     "Oro": {
       "activo": "Oro",
-      "advertencias": [],
+      "advertencias": [
+        "La senal local y el sesgo multi-temporal no coinciden; evitar operar contra el contexto permitido.",
+        "No hay patrón confirmado en la última vela analizada.",
+        "Sin patrón confirmado, no se habilita una posible operación."
+      ],
       "alineacion": "Confirmada",
       "contexto_1h": "BAJISTA",
       "contexto_4h": "BAJISTA",
-      "entrada": "HABILITADA",
+      "entrada": "NO HABILITADA",
       "motivos": [
-        "Patrón confirmado: ruptura de rango bajista.",
-        "La tendencia bajista está alineada con el sesgo de venta.",
-        "El precio está rompiendo un soporte con confirmación.",
-        "Relación riesgo/beneficio estimada aceptable (2.0:1).",
-        "El precio está por debajo de EMA 50/200 o reaccionando bajo ellas."
+        "4H bajista + 1H bajista = alineacion confirmada.",
+        "El sesgo permitido es venta, pero la lectura actual de 1H no coincide con ese sesgo.",
+        "Hasta que la senal de entrada vuelva a alinearse con la multi-temporalidad, la entrada permanece en espera."
       ],
-      "precio": 4314.10009765625,
-      "precio_texto": "4314.10",
-      "score": 90,
-      "semaforo": "OPERATIVO",
+      "precio": 4302.5,
+      "precio_texto": "4302.50",
+      "score": 45,
+      "semaforo": "VIGILAR",
       "sesgo": "VENTA",
       "symbol": "GC=F",
       "temporalidad": "1H",
@@ -67,8 +69,8 @@
         "El sesgo permitido permanece en esperar; no se habilita ninguna entrada.",
         "1H todavia no confirma un patron operativo valido."
       ],
-      "precio": 102.29000091552734,
-      "precio_texto": "102.29",
+      "precio": 102.0199966430664,
+      "precio_texto": "102.02",
       "score": 45,
       "semaforo": "VIGILAR",
       "sesgo": "ESPERAR",
@@ -78,5 +80,5 @@
       "timestamp": "2026-09-18T00:00:00"
     }
   },
-  "checked_at": "2026-09-16T19:03:18.927889+00:00"
+  "checked_at": "2026-09-16T22:04:24.425846+00:00"
 }
