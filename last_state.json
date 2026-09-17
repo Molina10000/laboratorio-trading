@@ -15,11 +15,11 @@
         "La tendencia bajista está alineada con el sesgo de venta.",
         "RSI acompaña la idea bajista sin sobreventa extrema.",
         "El precio está por debajo de EMA 50/200 o reaccionando bajo ellas.",
-        "Hay tendencia clara, pero todavía no hay patrón confirmado.",
-        "El precio está cerca de EMA 50 o EMA 200 y podría reaccionar."
+        "Posible ruptura bajista de rango, pero falta cierre de confirmación.",
+        "Hay tendencia clara, pero todavía no hay patrón confirmado."
       ],
-      "precio": 1.1491611003875732,
-      "precio_texto": "1.14916",
+      "precio": 1.1478420495986938,
+      "precio_texto": "1.14784",
       "score": 40,
       "semaforo": "VIGILAR",
       "sesgo": "VENTA",
@@ -33,6 +33,7 @@
       "advertencias": [
         "El contexto multi-temporal no autoriza una compra ni una venta en este momento.",
         "No hay patrón confirmado en la última vela analizada.",
+        "RSI en zona neutral entre 40 y 60, sin impulso claro.",
         "Sin patrón confirmado, no se habilita una posible operación."
       ],
       "alineacion": "No confirmada",
@@ -44,8 +45,8 @@
         "El sesgo permitido permanece en esperar; no se habilita ninguna entrada.",
         "1H todavia no confirma un patron operativo valido."
       ],
-      "precio": 4401.7001953125,
-      "precio_texto": "4401.70",
+      "precio": 4391.0,
+      "precio_texto": "4391.00",
       "score": 45,
       "semaforo": "VIGILAR",
       "sesgo": "ESPERAR",
@@ -59,6 +60,8 @@
       "advertencias": [
         "El contexto multi-temporal no autoriza una compra ni una venta en este momento.",
         "No hay patrón confirmado en la última vela analizada.",
+        "La lectura 1H aun no esta suficientemente alineada con 4H para habilitar entrada.",
+        "RSI en zona neutral entre 40 y 60, sin impulso claro.",
         "Sin patrón confirmado, no se habilita una posible operación."
       ],
       "alineacion": "No confirmada",
@@ -70,8 +73,8 @@
         "El sesgo permitido permanece en esperar; no se habilita ninguna entrada.",
         "1H todavia no confirma un patron operativo valido."
       ],
-      "precio": 100.61000061035156,
-      "precio_texto": "100.61",
+      "precio": 101.77999877929688,
+      "precio_texto": "101.78",
       "score": 45,
       "semaforo": "VIGILAR",
       "sesgo": "ESPERAR",
@@ -81,5 +84,5 @@
       "timestamp": "2026-09-18T00:00:00"
     }
   },
-  "checked_at": "2026-09-17T14:55:05.025058+00:00"
+  "checked_at": "2026-09-17T18:56:59.682956+00:00"
 }
