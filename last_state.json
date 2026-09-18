@@ -18,15 +18,15 @@
         "El sesgo permitido permanece en esperar; no se habilita ninguna entrada.",
         "1H todavia no confirma un patron operativo valido."
       ],
-      "precio": 1.1490291357040405,
-      "precio_texto": "1.14903",
+      "precio": 1.1488970518112183,
+      "precio_texto": "1.14890",
       "score": 45,
       "semaforo": "VIGILAR",
       "sesgo": "ESPERAR",
       "symbol": "EURUSD=X",
       "temporalidad": "1H",
       "tendencia": "Lateral",
-      "timestamp": "2026-09-18T19:00:00"
+      "timestamp": "2026-09-18T21:00:00"
     },
     "Oro": {
       "activo": "Oro",
@@ -39,22 +39,22 @@
       ],
       "alineacion": "No confirmada",
       "contexto_1h": "MIXTO",
-      "contexto_4h": "ALCISTA",
+      "contexto_4h": "MIXTO",
       "entrada": "NO HABILITADA",
       "motivos": [
-        "4H alcista con tendencia lateral + 1H mixto/lateral = no hay alineacion completa; esperar confirmacion.",
+        "4H mixto/lateral + 1H mixto/lateral = no hay alineacion completa; esperar confirmacion.",
         "El sesgo permitido permanece en esperar; no se habilita ninguna entrada.",
         "1H todavia no confirma un patron operativo valido."
       ],
-      "precio": 4420.2001953125,
-      "precio_texto": "4420.20",
+      "precio": 4415.89990234375,
+      "precio_texto": "4415.90",
       "score": 45,
       "semaforo": "VIGILAR",
       "sesgo": "ESPERAR",
       "symbol": "GC=F",
       "temporalidad": "1H",
       "tendencia": "Lateral",
-      "timestamp": "2026-09-18T19:00:00"
+      "timestamp": "2026-09-18T20:00:00"
     },
     "Petróleo WTI": {
       "activo": "Petróleo WTI",
@@ -72,16 +72,16 @@
         "El sesgo permitido permanece en esperar; no se habilita ninguna entrada.",
         "1H todavia no confirma un patron operativo valido."
       ],
-      "precio": 95.62000274658203,
-      "precio_texto": "95.62",
+      "precio": 95.47000122070312,
+      "precio_texto": "95.47",
       "score": 45,
       "semaforo": "VIGILAR",
       "sesgo": "ESPERAR",
       "symbol": "CL=F",
       "temporalidad": "1H",
       "tendencia": "Lateral",
-      "timestamp": "2026-09-18T19:00:00"
+      "timestamp": "2026-09-18T20:00:00"
     }
   },
-  "checked_at": "2026-09-18T19:43:17.109519+00:00"
+  "checked_at": "2026-09-18T21:56:09.953436+00:00"
 }
