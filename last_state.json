@@ -4,6 +4,32 @@
       "activo": "EUR/USD",
       "advertencias": [
         "No hay patrón confirmado en la última vela analizada.",
+        "Sin patrón confirmado, no se habilita una posible operación."
+      ],
+      "alineacion": "Confirmada",
+      "contexto_1h": "BAJISTA",
+      "contexto_4h": "BAJISTA",
+      "entrada": "NO HABILITADA",
+      "motivos": [
+        "La tendencia bajista está alineada con el sesgo de venta.",
+        "El precio está por debajo de EMA 50/200 o reaccionando bajo ellas.",
+        "Posible ruptura bajista de rango, pero falta cierre de confirmación.",
+        "Hay tendencia clara, pero todavía no hay patrón confirmado."
+      ],
+      "precio": 1.1442956924438477,
+      "precio_texto": "1.14430",
+      "score": 45,
+      "semaforo": "VIGILAR",
+      "sesgo": "VENTA",
+      "symbol": "EURUSD=X",
+      "temporalidad": "1H",
+      "tendencia": "Bajista",
+      "timestamp": "2026-09-25T00:00:00"
+    },
+    "Oro": {
+      "activo": "Oro",
+      "advertencias": [
+        "No hay patrón confirmado en la última vela analizada.",
         "RSI en zona neutral entre 40 y 60, sin impulso claro.",
         "Sin patrón confirmado, no se habilita una posible operación."
       ],
@@ -18,38 +44,11 @@
         "Hay tendencia clara, pero todavía no hay patrón confirmado.",
         "El precio está cerca de EMA 50 o EMA 200 y podría reaccionar."
       ],
-      "precio": 1.145081877708435,
-      "precio_texto": "1.14508",
+      "precio": 4383.89990234375,
+      "precio_texto": "4383.90",
       "score": 40,
       "semaforo": "VIGILAR",
       "sesgo": "VENTA",
-      "symbol": "EURUSD=X",
-      "temporalidad": "1H",
-      "tendencia": "Bajista",
-      "timestamp": "2026-09-25T00:00:00"
-    },
-    "Oro": {
-      "activo": "Oro",
-      "advertencias": [
-        "El contexto multi-temporal no autoriza una compra ni una venta en este momento.",
-        "No hay patrón confirmado en la última vela analizada.",
-        "RSI en zona neutral entre 40 y 60, sin impulso claro.",
-        "Sin patrón confirmado, no se habilita una posible operación."
-      ],
-      "alineacion": "No confirmada",
-      "contexto_1h": "MIXTO",
-      "contexto_4h": "MIXTO",
-      "entrada": "NO HABILITADA",
-      "motivos": [
-        "4H mixto/lateral + 1H mixto/lateral = no hay alineacion completa; esperar confirmacion.",
-        "El sesgo permitido permanece en esperar; no se habilita ninguna entrada.",
-        "1H todavia no confirma un patron operativo valido."
-      ],
-      "precio": 4400.2001953125,
-      "precio_texto": "4400.20",
-      "score": 45,
-      "semaforo": "VIGILAR",
-      "sesgo": "ESPERAR",
       "symbol": "GC=F",
       "temporalidad": "1H",
       "tendencia": "Lateral",
@@ -60,6 +59,7 @@
       "advertencias": [
         "El contexto multi-temporal no autoriza una compra ni una venta en este momento.",
         "No hay patrón confirmado en la última vela analizada.",
+        "RSI en zona neutral entre 40 y 60, sin impulso claro.",
         "Sin patrón confirmado, no se habilita una posible operación."
       ],
       "alineacion": "No confirmada",
@@ -71,8 +71,8 @@
         "El sesgo permitido permanece en esperar; no se habilita ninguna entrada.",
         "1H todavia no confirma un patron operativo valido."
       ],
-      "precio": 89.6500015258789,
-      "precio_texto": "89.65",
+      "precio": 90.22000122070312,
+      "precio_texto": "90.22",
       "score": 45,
       "semaforo": "VIGILAR",
       "sesgo": "ESPERAR",
@@ -82,5 +82,5 @@
       "timestamp": "2026-09-25T00:00:00"
     }
   },
-  "checked_at": "2026-09-22T23:01:27.551820+00:00"
+  "checked_at": "2026-09-23T01:25:54.355636+00:00"
 }
