@@ -4,6 +4,7 @@
       "activo": "EUR/USD",
       "advertencias": [
         "No hay patrón confirmado en la última vela analizada.",
+        "La tendencia por medias y la estructura de mercado no coinciden.",
         "RSI en zona neutral entre 40 y 60, sin impulso claro.",
         "Sin patrón confirmado, no se habilita una posible operación."
       ],
@@ -12,15 +13,14 @@
       "contexto_4h": "BAJISTA",
       "entrada": "NO HABILITADA",
       "motivos": [
-        "La tendencia bajista está alineada con el sesgo de venta.",
         "RSI acompaña la idea bajista sin sobreventa extrema.",
         "El precio está por debajo de EMA 50/200 o reaccionando bajo ellas.",
-        "Hay tendencia clara, pero todavía no hay patrón confirmado.",
+        "Posible ruptura bajista de rango, pero falta cierre de confirmación.",
         "El precio está cerca de EMA 50 o EMA 200 y podría reaccionar."
       ],
-      "precio": 1.139211654663086,
-      "precio_texto": "1.13921",
-      "score": 40,
+      "precio": 1.1389521360397339,
+      "precio_texto": "1.13895",
+      "score": 45,
       "semaforo": "VIGILAR",
       "sesgo": "VENTA",
       "symbol": "EURUSD=X",
@@ -30,26 +30,21 @@
     },
     "Oro": {
       "activo": "Oro",
-      "advertencias": [
-        "No hay patrón confirmado en la última vela analizada.",
-        "RSI en zona neutral entre 40 y 60, sin impulso claro.",
-        "Sin patrón confirmado, no se habilita una posible operación."
-      ],
+      "advertencias": [],
       "alineacion": "Confirmada",
       "contexto_1h": "BAJISTA",
       "contexto_4h": "BAJISTA",
-      "entrada": "NO HABILITADA",
+      "entrada": "HABILITADA",
       "motivos": [
+        "Patrón confirmado: ruptura de rango bajista.",
         "La tendencia bajista está alineada con el sesgo de venta.",
-        "RSI acompaña la idea bajista sin sobreventa extrema.",
-        "El precio está por debajo de EMA 50/200 o reaccionando bajo ellas.",
-        "Hay tendencia clara, pero todavía no hay patrón confirmado.",
-        "El precio está cerca de EMA 50 o EMA 200 y podría reaccionar."
+        "Relación riesgo/beneficio estimada aceptable (2.0:1).",
+        "El precio está por debajo de EMA 50/200 o reaccionando bajo ellas."
       ],
-      "precio": 4321.2001953125,
-      "precio_texto": "4321.20",
-      "score": 40,
-      "semaforo": "VIGILAR",
+      "precio": 4270.39990234375,
+      "precio_texto": "4270.40",
+      "score": 75,
+      "semaforo": "OPERATIVO",
       "sesgo": "VENTA",
       "symbol": "GC=F",
       "temporalidad": "1H",
@@ -65,24 +60,24 @@
         "Sin patrón confirmado, no se habilita una posible operación."
       ],
       "alineacion": "No confirmada",
-      "contexto_1h": "BAJISTA",
+      "contexto_1h": "MIXTO",
       "contexto_4h": "MIXTO",
       "entrada": "NO HABILITADA",
       "motivos": [
-        "4H mixto/lateral + 1H bajista = no hay alineacion completa; esperar confirmacion.",
+        "4H mixto/lateral + 1H mixto/lateral = no hay alineacion completa; esperar confirmacion.",
         "El sesgo permitido permanece en esperar; no se habilita ninguna entrada.",
         "1H todavia no confirma un patron operativo valido."
       ],
-      "precio": 92.41000366210938,
-      "precio_texto": "92.41",
+      "precio": 93.13999938964844,
+      "precio_texto": "93.14",
       "score": 45,
       "semaforo": "VIGILAR",
       "sesgo": "ESPERAR",
       "symbol": "CL=F",
       "temporalidad": "1H",
-      "tendencia": "Bajista",
+      "tendencia": "Lateral",
       "timestamp": "2026-10-02T00:00:00"
     }
   },
-  "checked_at": "2026-09-27T22:19:19.688668+00:00"
+  "checked_at": "2026-09-28T00:54:16.007915+00:00"
 }
