@@ -17,8 +17,8 @@
         "El sesgo permitido permanece en esperar; no se habilita ninguna entrada.",
         "1H todavia no confirma un patron operativo valido."
       ],
-      "precio": 1.1358473300933838,
-      "precio_texto": "1.13585",
+      "precio": 1.1361054182052612,
+      "precio_texto": "1.13611",
       "score": 45,
       "semaforo": "VIGILAR",
       "sesgo": "ESPERAR",
@@ -32,6 +32,7 @@
       "advertencias": [
         "El contexto multi-temporal no autoriza una compra ni una venta en este momento.",
         "No hay patrón confirmado en la última vela analizada.",
+        "RSI en zona neutral entre 40 y 60, sin impulso claro.",
         "Sin patrón confirmado, no se habilita una posible operación."
       ],
       "alineacion": "No confirmada",
@@ -43,10 +44,10 @@
         "El sesgo permitido permanece en esperar; no se habilita ninguna entrada.",
         "1H todavia no confirma un patron operativo valido."
       ],
-      "precio": 4227.0,
-      "precio_texto": "4227.00",
-      "score": 0,
-      "semaforo": "ESPERAR",
+      "precio": 4214.0,
+      "precio_texto": "4214.00",
+      "score": 45,
+      "semaforo": "VIGILAR",
       "sesgo": "ESPERAR",
       "symbol": "GC=F",
       "temporalidad": "1H",
@@ -57,9 +58,7 @@
       "activo": "Petróleo WTI",
       "advertencias": [
         "El contexto multi-temporal no autoriza una compra ni una venta en este momento.",
-        "No hay patrón confirmado en la última vela analizada.",
-        "La lectura 1H aun no esta suficientemente alineada con 4H para habilitar entrada.",
-        "Sin patrón confirmado, no se habilita una posible operación."
+        "La lectura 1H aun no esta suficientemente alineada con 4H para habilitar entrada."
       ],
       "alineacion": "No confirmada",
       "contexto_1h": "BAJISTA",
@@ -68,11 +67,11 @@
       "motivos": [
         "4H mixto/lateral + 1H bajista = no hay alineacion completa; esperar confirmacion.",
         "El sesgo permitido permanece en esperar; no se habilita ninguna entrada.",
-        "1H todavia no confirma un patron operativo valido."
+        "Aunque exista una lectura local en 1H, no es operable mientras la multi-temporalidad siga en esperar."
       ],
-      "precio": 89.26000213623047,
-      "precio_texto": "89.26",
-      "score": 45,
+      "precio": 91.12999725341797,
+      "precio_texto": "91.13",
+      "score": 50,
       "semaforo": "VIGILAR",
       "sesgo": "ESPERAR",
       "symbol": "CL=F",
@@ -81,5 +80,5 @@
       "timestamp": "2026-10-02T00:00:00"
     }
   },
-  "checked_at": "2026-09-30T07:19:07.047353+00:00"
+  "checked_at": "2026-09-30T13:54:06.585088+00:00"
 }
