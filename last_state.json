@@ -5,7 +5,6 @@
       "advertencias": [
         "El contexto multi-temporal no autoriza una compra ni una venta en este momento.",
         "No hay patrón confirmado en la última vela analizada.",
-        "RSI en zona neutral entre 40 y 60, sin impulso claro.",
         "Sin patrón confirmado, no se habilita una posible operación."
       ],
       "alineacion": "No confirmada",
@@ -17,42 +16,41 @@
         "El sesgo permitido permanece en esperar; no se habilita ninguna entrada.",
         "1H todavia no confirma un patron operativo valido."
       ],
-      "precio": 1.1217050552368164,
-      "precio_texto": "1.12171",
-      "score": 55,
+      "precio": 1.1228384971618652,
+      "precio_texto": "1.12284",
+      "score": 45,
       "semaforo": "VIGILAR",
       "sesgo": "ESPERAR",
       "symbol": "EURUSD=X",
       "temporalidad": "1H",
       "tendencia": "Lateral",
-      "timestamp": "2026-10-09T00:00:00"
+      "timestamp": "2026-10-09T02:00:00"
     },
     "Oro": {
       "activo": "Oro",
       "advertencias": [
         "El contexto multi-temporal no autoriza una compra ni una venta en este momento.",
         "No hay patrón confirmado en la última vela analizada.",
-        "RSI en zona neutral entre 40 y 60, sin impulso claro.",
         "Sin patrón confirmado, no se habilita una posible operación."
       ],
       "alineacion": "No confirmada",
       "contexto_1h": "MIXTO",
-      "contexto_4h": "BAJISTA",
+      "contexto_4h": "MIXTO",
       "entrada": "NO HABILITADA",
       "motivos": [
-        "4H bajista + 1H mixto/lateral = no hay alineacion completa; esperar confirmacion.",
+        "4H mixto/lateral + 1H mixto/lateral = no hay alineacion completa; esperar confirmacion.",
         "El sesgo permitido permanece en esperar; no se habilita ninguna entrada.",
         "1H todavia no confirma un patron operativo valido."
       ],
-      "precio": 4160.39990234375,
-      "precio_texto": "4160.40",
-      "score": 55,
+      "precio": 4196.2001953125,
+      "precio_texto": "4196.20",
+      "score": 45,
       "semaforo": "VIGILAR",
       "sesgo": "ESPERAR",
       "symbol": "GC=F",
       "temporalidad": "1H",
       "tendencia": "Lateral",
-      "timestamp": "2026-10-09T00:00:00"
+      "timestamp": "2026-10-09T02:00:00"
     },
     "Petróleo WTI": {
       "activo": "Petróleo WTI",
@@ -79,8 +77,8 @@
       "symbol": "CL=F",
       "temporalidad": "1H",
       "tendencia": "Lateral",
-      "timestamp": "2026-10-09T00:00:00"
+      "timestamp": "2026-10-09T02:00:00"
     }
   },
-  "checked_at": "2026-10-08T22:24:03.197878+00:00"
+  "checked_at": "2026-10-09T02:31:10.894652+00:00"
 }
