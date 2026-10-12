@@ -16,8 +16,8 @@
         "Posible ruptura bajista de rango, pero falta cierre de confirmación.",
         "Hay tendencia clara, pero todavía no hay patrón confirmado."
       ],
-      "precio": 1.1164453029632568,
-      "precio_texto": "1.11645",
+      "precio": 1.115946888923645,
+      "precio_texto": "1.11595",
       "score": 45,
       "semaforo": "VIGILAR",
       "sesgo": "VENTA",
@@ -29,7 +29,6 @@
     "Oro": {
       "activo": "Oro",
       "advertencias": [
-        "La senal local y el sesgo multi-temporal no coinciden; evitar operar contra el contexto permitido.",
         "No hay patrón confirmado en la última vela analizada.",
         "EMA 50 y EMA 200 están muy juntas y sin dirección clara.",
         "RSI en zona neutral entre 40 y 60, sin impulso claro.",
@@ -40,12 +39,14 @@
       "contexto_4h": "BAJISTA",
       "entrada": "NO HABILITADA",
       "motivos": [
-        "4H bajista + 1H bajista con tendencia lateral = no hay alineacion completa; esperar confirmacion.",
-        "El sesgo permitido es venta, pero la lectura actual de 1H no coincide con ese sesgo.",
-        "Hasta que la senal de entrada vuelva a alinearse con la multi-temporalidad, la entrada permanece en espera."
+        "La tendencia bajista está alineada con el sesgo de venta.",
+        "RSI acompaña la idea bajista sin sobreventa extrema.",
+        "El precio está por debajo de EMA 50/200 o reaccionando bajo ellas.",
+        "Hay tendencia clara, pero todavía no hay patrón confirmado.",
+        "El precio está cerca de EMA 50 o EMA 200 y podría reaccionar."
       ],
-      "precio": 4188.7998046875,
-      "precio_texto": "4188.80",
+      "precio": 4194.60009765625,
+      "precio_texto": "4194.60",
       "score": 45,
       "semaforo": "VIGILAR",
       "sesgo": "VENTA",
@@ -59,7 +60,6 @@
       "advertencias": [
         "La senal local y el sesgo multi-temporal no coinciden; evitar operar contra el contexto permitido.",
         "No hay patrón confirmado en la última vela analizada.",
-        "La tendencia actual va en contra del sesgo operativo.",
         "Sin patrón confirmado, no se habilita una posible operación."
       ],
       "alineacion": "Confirmada",
@@ -71,8 +71,8 @@
         "El sesgo permitido es compra, pero la lectura actual de 1H no coincide con ese sesgo.",
         "Hasta que la senal de entrada vuelva a alinearse con la multi-temporalidad, la entrada permanece en espera."
       ],
-      "precio": 93.81999969482422,
-      "precio_texto": "93.82",
+      "precio": 93.36000061035156,
+      "precio_texto": "93.36",
       "score": 45,
       "semaforo": "VIGILAR",
       "sesgo": "COMPRA",
@@ -82,5 +82,5 @@
       "timestamp": "2026-10-16T00:00:00"
     }
   },
-  "checked_at": "2026-10-12T16:11:10.866362+00:00"
+  "checked_at": "2026-10-12T23:03:42.165760+00:00"
 }
