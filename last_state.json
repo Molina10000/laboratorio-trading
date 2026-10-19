@@ -19,8 +19,8 @@
         "El sesgo permitido permanece en esperar; no se habilita ninguna entrada.",
         "1H todavia no confirma un patron operativo valido."
       ],
-      "precio": 1.1225864887237549,
-      "precio_texto": "1.12259",
+      "precio": 1.12296462059021,
+      "precio_texto": "1.12296",
       "score": 45,
       "semaforo": "VIGILAR",
       "sesgo": "ESPERAR",
@@ -47,8 +47,8 @@
         "El sesgo permitido permanece en esperar; no se habilita ninguna entrada.",
         "1H todavia no confirma un patron operativo valido."
       ],
-      "precio": 4205.0,
-      "precio_texto": "4205.00",
+      "precio": 4191.60009765625,
+      "precio_texto": "4191.60",
       "score": 45,
       "semaforo": "VIGILAR",
       "sesgo": "ESPERAR",
@@ -62,6 +62,7 @@
       "advertencias": [
         "La senal local y el sesgo multi-temporal no coinciden; evitar operar contra el contexto permitido.",
         "No hay patrón confirmado en la última vela analizada.",
+        "RSI en zona neutral entre 40 y 60, sin impulso claro.",
         "Sin patrón confirmado, no se habilita una posible operación."
       ],
       "alineacion": "Confirmada",
@@ -73,8 +74,8 @@
         "El sesgo permitido es compra, pero la lectura actual de 1H no coincide con ese sesgo.",
         "Hasta que la senal de entrada vuelva a alinearse con la multi-temporalidad, la entrada permanece en espera."
       ],
-      "precio": 98.01000213623047,
-      "precio_texto": "98.01",
+      "precio": 97.62000274658203,
+      "precio_texto": "97.62",
       "score": 45,
       "semaforo": "VIGILAR",
       "sesgo": "COMPRA",
@@ -84,5 +85,5 @@
       "timestamp": "2026-10-23T00:00:00"
     }
   },
-  "checked_at": "2026-10-18T23:43:26.985577+00:00"
+  "checked_at": "2026-10-19T01:50:40.313460+00:00"
 }
