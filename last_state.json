@@ -3,10 +3,8 @@
     "EUR/USD": {
       "activo": "EUR/USD",
       "advertencias": [
-        "La senal local y el sesgo multi-temporal no coinciden; evitar operar contra el contexto permitido.",
         "No hay patrón confirmado en la última vela analizada.",
         "EMA 50 y EMA 200 están muy juntas y sin dirección clara.",
-        "RSI en zona neutral entre 40 y 60, sin impulso claro.",
         "Sin patrón confirmado, no se habilita una posible operación."
       ],
       "alineacion": "Confirmada",
@@ -14,19 +12,20 @@
       "contexto_4h": "BAJISTA",
       "entrada": "NO HABILITADA",
       "motivos": [
-        "4H bajista + 1H bajista con tendencia lateral = no hay alineacion completa; esperar confirmacion.",
-        "El sesgo permitido es venta, pero la lectura actual de 1H no coincide con ese sesgo.",
-        "Hasta que la senal de entrada vuelva a alinearse con la multi-temporalidad, la entrada permanece en espera."
+        "La tendencia bajista está alineada con el sesgo de venta.",
+        "El precio está por debajo de EMA 50/200 o reaccionando bajo ellas.",
+        "Posible ruptura bajista de rango, pero falta cierre de confirmación.",
+        "Hay tendencia clara, pero todavía no hay patrón confirmado."
       ],
-      "precio": 1.1213276386260986,
-      "precio_texto": "1.12133",
+      "precio": 1.1196954250335693,
+      "precio_texto": "1.11970",
       "score": 45,
       "semaforo": "VIGILAR",
       "sesgo": "VENTA",
       "symbol": "EURUSD=X",
       "temporalidad": "1H",
       "tendencia": "Lateral",
-      "timestamp": "2026-10-23T05:00:00"
+      "timestamp": "2026-10-23T11:00:00"
     },
     "Oro": {
       "activo": "Oro",
@@ -45,40 +44,42 @@
         "El sesgo permitido es venta, pero la lectura actual de 1H no coincide con ese sesgo.",
         "Hasta que la senal de entrada vuelva a alinearse con la multi-temporalidad, la entrada permanece en espera."
       ],
-      "precio": 4036.39990234375,
-      "precio_texto": "4036.40",
+      "precio": 4043.89990234375,
+      "precio_texto": "4043.90",
       "score": 45,
       "semaforo": "VIGILAR",
       "sesgo": "VENTA",
       "symbol": "GC=F",
       "temporalidad": "1H",
       "tendencia": "Bajista",
-      "timestamp": "2026-10-23T05:00:00"
+      "timestamp": "2026-10-23T11:00:00"
     },
     "Petróleo WTI": {
       "activo": "Petróleo WTI",
-      "advertencias": [],
+      "advertencias": [
+        "La senal local y el sesgo multi-temporal no coinciden; evitar operar contra el contexto permitido.",
+        "No hay patrón confirmado en la última vela analizada.",
+        "Sin patrón confirmado, no se habilita una posible operación."
+      ],
       "alineacion": "Confirmada",
       "contexto_1h": "ALCISTA",
       "contexto_4h": "ALCISTA",
-      "entrada": "HABILITADA",
+      "entrada": "NO HABILITADA",
       "motivos": [
-        "Patrón confirmado: ruptura de rango alcista.",
-        "La tendencia alcista está alineada con el sesgo de compra.",
-        "El precio está rompiendo una resistencia con confirmación.",
-        "Relación riesgo/beneficio estimada aceptable (2.0:1).",
-        "El precio está por encima de EMA 50/200 o reaccionando sobre ellas."
+        "4H alcista + 1H alcista = alineacion confirmada.",
+        "El sesgo permitido es compra, pero la lectura actual de 1H no coincide con ese sesgo.",
+        "Hasta que la senal de entrada vuelva a alinearse con la multi-temporalidad, la entrada permanece en espera."
       ],
-      "precio": 100.47000122070312,
-      "precio_texto": "100.47",
-      "score": 90,
-      "semaforo": "OPERATIVO",
+      "precio": 101.06999969482422,
+      "precio_texto": "101.07",
+      "score": 45,
+      "semaforo": "VIGILAR",
       "sesgo": "COMPRA",
       "symbol": "CL=F",
       "temporalidad": "1H",
       "tendencia": "Alcista",
-      "timestamp": "2026-10-23T05:00:00"
+      "timestamp": "2026-10-23T11:00:00"
     }
   },
-  "checked_at": "2026-10-23T05:57:11.400237+00:00"
+  "checked_at": "2026-10-23T11:29:02.166213+00:00"
 }
