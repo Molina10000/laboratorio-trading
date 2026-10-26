@@ -5,7 +5,6 @@
       "advertencias": [
         "No hay patrón confirmado en la última vela analizada.",
         "EMA 50 y EMA 200 están muy juntas y sin dirección clara.",
-        "RSI en zona neutral entre 40 y 60, sin impulso claro.",
         "Sin patrón confirmado, no se habilita una posible operación."
       ],
       "alineacion": "Confirmada",
@@ -13,15 +12,11 @@
       "contexto_4h": "BAJISTA",
       "entrada": "NO HABILITADA",
       "motivos": [
-        "La tendencia bajista está alineada con el sesgo de venta.",
-        "RSI acompaña la idea bajista sin sobreventa extrema.",
         "El precio está por debajo de EMA 50/200 o reaccionando bajo ellas.",
-        "Posible ruptura bajista de rango, pero falta cierre de confirmación.",
-        "Hay tendencia clara, pero todavía no hay patrón confirmado.",
-        "El precio está cerca de EMA 50 o EMA 200 y podría reaccionar."
+        "Posible ruptura bajista de rango, pero falta cierre de confirmación."
       ],
-      "precio": 1.1196954250335693,
-      "precio_texto": "1.11970",
+      "precio": 1.1179429292678833,
+      "precio_texto": "1.11794",
       "score": 45,
       "semaforo": "VIGILAR",
       "sesgo": "VENTA",
@@ -33,34 +28,33 @@
     "Oro": {
       "activo": "Oro",
       "advertencias": [
-        "El contexto multi-temporal no autoriza una compra ni una venta en este momento.",
+        "La senal local y el sesgo multi-temporal no coinciden; evitar operar contra el contexto permitido.",
         "No hay patrón confirmado en la última vela analizada.",
         "RSI en zona neutral entre 40 y 60, sin impulso claro.",
         "Sin patrón confirmado, no se habilita una posible operación."
       ],
-      "alineacion": "No confirmada",
-      "contexto_1h": "MIXTO",
+      "alineacion": "Confirmada",
+      "contexto_1h": "BAJISTA",
       "contexto_4h": "BAJISTA",
       "entrada": "NO HABILITADA",
       "motivos": [
-        "4H bajista + 1H mixto/lateral = no hay alineacion completa; esperar confirmacion.",
-        "El sesgo permitido permanece en esperar; no se habilita ninguna entrada.",
-        "1H todavia no confirma un patron operativo valido."
+        "4H bajista + 1H bajista = alineacion confirmada.",
+        "El sesgo permitido es venta, pero la lectura actual de 1H no coincide con ese sesgo.",
+        "Hasta que la senal de entrada vuelva a alinearse con la multi-temporalidad, la entrada permanece en espera."
       ],
-      "precio": 4040.800048828125,
-      "precio_texto": "4040.80",
+      "precio": 4031.0,
+      "precio_texto": "4031.00",
       "score": 45,
       "semaforo": "VIGILAR",
-      "sesgo": "ESPERAR",
+      "sesgo": "VENTA",
       "symbol": "GC=F",
       "temporalidad": "1H",
-      "tendencia": "Lateral",
+      "tendencia": "Bajista",
       "timestamp": "2026-10-30T00:00:00"
     },
     "Petróleo WTI": {
       "activo": "Petróleo WTI",
       "advertencias": [
-        "La senal local y el sesgo multi-temporal no coinciden; evitar operar contra el contexto permitido.",
         "No hay patrón confirmado en la última vela analizada.",
         "RSI en zona neutral entre 40 y 60, sin impulso claro.",
         "Sin patrón confirmado, no se habilita una posible operación."
@@ -70,13 +64,15 @@
       "contexto_4h": "ALCISTA",
       "entrada": "NO HABILITADA",
       "motivos": [
-        "4H alcista + 1H alcista = alineacion confirmada.",
-        "El sesgo permitido es compra, pero la lectura actual de 1H no coincide con ese sesgo.",
-        "Hasta que la senal de entrada vuelva a alinearse con la multi-temporalidad, la entrada permanece en espera."
+        "La tendencia alcista está alineada con el sesgo de compra.",
+        "RSI acompaña la idea alcista sin sobrecompra extrema.",
+        "El precio está por encima de EMA 50/200 o reaccionando sobre ellas.",
+        "Hay tendencia clara, pero todavía no hay patrón confirmado.",
+        "El precio está cerca de EMA 50 o EMA 200 y podría reaccionar."
       ],
-      "precio": 102.20999908447266,
-      "precio_texto": "102.21",
-      "score": 45,
+      "precio": 101.25,
+      "precio_texto": "101.25",
+      "score": 40,
       "semaforo": "VIGILAR",
       "sesgo": "COMPRA",
       "symbol": "CL=F",
@@ -85,5 +81,5 @@
       "timestamp": "2026-10-30T00:00:00"
     }
   },
-  "checked_at": "2026-10-26T17:36:56.483759+00:00"
+  "checked_at": "2026-10-26T21:50:43.095859+00:00"
 }
