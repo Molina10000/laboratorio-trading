@@ -3,29 +3,30 @@
     "EUR/USD": {
       "activo": "EUR/USD",
       "advertencias": [
-        "La senal local y el sesgo multi-temporal no coinciden; evitar operar contra el contexto permitido.",
+        "El contexto multi-temporal no autoriza una compra ni una venta en este momento.",
         "No hay patrón confirmado en la última vela analizada.",
         "EMA 50 y EMA 200 están muy juntas y sin dirección clara.",
+        "RSI en zona neutral entre 40 y 60, sin impulso claro.",
         "Sin patrón confirmado, no se habilita una posible operación."
       ],
-      "alineacion": "Confirmada",
-      "contexto_1h": "BAJISTA",
+      "alineacion": "No confirmada",
+      "contexto_1h": "MIXTO",
       "contexto_4h": "BAJISTA",
       "entrada": "NO HABILITADA",
       "motivos": [
-        "4H bajista + 1H bajista con tendencia lateral = no hay alineacion completa; esperar confirmacion.",
-        "El sesgo permitido es venta, pero la lectura actual de 1H no coincide con ese sesgo.",
-        "Hasta que la senal de entrada vuelva a alinearse con la multi-temporalidad, la entrada permanece en espera."
+        "4H bajista + 1H mixto/lateral = no hay alineacion completa; esperar confirmacion.",
+        "El sesgo permitido permanece en esperar; no se habilita ninguna entrada.",
+        "1H todavia no confirma un patron operativo valido."
       ],
-      "precio": 1.1147029399871826,
-      "precio_texto": "1.11470",
-      "score": 0,
-      "semaforo": "ESPERAR",
-      "sesgo": "VENTA",
+      "precio": 1.117193579673767,
+      "precio_texto": "1.11719",
+      "score": 45,
+      "semaforo": "VIGILAR",
+      "sesgo": "ESPERAR",
       "symbol": "EURUSD=X",
       "temporalidad": "1H",
       "tendencia": "Lateral",
-      "timestamp": "2026-10-30T14:00:00"
+      "timestamp": "2026-10-30T19:00:00"
     },
     "Oro": {
       "activo": "Oro",
@@ -44,22 +45,21 @@
         "El sesgo permitido es venta, pero la lectura actual de 1H no coincide con ese sesgo.",
         "Hasta que la senal de entrada vuelva a alinearse con la multi-temporalidad, la entrada permanece en espera."
       ],
-      "precio": 3918.60009765625,
-      "precio_texto": "3918.60",
+      "precio": 3889.800048828125,
+      "precio_texto": "3889.80",
       "score": 45,
       "semaforo": "VIGILAR",
       "sesgo": "VENTA",
       "symbol": "GC=F",
       "temporalidad": "1H",
       "tendencia": "Bajista",
-      "timestamp": "2026-10-30T14:00:00"
+      "timestamp": "2026-10-30T19:00:00"
     },
     "Petróleo WTI": {
       "activo": "Petróleo WTI",
       "advertencias": [
-        "La senal local y el sesgo multi-temporal no coinciden; evitar operar contra el contexto permitido.",
         "No hay patrón confirmado en la última vela analizada.",
-        "La tendencia por medias y la estructura de mercado no coinciden.",
+        "RSI en zona neutral entre 40 y 60, sin impulso claro.",
         "Sin patrón confirmado, no se habilita una posible operación."
       ],
       "alineacion": "Confirmada",
@@ -67,20 +67,22 @@
       "contexto_4h": "ALCISTA",
       "entrada": "NO HABILITADA",
       "motivos": [
-        "4H alcista + 1H alcista = alineacion confirmada.",
-        "El sesgo permitido es compra, pero la lectura actual de 1H no coincide con ese sesgo.",
-        "Hasta que la senal de entrada vuelva a alinearse con la multi-temporalidad, la entrada permanece en espera."
+        "La tendencia alcista está alineada con el sesgo de compra.",
+        "RSI acompaña la idea alcista sin sobrecompra extrema.",
+        "El precio está por encima de EMA 50/200 o reaccionando sobre ellas.",
+        "Posible ruptura alcista de rango, pero falta cierre de confirmación.",
+        "Hay tendencia clara, pero todavía no hay patrón confirmado."
       ],
-      "precio": 104.37000274658203,
-      "precio_texto": "104.37",
-      "score": 45,
+      "precio": 104.33000183105469,
+      "precio_texto": "104.33",
+      "score": 40,
       "semaforo": "VIGILAR",
       "sesgo": "COMPRA",
       "symbol": "CL=F",
       "temporalidad": "1H",
       "tendencia": "Alcista",
-      "timestamp": "2026-10-30T14:00:00"
+      "timestamp": "2026-10-30T17:00:00"
     }
   },
-  "checked_at": "2026-10-30T14:18:32.821208+00:00"
+  "checked_at": "2026-10-30T19:29:03.134965+00:00"
 }
