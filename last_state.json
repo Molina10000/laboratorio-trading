@@ -18,8 +18,8 @@
         "El sesgo permitido permanece en esperar; no se habilita ninguna entrada.",
         "1H todavia no confirma un patron operativo valido."
       ],
-      "precio": 1.1198208332061768,
-      "precio_texto": "1.11982",
+      "precio": 1.119444727897644,
+      "precio_texto": "1.11944",
       "score": 45,
       "semaforo": "VIGILAR",
       "sesgo": "ESPERAR",
@@ -33,6 +33,8 @@
       "advertencias": [
         "La senal local y el sesgo multi-temporal no coinciden; evitar operar contra el contexto permitido.",
         "No hay patrón confirmado en la última vela analizada.",
+        "La tendencia por medias y la estructura de mercado no coinciden.",
+        "RSI en zona neutral entre 40 y 60, sin impulso claro.",
         "Sin patrón confirmado, no se habilita una posible operación."
       ],
       "alineacion": "Confirmada",
@@ -44,8 +46,8 @@
         "El sesgo permitido es venta, pero la lectura actual de 1H no coincide con ese sesgo.",
         "Hasta que la senal de entrada vuelva a alinearse con la multi-temporalidad, la entrada permanece en espera."
       ],
-      "precio": 3918.10009765625,
-      "precio_texto": "3918.10",
+      "precio": 3944.60009765625,
+      "precio_texto": "3944.60",
       "score": 45,
       "semaforo": "VIGILAR",
       "sesgo": "VENTA",
@@ -59,7 +61,6 @@
       "advertencias": [
         "El contexto multi-temporal no autoriza una compra ni una venta en este momento.",
         "No hay patrón confirmado en la última vela analizada.",
-        "RSI en zona neutral entre 40 y 60, sin impulso claro.",
         "Sin patrón confirmado, no se habilita una posible operación."
       ],
       "alineacion": "No confirmada",
@@ -71,8 +72,8 @@
         "El sesgo permitido permanece en esperar; no se habilita ninguna entrada.",
         "1H todavia no confirma un patron operativo valido."
       ],
-      "precio": 97.87000274658203,
-      "precio_texto": "97.87",
+      "precio": 95.69999694824219,
+      "precio_texto": "95.70",
       "score": 45,
       "semaforo": "VIGILAR",
       "sesgo": "ESPERAR",
@@ -82,5 +83,5 @@
       "timestamp": "2026-11-06T00:00:00"
     }
   },
-  "checked_at": "2026-11-03T08:42:35.257102+00:00"
+  "checked_at": "2026-11-03T16:38:38.740090+00:00"
 }
