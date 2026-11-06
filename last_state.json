@@ -18,15 +18,15 @@
         "El sesgo permitido es venta, pero la lectura actual de 1H no coincide con ese sesgo.",
         "Hasta que la senal de entrada vuelva a alinearse con la multi-temporalidad, la entrada permanece en espera."
       ],
-      "precio": 1.114951491355896,
-      "precio_texto": "1.11495",
+      "precio": 1.1143302917480469,
+      "precio_texto": "1.11433",
       "score": 45,
       "semaforo": "VIGILAR",
       "sesgo": "VENTA",
       "symbol": "EURUSD=X",
       "temporalidad": "1H",
       "tendencia": "Lateral",
-      "timestamp": "2026-11-06T18:00:00"
+      "timestamp": "2026-11-06T22:00:00"
     },
     "Oro": {
       "activo": "Oro",
@@ -37,23 +37,23 @@
         "Sin patrón confirmado, no se habilita una posible operación."
       ],
       "alineacion": "No confirmada",
-      "contexto_1h": "MIXTO",
+      "contexto_1h": "ALCISTA",
       "contexto_4h": "MIXTO",
       "entrada": "NO HABILITADA",
       "motivos": [
-        "4H mixto/lateral + 1H mixto/lateral = no hay alineacion completa; esperar confirmacion.",
+        "4H mixto/lateral + 1H alcista = no hay alineacion completa; esperar confirmacion.",
         "El sesgo permitido permanece en esperar; no se habilita ninguna entrada.",
         "1H todavia no confirma un patron operativo valido."
       ],
-      "precio": 4070.800048828125,
-      "precio_texto": "4070.80",
+      "precio": 4079.5,
+      "precio_texto": "4079.50",
       "score": 40,
       "semaforo": "VIGILAR",
       "sesgo": "ESPERAR",
       "symbol": "GC=F",
       "temporalidad": "1H",
-      "tendencia": "Lateral",
-      "timestamp": "2026-11-06T18:00:00"
+      "tendencia": "Alcista",
+      "timestamp": "2026-11-06T21:00:00"
     },
     "Petróleo WTI": {
       "activo": "Petróleo WTI",
@@ -72,16 +72,16 @@
         "El sesgo permitido es venta, pero la lectura actual de 1H no coincide con ese sesgo.",
         "Hasta que la senal de entrada vuelva a alinearse con la multi-temporalidad, la entrada permanece en espera."
       ],
-      "precio": 89.79000091552734,
-      "precio_texto": "89.79",
+      "precio": 90.33999633789062,
+      "precio_texto": "90.34",
       "score": 45,
       "semaforo": "VIGILAR",
       "sesgo": "VENTA",
       "symbol": "CL=F",
       "temporalidad": "1H",
       "tendencia": "Bajista",
-      "timestamp": "2026-11-06T18:00:00"
+      "timestamp": "2026-11-06T21:00:00"
     }
   },
-  "checked_at": "2026-11-06T18:25:12.549759+00:00"
+  "checked_at": "2026-11-06T23:28:01.325538+00:00"
 }
