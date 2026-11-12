@@ -17,8 +17,8 @@
         "El sesgo permitido es venta, pero la lectura actual de 1H no coincide con ese sesgo.",
         "Hasta que la senal de entrada vuelva a alinearse con la multi-temporalidad, la entrada permanece en espera."
       ],
-      "precio": 1.1097548007965088,
-      "precio_texto": "1.10975",
+      "precio": 1.1077877283096313,
+      "precio_texto": "1.10779",
       "score": 45,
       "semaforo": "VIGILAR",
       "sesgo": "VENTA",
@@ -40,18 +40,18 @@
       "contexto_4h": "BAJISTA",
       "entrada": "NO HABILITADA",
       "motivos": [
-        "4H bajista + 1H bajista con tendencia lateral = no hay alineacion completa; esperar confirmacion.",
+        "4H bajista + 1H bajista = alineacion confirmada.",
         "El sesgo permitido es venta, pero la lectura actual de 1H no coincide con ese sesgo.",
         "Hasta que la senal de entrada vuelva a alinearse con la multi-temporalidad, la entrada permanece en espera."
       ],
-      "precio": 3986.39990234375,
-      "precio_texto": "3986.40",
+      "precio": 3983.800048828125,
+      "precio_texto": "3983.80",
       "score": 45,
       "semaforo": "VIGILAR",
       "sesgo": "VENTA",
       "symbol": "GC=F",
       "temporalidad": "1H",
-      "tendencia": "Lateral",
+      "tendencia": "Bajista",
       "timestamp": "2026-11-13T00:00:00"
     },
     "Petróleo WTI": {
@@ -59,8 +59,6 @@
       "advertencias": [
         "La senal local y el sesgo multi-temporal no coinciden; evitar operar contra el contexto permitido.",
         "No hay patrón confirmado en la última vela analizada.",
-        "La tendencia por medias y la estructura de mercado no coinciden.",
-        "RSI en zona neutral entre 40 y 60, sin impulso claro.",
         "Sin patrón confirmado, no se habilita una posible operación."
       ],
       "alineacion": "Confirmada",
@@ -72,10 +70,10 @@
         "El sesgo permitido es venta, pero la lectura actual de 1H no coincide con ese sesgo.",
         "Hasta que la senal de entrada vuelva a alinearse con la multi-temporalidad, la entrada permanece en espera."
       ],
-      "precio": 86.23999786376953,
-      "precio_texto": "86.24",
-      "score": 0,
-      "semaforo": "ESPERAR",
+      "precio": 85.5,
+      "precio_texto": "85.50",
+      "score": 45,
+      "semaforo": "VIGILAR",
       "sesgo": "VENTA",
       "symbol": "CL=F",
       "temporalidad": "1H",
@@ -83,5 +81,5 @@
       "timestamp": "2026-11-13T00:00:00"
     }
   },
-  "checked_at": "2026-11-11T23:40:24.110823+00:00"
+  "checked_at": "2026-11-12T04:22:55.863151+00:00"
 }
