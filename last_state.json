@@ -16,15 +16,15 @@
         "Posible ruptura bajista de rango, pero falta cierre de confirmación.",
         "Hay tendencia clara, pero todavía no hay patrón confirmado."
       ],
-      "precio": 1.1035091876983643,
-      "precio_texto": "1.10351",
+      "precio": 1.1027790307998657,
+      "precio_texto": "1.10278",
       "score": 45,
       "semaforo": "VIGILAR",
       "sesgo": "VENTA",
       "symbol": "EURUSD=X",
       "temporalidad": "1H",
       "tendencia": "Bajista",
-      "timestamp": "2026-11-13T16:00:00"
+      "timestamp": "2026-11-13T22:00:00"
     },
     "Oro": {
       "activo": "Oro",
@@ -52,7 +52,7 @@
       "symbol": "GC=F",
       "temporalidad": "1H",
       "tendencia": "Bajista",
-      "timestamp": "2026-11-13T16:00:00"
+      "timestamp": "2026-11-13T21:00:00"
     },
     "Petróleo WTI": {
       "activo": "Petróleo WTI",
@@ -71,16 +71,16 @@
         "El sesgo permitido permanece en esperar; no se habilita ninguna entrada.",
         "1H todavia no confirma un patron operativo valido."
       ],
-      "precio": 88.76000213623047,
-      "precio_texto": "88.76",
+      "precio": 88.91999816894531,
+      "precio_texto": "88.92",
       "score": 55,
       "semaforo": "VIGILAR",
       "sesgo": "ESPERAR",
       "symbol": "CL=F",
       "temporalidad": "1H",
       "tendencia": "Lateral",
-      "timestamp": "2026-11-13T16:00:00"
+      "timestamp": "2026-11-13T22:00:00"
     }
   },
-  "checked_at": "2026-11-13T16:47:27.973834+00:00"
+  "checked_at": "2026-11-13T22:15:01.524100+00:00"
 }
