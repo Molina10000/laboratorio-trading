@@ -3,33 +3,7 @@
     "EUR/USD": {
       "activo": "EUR/USD",
       "advertencias": [
-        "El contexto multi-temporal no autoriza una compra ni una venta en este momento.",
-        "No hay patrón confirmado en la última vela analizada.",
-        "RSI en zona neutral entre 40 y 60, sin impulso claro.",
-        "Sin patrón confirmado, no se habilita una posible operación."
-      ],
-      "alineacion": "No confirmada",
-      "contexto_1h": "MIXTO",
-      "contexto_4h": "BAJISTA",
-      "entrada": "NO HABILITADA",
-      "motivos": [
-        "4H bajista + 1H mixto/lateral = no hay alineacion completa; esperar confirmacion.",
-        "El sesgo permitido permanece en esperar; no se habilita ninguna entrada.",
-        "1H todavia no confirma un patron operativo valido."
-      ],
-      "precio": 1.1020498275756836,
-      "precio_texto": "1.10205",
-      "score": 45,
-      "semaforo": "VIGILAR",
-      "sesgo": "ESPERAR",
-      "symbol": "EURUSD=X",
-      "temporalidad": "1H",
-      "tendencia": "Lateral",
-      "timestamp": "2026-11-20T00:00:00"
-    },
-    "Oro": {
-      "activo": "Oro",
-      "advertencias": [
+        "La senal local y el sesgo multi-temporal no coinciden; evitar operar contra el contexto permitido.",
         "No hay patrón confirmado en la última vela analizada.",
         "RSI en zona neutral entre 40 y 60, sin impulso claro.",
         "Sin patrón confirmado, no se habilita una posible operación."
@@ -39,15 +13,40 @@
       "contexto_4h": "BAJISTA",
       "entrada": "NO HABILITADA",
       "motivos": [
-        "La tendencia bajista está alineada con el sesgo de venta.",
-        "RSI acompaña la idea bajista sin sobreventa extrema.",
-        "El precio está por debajo de EMA 50/200 o reaccionando bajo ellas.",
-        "Hay tendencia clara, pero todavía no hay patrón confirmado.",
-        "El precio está cerca de EMA 50 o EMA 200 y podría reaccionar."
+        "4H bajista + 1H bajista = alineacion confirmada.",
+        "El sesgo permitido es venta, pero la lectura actual de 1H no coincide con ese sesgo.",
+        "Hasta que la senal de entrada vuelva a alinearse con la multi-temporalidad, la entrada permanece en espera."
       ],
-      "precio": 3871.89990234375,
-      "precio_texto": "3871.90",
-      "score": 40,
+      "precio": 1.0997470617294312,
+      "precio_texto": "1.09975",
+      "score": 45,
+      "semaforo": "VIGILAR",
+      "sesgo": "VENTA",
+      "symbol": "EURUSD=X",
+      "temporalidad": "1H",
+      "tendencia": "Bajista",
+      "timestamp": "2026-11-20T00:00:00"
+    },
+    "Oro": {
+      "activo": "Oro",
+      "advertencias": [
+        "La senal local y el sesgo multi-temporal no coinciden; evitar operar contra el contexto permitido.",
+        "No hay patrón confirmado en la última vela analizada.",
+        "RSI en zona neutral entre 40 y 60, sin impulso claro.",
+        "Sin patrón confirmado, no se habilita una posible operación."
+      ],
+      "alineacion": "Confirmada",
+      "contexto_1h": "BAJISTA",
+      "contexto_4h": "BAJISTA",
+      "entrada": "NO HABILITADA",
+      "motivos": [
+        "4H bajista + 1H bajista = alineacion confirmada.",
+        "El sesgo permitido es venta, pero la lectura actual de 1H no coincide con ese sesgo.",
+        "Hasta que la senal de entrada vuelva a alinearse con la multi-temporalidad, la entrada permanece en espera."
+      ],
+      "precio": 3848.5,
+      "precio_texto": "3848.50",
+      "score": 45,
       "semaforo": "VIGILAR",
       "sesgo": "VENTA",
       "symbol": "GC=F",
@@ -72,8 +71,8 @@
         "El sesgo permitido es venta, pero la lectura actual de 1H no coincide con ese sesgo.",
         "Hasta que la senal de entrada vuelva a alinearse con la multi-temporalidad, la entrada permanece en espera."
       ],
-      "precio": 86.29000091552734,
-      "precio_texto": "86.29",
+      "precio": 85.88999938964844,
+      "precio_texto": "85.89",
       "score": 45,
       "semaforo": "VIGILAR",
       "sesgo": "VENTA",
@@ -83,5 +82,5 @@
       "timestamp": "2026-11-20T00:00:00"
     }
   },
-  "checked_at": "2026-11-17T17:34:37.828500+00:00"
+  "checked_at": "2026-11-17T23:56:35.055266+00:00"
 }
