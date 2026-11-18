@@ -3,9 +3,8 @@
     "EUR/USD": {
       "activo": "EUR/USD",
       "advertencias": [
-        "La senal local y el sesgo multi-temporal no coinciden; evitar operar contra el contexto permitido.",
         "No hay patrón confirmado en la última vela analizada.",
-        "RSI en zona neutral entre 40 y 60, sin impulso claro.",
+        "La tendencia por medias y la estructura de mercado no coinciden.",
         "Sin patrón confirmado, no se habilita una posible operación."
       ],
       "alineacion": "Confirmada",
@@ -13,12 +12,11 @@
       "contexto_4h": "BAJISTA",
       "entrada": "NO HABILITADA",
       "motivos": [
-        "4H bajista + 1H bajista = alineacion confirmada.",
-        "El sesgo permitido es venta, pero la lectura actual de 1H no coincide con ese sesgo.",
-        "Hasta que la senal de entrada vuelva a alinearse con la multi-temporalidad, la entrada permanece en espera."
+        "El precio está por debajo de EMA 50/200 o reaccionando bajo ellas.",
+        "Posible ruptura bajista de rango, pero falta cierre de confirmación."
       ],
-      "precio": 1.0997470617294312,
-      "precio_texto": "1.09975",
+      "precio": 1.0979359149932861,
+      "precio_texto": "1.09794",
       "score": 45,
       "semaforo": "VIGILAR",
       "sesgo": "VENTA",
@@ -32,7 +30,7 @@
       "advertencias": [
         "La senal local y el sesgo multi-temporal no coinciden; evitar operar contra el contexto permitido.",
         "No hay patrón confirmado en la última vela analizada.",
-        "RSI en zona neutral entre 40 y 60, sin impulso claro.",
+        "La tendencia actual va en contra del sesgo operativo.",
         "Sin patrón confirmado, no se habilita una posible operación."
       ],
       "alineacion": "Confirmada",
@@ -44,8 +42,8 @@
         "El sesgo permitido es venta, pero la lectura actual de 1H no coincide con ese sesgo.",
         "Hasta que la senal de entrada vuelva a alinearse con la multi-temporalidad, la entrada permanece en espera."
       ],
-      "precio": 3848.5,
-      "precio_texto": "3848.50",
+      "precio": 3777.39990234375,
+      "precio_texto": "3777.40",
       "score": 45,
       "semaforo": "VIGILAR",
       "sesgo": "VENTA",
@@ -59,7 +57,7 @@
       "advertencias": [
         "La senal local y el sesgo multi-temporal no coinciden; evitar operar contra el contexto permitido.",
         "No hay patrón confirmado en la última vela analizada.",
-        "RSI en zona neutral entre 40 y 60, sin impulso claro.",
+        "La tendencia actual va en contra del sesgo operativo.",
         "Sin patrón confirmado, no se habilita una posible operación."
       ],
       "alineacion": "Confirmada",
@@ -71,8 +69,8 @@
         "El sesgo permitido es venta, pero la lectura actual de 1H no coincide con ese sesgo.",
         "Hasta que la senal de entrada vuelva a alinearse con la multi-temporalidad, la entrada permanece en espera."
       ],
-      "precio": 85.88999938964844,
-      "precio_texto": "85.89",
+      "precio": 84.12000274658203,
+      "precio_texto": "84.12",
       "score": 45,
       "semaforo": "VIGILAR",
       "sesgo": "VENTA",
@@ -82,5 +80,5 @@
       "timestamp": "2026-11-20T00:00:00"
     }
   },
-  "checked_at": "2026-11-17T23:56:35.055266+00:00"
+  "checked_at": "2026-11-18T07:10:34.695656+00:00"
 }
