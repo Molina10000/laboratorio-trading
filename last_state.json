@@ -3,26 +3,28 @@
     "EUR/USD": {
       "activo": "EUR/USD",
       "advertencias": [
+        "El contexto multi-temporal no autoriza una compra ni una venta en este momento.",
         "No hay patrón confirmado en la última vela analizada.",
-        "La tendencia por medias y la estructura de mercado no coinciden.",
+        "RSI en zona neutral entre 40 y 60, sin impulso claro.",
         "Sin patrón confirmado, no se habilita una posible operación."
       ],
-      "alineacion": "Confirmada",
-      "contexto_1h": "BAJISTA",
+      "alineacion": "No confirmada",
+      "contexto_1h": "MIXTO",
       "contexto_4h": "BAJISTA",
       "entrada": "NO HABILITADA",
       "motivos": [
-        "El precio está por debajo de EMA 50/200 o reaccionando bajo ellas.",
-        "Posible ruptura bajista de rango, pero falta cierre de confirmación."
+        "4H bajista + 1H mixto/lateral = no hay alineacion completa; esperar confirmacion.",
+        "El sesgo permitido permanece en esperar; no se habilita ninguna entrada.",
+        "1H todavia no confirma un patron operativo valido."
       ],
-      "precio": 1.0962508916854858,
-      "precio_texto": "1.09625",
+      "precio": 1.0998680591583252,
+      "precio_texto": "1.09987",
       "score": 45,
       "semaforo": "VIGILAR",
-      "sesgo": "VENTA",
+      "sesgo": "ESPERAR",
       "symbol": "EURUSD=X",
       "temporalidad": "1H",
-      "tendencia": "Bajista",
+      "tendencia": "Lateral",
       "timestamp": "2026-11-20T00:00:00"
     },
     "Oro": {
@@ -41,8 +43,8 @@
         "El sesgo permitido es venta, pero la lectura actual de 1H no coincide con ese sesgo.",
         "Hasta que la senal de entrada vuelva a alinearse con la multi-temporalidad, la entrada permanece en espera."
       ],
-      "precio": 3719.39990234375,
-      "precio_texto": "3719.40",
+      "precio": 3715.0,
+      "precio_texto": "3715.00",
       "score": 45,
       "semaforo": "VIGILAR",
       "sesgo": "VENTA",
@@ -56,6 +58,8 @@
       "advertencias": [
         "La senal local y el sesgo multi-temporal no coinciden; evitar operar contra el contexto permitido.",
         "No hay patrón confirmado en la última vela analizada.",
+        "La tendencia por medias y la estructura de mercado no coinciden.",
+        "RSI en zona neutral entre 40 y 60, sin impulso claro.",
         "Sin patrón confirmado, no se habilita una posible operación."
       ],
       "alineacion": "Confirmada",
@@ -67,8 +71,8 @@
         "El sesgo permitido es venta, pero la lectura actual de 1H no coincide con ese sesgo.",
         "Hasta que la senal de entrada vuelva a alinearse con la multi-temporalidad, la entrada permanece en espera."
       ],
-      "precio": 82.02999877929688,
-      "precio_texto": "82.03",
+      "precio": 83.05000305175781,
+      "precio_texto": "83.05",
       "score": 45,
       "semaforo": "VIGILAR",
       "sesgo": "VENTA",
@@ -78,5 +82,5 @@
       "timestamp": "2026-11-20T00:00:00"
     }
   },
-  "checked_at": "2026-11-19T04:05:35.300042+00:00"
+  "checked_at": "2026-11-19T12:54:18.745933+00:00"
 }
