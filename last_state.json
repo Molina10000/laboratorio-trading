@@ -17,15 +17,15 @@
         "El sesgo permitido permanece en esperar; no se habilita ninguna entrada.",
         "1H todavia no confirma un patron operativo valido."
       ],
-      "precio": 1.0972130298614502,
-      "precio_texto": "1.09721",
+      "precio": 1.0978153944015503,
+      "precio_texto": "1.09782",
       "score": 45,
       "semaforo": "VIGILAR",
       "sesgo": "ESPERAR",
       "symbol": "EURUSD=X",
       "temporalidad": "1H",
       "tendencia": "Lateral",
-      "timestamp": "2026-11-27T00:00:00"
+      "timestamp": "2026-11-27T04:00:00"
     },
     "Oro": {
       "activo": "Oro",
@@ -81,5 +81,5 @@
       "timestamp": "2026-11-27T00:00:00"
     }
   },
-  "checked_at": "2026-11-26T21:59:15.221217+00:00"
+  "checked_at": "2026-11-27T04:06:46.377591+00:00"
 }
