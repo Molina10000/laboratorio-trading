@@ -42,8 +42,8 @@
         "El sesgo permitido permanece en esperar; no se habilita ninguna entrada.",
         "1H todavia no confirma un patron operativo valido."
       ],
-      "precio": 3674.699951171875,
-      "precio_texto": "3674.70",
+      "precio": 3674.60009765625,
+      "precio_texto": "3674.60",
       "score": 45,
       "semaforo": "VIGILAR",
       "sesgo": "ESPERAR",
@@ -80,5 +80,5 @@
       "timestamp": "2026-11-27T17:30:00"
     }
   },
-  "checked_at": "2026-11-28T04:01:27.452974+00:00"
+  "checked_at": "2026-11-28T12:52:22.354191+00:00"
 }
